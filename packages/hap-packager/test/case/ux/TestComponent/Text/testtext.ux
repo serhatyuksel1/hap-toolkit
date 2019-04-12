@@ -1,0 +1,19 @@
+<template>
+  <div class="container">
+    <text>hello</text>
+  </div>
+</template>
+
+<style>
+  .container {
+    flex:1;
+    flex-direction: column;
+    background-color: #FFFFFF;
+  }
+</style>
+
+<script>
+  export default {
+    data: {}
+  }
+</script>

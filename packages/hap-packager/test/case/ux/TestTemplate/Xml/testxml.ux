@@ -1,0 +1,21 @@
+<template>
+  <div>
+      <picker/>
+      <image/>
+      <slider/>
+      <input/>
+      <progress/>
+      <switch/>
+      <slot/>
+
+      <!--以下为错误的写法-->
+      <picker>
+      <image>
+      <slider>
+      <input>
+      <progress>
+      <switch>
+      <slot>
+  </div>
+</template>
+

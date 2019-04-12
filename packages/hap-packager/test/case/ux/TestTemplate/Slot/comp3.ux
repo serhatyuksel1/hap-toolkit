@@ -1,0 +1,13 @@
+<template>
+  <div>
+    <text>header</text>
+    <slot>
+      <!-- slot 支持多层子节点作为默认值 -->
+      <text>default slot header</text>
+      <div>
+        <text>default slot main</text>
+      </div>
+    </slot>
+    <text>footer</text>
+  </div>
+</template>

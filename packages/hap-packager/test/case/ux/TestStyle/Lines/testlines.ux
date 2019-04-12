@@ -1,0 +1,45 @@
+<template>
+  <div>
+  </div>
+</template>
+
+<style>
+  .A {
+    lines: -1;
+  }
+
+  .B {
+    lines: 0;
+  }
+
+  .C {
+    lines: 1
+  }
+
+  .D {
+    lines: 10;
+  }
+
+  .a {
+    lines: '-1';
+  }
+
+  .b {
+    lines: infinite;
+  }
+
+  .c {
+    lines: ;
+  }
+
+  .d {
+    lines: @lines;
+  }
+</style>
+
+<script>
+  export default {
+    data: {
+    }
+  }
+</script>

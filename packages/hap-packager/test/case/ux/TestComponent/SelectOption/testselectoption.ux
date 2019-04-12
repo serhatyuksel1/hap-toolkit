@@ -1,0 +1,24 @@
+<template>
+  <div>
+    <select>
+      <option value="50" selected="true">丹栗鸡</option>
+      <option value="100">藤椒鸡</option>
+      <option value="200">口水鸡</option>
+      <option value="peanutSoup">花生稀饭</option>
+      <option>叶儿粑</option>
+      <option value="">老鸭汤</option>
+      <option value="300">鱼火锅</option>
+      <option>杨豆腐脑</option>
+      <option>乌腿鸡</option>
+    </select>
+  </div>
+</template>
+
+<style>
+</style>
+
+<script>
+  export default {
+    data: {}
+  }
+</script>

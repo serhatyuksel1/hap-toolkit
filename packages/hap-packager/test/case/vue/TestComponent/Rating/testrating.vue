@@ -1,0 +1,26 @@
+<template>
+  <div class="container">
+    <rating></rating>
+    <rating class="bg"></rating>
+    <rating numstars="5" rating="3" stepsize="0.5" style="height: 100px;"></rating>
+    <rating numstars="5" rating="3" style="starBackground:url('./1.png');"></rating>
+    <rating numstars="5" rating="3" stepsize="0.5" style="starBackground:url(./1.png);starSecondary:url(./2.png);starForeground:url(./3.png)" onchange="changeNum"></rating>
+  </div>
+</template>
+
+<style>
+  .container {
+    flex:1;
+    flex-direction: column;
+    background-color: #FFFFFF;
+  }
+</style>
+
+<script>
+  export default {
+    data: {},
+    changeNum (e) {
+      // TODO
+    }
+  }
+</script>

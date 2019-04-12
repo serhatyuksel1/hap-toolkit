@@ -1,0 +1,5535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Style编译测试 align-content 1`] = `
+Object {
+  "@app-component/testaligncontent": Object {
+    ".A": Object {
+      "alignContent": "stretch",
+    },
+    ".B": Object {
+      "alignContent": "flex-start",
+    },
+    ".C": Object {
+      "alignContent": "flex-end",
+    },
+    ".D": Object {
+      "alignContent": "center",
+    },
+    ".E": Object {
+      "alignContent": "space-between",
+    },
+    ".F": Object {
+      "alignContent": "space-around",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {},
+    ".a5": Object {},
+    ".a6": Object {},
+    ".b": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 align-items 1`] = `
+Object {
+  "@app-component/testalignitems": Object {
+    ".A": Object {
+      "alignItems": "stretch",
+    },
+    ".B": Object {
+      "alignItems": "flex-start",
+    },
+    ".C": Object {
+      "alignItems": "flex-end",
+    },
+    ".D": Object {
+      "alignItems": "center",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {},
+    ".b": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 animation-name 1`] = `
+Object {
+  "@app-component/testanimationname": Object {
+    ".box": Object {
+      "animationName": "box__rotate1",
+    },
+    "@KEYFRAMES": Object {
+      "box__rotate1": Array [
+        Object {
+          "time": 0,
+          "transform": "{\\"scaleX\\":0,\\"scaleY\\":0}",
+        },
+        Object {
+          "time": 100,
+          "transform": "{\\"scaleX\\":1,\\"scaleY\\":1}",
+        },
+      ],
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 background 1`] = `
+Object {
+  "@app-component/testbackground": Object {
+    ".A1": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00\\"]}]}",
+    },
+    ".A2": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000\\",\\"#FF0000\\"]}]}",
+    },
+    ".A3": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000\\",\\"#FF0000\\",\\"rgb(255,255,255)\\"]}]}",
+    },
+    ".A4": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"rgb(255,255,255)\\",\\"rgba(255,255,255,0.5)\\"]}]}",
+    },
+    ".A5": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000\\",\\"rgba(255,255,255,0.5)\\"]}]}",
+    },
+    ".A6": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"rgba(255,255,255,0.5)\\",\\"#FF0000\\",\\"#0000FF\\"]}]}",
+    },
+    ".A7": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000\\",\\"#FF0000\\",\\"rgba(255,255,255,0.5)\\"]}]}",
+    },
+    ".B1": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"right\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00\\"]}]}",
+    },
+    ".B2": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"right\\",\\"top\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00\\"]}]}",
+    },
+    ".B3": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\",\\"left\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00\\"]}]}",
+    },
+    ".B4": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"left\\",\\"bottom\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00\\"]}]}",
+    },
+    ".C1": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000 10px\\",\\"#FF0000 10px\\"]}]}",
+    },
+    ".C2": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000 10px\\",\\"rgb(0,0,0) 10px\\"]}]}",
+    },
+    ".C3": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000 10px\\",\\"#FF0000\\",\\"rgba(0,0,0,0.5) 10px\\"]}]}",
+    },
+    ".C4": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000 10px\\",\\"#FF0000 10px\\",\\"rgb(0,0,0) 10px\\"]}]}",
+    },
+    ".D1": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"10deg\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00\\"]}]}",
+    },
+    ".D2": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"10deg\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00\\"]}]}",
+    },
+    ".E1": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"right\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00\\"]}]}",
+    },
+    ".E2": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"top\\",\\"left\\"],\\"values\\":[\\"#FF0000\\",\\"rgb(0,0,0)\\",\\"rgba(0,0,0,1)\\"]}]}",
+    },
+    ".E3": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"linearGradient\\",\\"directions\\":[\\"to\\",\\"right\\"],\\"values\\":[\\"#FF0000 10px\\",\\"#FFFF00 10px\\"]}]}",
+    },
+    ".F1": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"repeatingLinearGradient\\",\\"directions\\":[\\"to\\",\\"left\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00\\"]}]}",
+    },
+    ".F2": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"repeatingLinearGradient\\",\\"directions\\":[\\"to\\",\\"right\\"],\\"values\\":[\\"#FF0000 10px\\",\\"#FFFF00 10px\\"]}]}",
+    },
+    ".F3": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"repeatingLinearGradient\\",\\"directions\\":[\\"to\\",\\"right\\"],\\"values\\":[\\"#FF0000 10px\\",\\"#FFFF00 10px\\"]}]}",
+    },
+    ".G1": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"repeatingLinearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00\\"]},{\\"type\\":\\"repeatingLinearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"rgb(255,255,255) 10%\\",\\"#FFFF00 20%\\"]},{\\"type\\":\\"repeatingLinearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00 20%\\"]}]}",
+    },
+    ".G2": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"repeatingLinearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000\\",\\"#FF0000 10px\\"]},{\\"type\\":\\"repeatingLinearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"rgb(255,255,255) 10%\\",\\"#FFFF00 20%\\"]},{\\"type\\":\\"repeatingLinearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00 20%\\"]}]}",
+    },
+    ".G3": Object {
+      "background": "{\\"values\\":[{\\"type\\":\\"repeatingLinearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000\\",\\"#FF0000 10px\\"]},{\\"type\\":\\"repeatingLinearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"rgb(255,255,255) 10%\\",\\"#FFFF00 20%\\"]},{\\"type\\":\\"repeatingLinearGradient\\",\\"directions\\":[\\"to\\",\\"bottom\\"],\\"values\\":[\\"#FF0000\\",\\"#FFFF00 20%\\"]}]}",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".b3": Object {},
+    ".b4": Object {},
+    ".b5": Object {},
+    ".b6": Object {},
+    ".b7": Object {},
+    ".b8": Object {},
+    ".b9": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+    ".c3": Object {},
+    ".d1": Object {},
+    ".d2": Object {},
+    ".d3": Object {},
+    ".e1": Object {},
+    ".e2": Object {},
+    ".f1": Object {},
+    ".f2": Object {},
+    ".f3": Object {},
+    ".f4": Object {},
+    ".f5": Object {},
+    ".k1": Object {},
+    ".k2": Object {},
+    ".k3": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 background-color 1`] = `
+Object {
+  "@app-component/testbackgroundcolor": Object {
+    ".A": Object {
+      "backgroundColor": "#FF0000",
+    },
+    ".B1": Object {
+      "backgroundColor": "#FFFFFF",
+    },
+    ".B2": Object {
+      "backgroundColor": "#FFFFFF",
+    },
+    ".C1": Object {
+      "backgroundColor": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "backgroundColor": "rgb(0,0,0)",
+    },
+    ".D1": Object {
+      "backgroundColor": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "backgroundColor": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "backgroundColor": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "backgroundColor": "rgba(255,255,255,0.5)",
+    },
+    ".E1": Object {
+      "backgroundColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".E2": Object {
+      "backgroundColor": "hsla(0,0%,0%,0)",
+    },
+    ".E3": Object {
+      "backgroundColor": "hsla(0,0%,0%,1)",
+    },
+    ".E4": Object {
+      "backgroundColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".F1": Object {
+      "backgroundColor": "hsl(360,100%,100%)",
+    },
+    ".F2": Object {
+      "backgroundColor": "hsl(0,0%,0%)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".e1": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 background-image 1`] = `
+Object {
+  "@app-component/testbackgroundimage": Object {
+    ".A": Object {
+      "backgroundImage": "https://www.baidu.com/images/ma1.png",
+    },
+    ".B": Object {
+      "backgroundImage": "/packages/hap-packager/test/case/ux/TestStyle/BackgroundImage/ma1.png",
+    },
+    ".C": Object {
+      "backgroundImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAAAXNSR0IArs4c6QAAAIFQTFRFAAAAgYGBISEhU1NTDg4OCwsLEBAQ/////3ooBQUFPz8/NDQ0t7e3dHR0qampxcXFjY2NGBgYKioq8e/ulZWVvb2909PTYWFhampq4eHh2dnZhoaGEhISo6OjSEhIy8vLr6+vm5ub6Ojo9/b2/4Y5mJiY/55f0dHR/9S5/34u/7uQdT2eYQAAGgRJREFUeNrtXYt6mzoMJgGnM0kaQtoDaS5N2rXZ9v4PeMCSmeUpxpDQppv1tfV8A/PPgh9JNtFdEG+JAgQBrABWACuAFcAKYAUIAlgBrABWACuAFcAKEASwAlgBrABWACuAxRWORqO0+p2PlGBSQlKQJIbkeOYoezzSuWRkd5ifq/vdpD41bYIDcfU7wnFj7hpKcplzx1E4sEZRV8mZoyxkez9pdni1Krnh0mPKJ1WY0MIF0y/vfEmjfmDJ9iTlwJq0jyghYMl2sCguCYA1JoUTDqzU+1ICWAOClXaesxxYb7IjWC8eahhxYMl2sLZBDYMafm2wPGQJHTebzR5/N5vSp+MGxPE0rKvn+pgbq8lcFUruabjBgcBRloOp4VwTgnktZQFJTJK9SvYErJmUMqp+qt/6X0I1ifU1kFxzZSDsPesVBggHw5YR2x9GqGfIDOFRg2lyIDjsEgZDkgISTTLmHWfWvJXS3iemGs4mZEID+XrGJmOVe0q4/0XhUEOfx8TJ1EZUwynmZqYaJvetlzTvqYYBrA7UoR2sObnBjyRD63fSBGsWnQeLpw6RN1iSgJUQsLbeYE3DzApqeFNglZDNsiyufueZkhISGMO9JE9DjkQ9Cxw1gCXPv0/bYMGJPNRQwtD00xBGKKxnI+QArBlcEl4KXlgGV1t2pg7wmC4AK2k+vHUCc+kNc0u8PZEmAMG6KGsp4GCP9CiRWfcKLcsxJJosQKnuEUMTkkjrvIRs7BoiURe+wTzjLkkCWgUW9qMOGUt0Y181pGKpYeKytOHBgG7hRBEvTMux44WDVcOYZfDZFe5ZAawO1CFmbzOxL3WgMot6ghU5wHI9A1jqMGbvfNkVqEOYWQGsa4MF1CFzWN0t6kD1IXkAgYNW/ygeHixNlU3dpvqNSYeGQagy3YGA9QAHdamh4KgDb5HPelGHUj+mCZGgyRiBhNyWEAlZ1JJKUYuE2XOqctVPYz1QTWI4w0rXqQ5Cv+dgSziMzp3MgQpyUCuZwin+w3sWFGY4FbkOeIvGXPlBajglxj+A9UT1b2uebyW9XwqpGrJWKq1/j8wz6wbvWf8UWJdShylxWABYB3kerHXUEywnZ3hkHBY3SB2CGgawhqEO4lhLYxNXOZ4z1BXHY+avhpQ6CKcpQp33eDcwdSgIdSgd1GFDqIMmEkABJJdrErCNSloXK9njZIDcFhKWOkjWIJKrDhKPPSPUYeOgDiWhDsXHMnjX7RfQfRHnw0QsEd5q6GH8u8HXnX8DrCtZHaJWsE6RN1j+1MHDYXGDVoeghgGsHtQhbbc6OH0Mu1oepAOsusFb9Us0zoM6iIWpeKzDInWoYV/qAM/wGTzD87GZpBuE1aQOmkgABcjhoT+dQI7QgzRKahGQ2yeQTOnI6gZJQkIeLOqgC4EsTKZw7AUCaZIFTR0Agg1c0jg3kxRg3V9EHbr7DadMS83gYQ6uxVWMf0viN2Q9yzfvZP2nwLo01oED60DubjqS2R8s6aAOLFhfJdYhqGEAyw3W/l7JGyQZJBtIRurvnMYTEVW7q+vrRmiDN2NA1pKQBX2SJleLfqTvVE53wMEQ6iBPTb95U7ck1GGsTRHG4PWlZOQy9x3B0i/e8HynibQSaDkhRELifamqr5/+cM8i5oYFya0iRRKS6DdnqHN7JTqXQk7AedeEOhzgLiXUCTGmVBKyMNFDg4O5EmJyGS5a2cf4x6nhis4zNuRIrszbtlgzaugRcnRDod3/JFh9V1j4OCw46rCmYVqswRTBkgQsSh0SAtaWgDVcaHeYWQGsW1lhAe6LmTDh0ao2IdRBHmo5EiLReHcoWKrlgaqhJgtHVScJddAGoo2qmxDqMNx6w2Oe1rJckmTLJOOJSnJ4RZ9Bv+meRj5Q6oDmhhQ64j3LJBJ3cJRUcwasW5M6QR7zB0IWKAWAiy6g42Ssku2SSejl5kdPsK4j3f2GkmPwdGZRBzMbrcyGHF1HAlg3AVaHWIfOYEkOrMQRJhlmVlDDLw7WbDYbVb//cYX17x/JjFCHLaEOTfSi0dICC6tYsOqKbGZ5RuSD6sCqoRwZJ7rDQW6gLIPkDZKdOaS+YGVyMql+6Gv4DgujSS2SJGLpog7TWnJomUDdaqwKp2MckqqbWMER+IKTVMevz0uiFAR00Ms91MGa9RYwNGAXUwHDlngGLtlcBhb8HxF3xy5xkOCuDJ63+rEzK2lnk5TB69fHA7pu2ol8AOujwIo5sEqXP7Wr1YHKqwss6Q0WtTMgWGMP92+YWUENbxEsbeB7VPKg/s5dw0VV04CoDo2dQeV2lCxUJffVbwZn4ME6qDoPNRScGooDgyAvBYyiJ1jwKJ5IyhLw2Q11EbMqU1MH5BOaAtAcOiwqFlH9WJwhBwqgrRWEHgDZkGPCEsgCTD3CrWqyBLBi6CC2JJmQBK9zdAmDfxDcpAVrzCFxqKFLqPGPjcNl69D4hzJuDznyl65+wwDWpWDx0ZJ7EvLAUod2sNYXgpU4qENnsNIws4Ia3gZYi8Xirfpdmbk5O+p8UcuGxiuOCXVw0mXVfdYZLHmvOi7uOJawIAabTDV8W5xPdgvzYF3DJEdoUihNq4OUeS0TkmyRSGAhjXXYqkK9o0JEcyaRSKAu1wnW0fhIzs6Au0mOx6qfXMKYaKyDy8BAkia029y4omvIEcvg/UOO/LdXsRn8XevbIO7M5gpKk/7JNUO7A1gsWHt2hUXRHiYpGLB2ggvhcoD1eh2wPAwMbGh3GmZWUMObAouusNhzYKGO5c+1ZMTcp8ESpt/iieUTUnV/3kHiD5YkYOEh8Cidg4zkXPWLe8ZnTTFokkSKWjNrXMtEB00yLq0dufYn6NBcicqNdVgDJihAHRJsQhMUwjjrMMl6SYYgR4H+ckL6WTBBE0n6XZ86oLAMnlVD7YMW3gyelS2nhh5+Q9b4Jx4IGx3snhXAahSvnTpoBiEYqwNLHfT7lPS2OrAiOLCW7bEObJgWgpWGmRXU8BbBKglYlDqcTqcD/p5OGWd1wCaaXSzNwhkfJklFHRrPcDo13esSbS46mHXssy6Zmf148jVXB9lfFtrtoA47WD7RLLRQD19BqMNCLa9IBNQtoftTRApxcYp1gSyfQCcrrtjUtxs4PaC1XEK/LSRAFnD/rBxWX2giIUhCOcP1qYPlN2yPVh5S2IVO7P8/u9CpuEq0cgCrM3Uo2FgHwYBFrQ5v4obAyh1gpVdZYRFmVgBrGLAs6vCkZKb+ZlQNc1V4FOZ6C+2wWGK/4cASBCwc5Mwc7hOqocggy9o6e4IllrUkOLMgZ6/KVIVCJ2bhdoyxDprqwJqK4cDCFRaasCJLsJZc4n8uDHTHvSZJNfqu1MHHbxhzDJ5Qd9tv+FFqmLfb+ZIdp4b9jH8BrEvBKuV5sFhPxZv4HLDG7ev/KFh7AlYcZlZQw1sEa71eL9brkRU3ulayUH+PnBouPloNcTzjdrBEZgx+rVe5jlSuuAisrN7qWQgpt7U01A33gcRE1SWEf75FHwUWWh0SgdtS48WrMUWCS/Tm1pCQS7qMOlAGfxTn10hTsdRweCJPp9Tk8XzL+IprpD8arPdvKO9fHqySgDX3Bust8QLr9Zspl4BFHRYusFKPCO9bnFkKoh/w7x+XofXXq6Gle9++/fziYGHv+KWWjAVrqupeTmZySJhlF39iZRf0QOmFo+4JgIXjISN7SV0oXTiz0KSALIHdGYoSCbMlWiSE8MGqH1i4xaRlWQCwxviZC0oWOFOE7ofJVRh83O43dHxKhsjqT2h6gcVur4IydTD4mPgNff5XPhGsP7nCz78ErJE8D9YDG6LmAdZVsOoN1v4Lzawfv6H5dhEt/RfU8Dc0F3LSzwVrtVqt8bdJGr8FFK7MljuWT4zJwVYMWFj2/TLmboGVzIxRr1iwBAFLPuhx1p3W5Po8HBb049nstyhw1+4IW1JThGlneMYO4vwtq0Gtr8MCrQ70Q1n061lUwG+1x89cAFgFuWp52c5slMHT/eBJrNHjxFRDNuTIBuuaxoecCzlKHcY//Q58md/w6mB9s8S+ZfWRzwZr7gArI2C9CQYsjSDubfdVwCrCzApqePtgxQSs/WstFmeYqkKteLnKLYzdL/D6fp27N3+/PlgJBxZSh3p4L+qnlt5qiGSBsbE0h6SLLM0ksnK/iUQ787wCWKypRfLUgaVIvRwWG+lQQy4qlw85ssFyPvd/fqQaxtdY6PSJYL1+VbBGHFgPDrDuiWPa3lbOC6xfnw5WeVMz633ge9ZfpYbal3MdrG4CrNczYL25wEq8wOrDs2oTdIUyD9brZ4LVe9duQjIW0fXAekfnxg8WLH2GZ446+EtmYt1zhQVr/GOjlVm5DoNHsFYusJJnZmZZVj/uK3TU+HeV7+58LljYPIB191vX3gNYfmA5Kbyphg1f+3fBMtnDH3TinYL1Dm/j/yxYYHP4zsc/2GDdNX9vB6ySgOXx8AU7O793Zgt1WDWYqb+/finq+utX4zP7DdZ38mjsRhYALOtFLL7EUuoSlsHTaOXHCRud4vU0fEUgrBn0buHzXr8G2KSUjbxFe9arI+SIrpG+bFPXjwKLhNa0gHX3jbGO+W+e/+XBuvMH67sC6/X2wWJNNDsCluXM9wMLzTNeavjNVN4+YO2/+MzC976PASv+8mC9e4CFR/h5e2BtqPOffcBSIz9s6JD1oQ6YtIH1s+n4pz3LFaKd47XgF8olGXbcxDoYfosBjH/cRvCPSQ+wfnjd4C1o2ZkVOVxhSErB9/VKo2iwcECzsnQ4Wbs9DX8wYP2Acs1Dv3mBJR3GP7qgPL4Gg/8UsKo70Xcl9b9A2wyf68+miYXVrYBlbRBMA0McYN0n/Rm8t9l9MLDKrzGzungovt/azNpENwvW+7ebAWsEyzHZWIcjfeo6qQONg7gWWN9/vduWUhofSc8+I7EOGBgJ3p0tXZUpey3O5L07cRNPW4n2iKUqtxMcdRib8bsLMVzIUbNaR51Jx+EezEDaKRdFs7/GQidXfBaKfht0MXgS2n1KhgeLGP/oqjAfv2EAa3CwSlYNCVj62wJ7YooAsI4JA9ahVsPvRAywvveXP8Aac2BNHctRLltCN9jMGii0++9Uw78RrJTd6IBfjsnsQJ1Ze0FhkwHBwoc+jXXARZa4myTlBdb+kdegDoVaIzviv3av6qyYmrzF6jAQWLiY94Xjpmh1wBb8PqUbc0lw0VMN6TZ23C5HztBu2QrWj+uA5RGfxdqTB3CyDgbWO4K0+tJgFQSs0gHWhluO8iD81BDtea/giL6aWN93mp1nECxYN6qGv2Ni7oIatoKF3P2q8+rDwWqoA24CZe7WEJE6QZdj8g4LbHI3mCSTaiTVQC3qAOdF6pBU9dstrYvI4kz9+oKFPUlpbO4rtuH2HKMblD7Se9ZSNZmJ4cBacq87YgfDZq0OZLOxNb03cIX+YJWX+Q3H5xj8tW/pnRl8d/YbwLoMrMIB1pz7GCTdepP97sDho9WQgpWHmRXU8KuBZb2Uw0bUku45bdbpbZ8wTFKa9gkBKJ2G3IgaBd0QwtwSSqsh/SYWLs5MqsuqRo/7OkBOX6e3Kwz2AbecrNrcAFucWzupPJlbhz+R3cV14eBgiWfz7E/MFTU7nVNL6QN3p77MySr7RSt/gFDjn0v2jr1oygDWR4EVO9yH7Ac/bh+sKQErJWDtw8wKaniDYO0tTwVaG+iRgR7g4kwxHif1dzTh21ZAJJ6rwi35/FXy+/NXEf2Opub85PNXKGvCEhacb6IdLEGow9YKk+z15Uw9s7DbXn13jH4FWUc35OZnz2bcBsHPf3xY7fT7w2pOgaZ6Xq/Mq5UAnWa/5PtqHvcsQe5ZSB3WcJD4MjUsibE4ZvyGKLMJ4+txfrLPKdCUgoUHE2vyUnjyVdh9+zZ28wDW4GDFRMELcoMvudX3I8GsMnd+ZrQzWIKAlXQFKydgTTmw9mFmBTW8CbBG1aNeVj/kUU6pw07v2gwf3YYk4SjAEikAGP/qj24vDbKARMLMJTyD+P3lzDpHiQR+K3NpJrhr93Sp6Iz10W20OqApAj6gOclM3bwwTDIybVZ38M30jccMWUJTNAnQDvAd90dp5p6tGJ6F0R1Pq3MTx2kRLPZjyBhTisdKL9q4hw854vZWvk8cscuS0b8nOvvo134lNU9h4WurPZkdLhr/XDvgUiv6dbZXCWC5wNq7tCrm3Bftq8z1M0AyYK0JWK/+YCWO0yJY/PeSdwytR7DSMLOCGt4GWHJSi8TE2mwxr2UiVbKNsAltSXOq5Rg6jKFOGMsuKrCgMMGxQG6ikxzORPaqXtaHynM9JgEtMYfDfkSaRkaPdcizqsOIPNfXqakDtPS2OixAZupv6bov5dDyTf3VXowllLH9ElV3T+cSnm9BcnDMBSWl7M1K7lRLTYnfzINZKzZHZp12WMzNwp6rwlAyl4512MbOtNRoBu/hTGTB2tL/gBNxRTs2zx9uVVgAqztYsUsNqdWBxLTxargkVoe+YAkOrC0HlvXlonvGBkHBSsPMCmp4E2CNltNpUv2IaS0TyfICZBeqyRKSrW4ChaSD0Imqy5EswNNwVZ0vr3uwrpsEeAEBS2IhcAb95UwsHKtTyKVKrF2mE1UottAEr8wKk4TCnqR0/1iLZhC5yj1m6u/I43UnMTvsdKAiFD5ypJTKo9nSKsxIHWaWka/IOXPoFXe+riFH7Hd3ejP4LRmfC6zO4vG1X/0/drxGyFEAyx+slAMrlte0OhCw1lcFa+uthmFmBTW8ZbCI1UHgrvmYo9vly3arA4HgSZoMYgpArokN4g4e/VPJJjmTjIE61PSj6is5G4SVECIxBuowqvpOKv4DtGKc+ZLSGcg9JGtSuOBajuCvviGpXMbdnrBDwyDa7Vk+956Tad2SmTrFVtsZjAHqxDJFXCNMsrPwDJ77zC9l8JeCxTL4KbfQiVJ3ecWQowDWkGDxVgcOLGp1cDos/MFKCFhbB1hUDRGsaZhZQQ1vCaxjnqbbNF0u01p0smWS8UQleYH8DKkDFOpABpWbTokaErLQUAfVMtXRDXRHKR2XgOEQpDCHfri0YkE8FXDRRdWkuo78Hp+b1BShuieSHDq+RqwD77fgPKjbQy1Z+wvOynppUv0O1il2qnAOdbr7g8ppZpxBJXGT6ZWsOInuHQEQherdNT7L6Tfkt8ToGXKUsGCx7kPO+Jc8mfpHo5WpGtKd2dh9VYZwsgawnFYHD0kJdaBhktIRJkmpgz9YkoAlOLAodVgSsNgACEnjs8LMCmr4uWDF+slKN4FiE2g5odQBQyj3tYyJ8eFput/XP5oQqCapziFnwJFR6kD2DpDIElANNYNQR0sgoRtK4+JMyVIHDPnEyD/MdZ1Z+3slb5BkkGwgGam/2lK6JNQhgRZcKNaTM64SDn3fPrPuSUvMsK43pA60Q25xBrNuRVr6gzVv5eza+Je2+w3HXMiRdWF0ZA6wWLlwP/gLLaUBrA7UoR0suvrJGesw5kj+VcFiNdzf6hBmVlDDmwKrwEcq+CZmaRyP4zivfuMmSTeELExQx8DOoMOKyPYOYG6fWYQADRPEYZGqM8SW8QGoQ7qvzh3HCbRJyX4Ekn6EAhMY7zI3E0k5A4C1w+uEJums48wqSRQN94JzT6jD3Q6F5Eqz8MnaK0LVvPFsFLpF3KowXUjASrq+pMnCHG7vz7mbauizM5v3Guku0cpcyJHV/alVDf39hmUAa3CwKHXgwyRjhjr4WJ7ZFRYR67Ag0CFY0gGW6KqGFKxpmFlBDW8JrILY7MuIfSKrug3miIF9UT3eq+fvdKmewdOtSvZ7fBri3pL4mIc6Sh1g+0lhGR/2wCc084DDAFj7qm5aEQKyRySfcLQinwKtoE2KftTB4aKwqAOGK7I3D8TzqGTD30TMJsejwzEmN2aTJqxBlRXH84krdkvGqkn6sWrIb+rqsUaaDTliHy9izeif//YqcgBLaQBreOrAU37qsIi8wYrawZLeYLkimS90WISZFcC6LlgloQ5zB3XIMAdPw//iosiLYmp1gKd8Qt33lEFgrlCyhCS2/BaEAuyhCVCHBI9GwCphMPF/hKVbDILkcjg75sqBqcOMny8PIOQUUNQwCJXLIpdHLFNtYugoidXhgTuD3o+amFruoaGOg4CjsZEPg6uh5Td0BLOhvAgztPSVdR/Kdr8hKx4hR8jgC+6uEcAaAqy+1GHUzhmonCITrBeXGrpiHVhJ2h0WCFZQw6CGtwjWnLx4Z5wfQAI8b4Q6UG9E06GspYCDrYuyjJvcSXeAJpYzQxUijZEIVgH9sYza4Ou6tDrMGk2BGHoJx4bCt6rJtCzRCxJNVd2YvcBRL+pwl4HMISkhmXFWB2zB3romxGGBdymrJfS3Om6glM6zkVlIp5uAmFLqiJMHzhqqGYQ6Fh4ST5cN7Tf0YPB0odOL4Bi8dSmvzG1brM/ftmm0sn4UHM4z+M9xsv6TYPWNdfCwOsyIKfDEvRs6t4SKHGBJApZlgD6ctzqEmRXU8BbB0laKfF5LWUASk2SvEh1hT2zwB1YNperQ7DGvcoX1nWxVOG96IIOAE67MeAYJY5qSugn24NRQ6m1cKUvAhzAxiFTHnDbH9J9Z/kIdFtK7n9zUcuZ8qm5DX3egbGNFTJzMug0X+YDU4R5aFJBo39kD5xEbOlrZqYb8EiXiN4y6Mni60Ill8FQNeSJ/lU/2BbA6UIeuKyyc1MEB1trlRWStDlE7WCx14I0PD1zIQ5hZQQ1vCiwPyfs+DXuCJbinoctFKA/nfT3RRU/DuxHInCQlJAVJYkiOXPe0PRk5OtC6keMMI8c17B1NFlzdytFhwO+d/X0SwApgBbACWAGsAFaQAFYAK4AVwApgBbCCBLACWAGsAFYAK4AV5H9or/nSdqyDzAAAAABJRU5ErkJggg==",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {
+      "backgroundImage": "/packages/hap-packager/test/case/ux/TestStyle/BackgroundImage/a",
+    },
+    ".b2": Object {
+      "backgroundImage": "/packages/hap-packager/test/case/ux/TestStyle/BackgroundImage/@uri",
+    },
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 background-position 1`] = `
+Object {
+  "@app-component/testbackgroundposition": Object {
+    ".A1": Object {
+      "backgroundPosition": "center",
+    },
+    ".A2": Object {
+      "backgroundPosition": "top",
+    },
+    ".A3": Object {
+      "backgroundPosition": "right",
+    },
+    ".A4": Object {
+      "backgroundPosition": "left",
+    },
+    ".A5": Object {
+      "backgroundPosition": "bottom",
+    },
+    ".A6": Object {
+      "backgroundPosition": "100px",
+    },
+    ".A7": Object {
+      "backgroundPosition": "50%",
+    },
+    ".B1": Object {
+      "backgroundPosition": "50px 50px",
+    },
+    ".B2": Object {
+      "backgroundPosition": "50% 50px",
+    },
+    ".B3": Object {
+      "backgroundPosition": "left 50px",
+    },
+    ".B4": Object {
+      "backgroundPosition": "right 50px",
+    },
+    ".C1": Object {
+      "backgroundPosition": "50% 50%",
+    },
+    ".C2": Object {
+      "backgroundPosition": "50% top",
+    },
+    ".C3": Object {
+      "backgroundPosition": "left bottom",
+    },
+    ".C4": Object {
+      "backgroundPosition": "right center",
+    },
+    ".D1": Object {
+      "backgroundPosition": "top left",
+    },
+    ".D2": Object {
+      "backgroundPosition": "top right",
+    },
+    ".D3": Object {
+      "backgroundPosition": "top center",
+    },
+    ".D4": Object {
+      "backgroundPosition": "bottom left",
+    },
+    ".D5": Object {
+      "backgroundPosition": "bottom right",
+    },
+    ".D6": Object {
+      "backgroundPosition": "bottom center",
+    },
+    ".E1": Object {
+      "backgroundPosition": "center center",
+    },
+    ".E2": Object {
+      "backgroundPosition": "center top",
+    },
+    ".E3": Object {
+      "backgroundPosition": "center right",
+    },
+    ".E4": Object {
+      "backgroundPosition": "center left",
+    },
+    ".E5": Object {
+      "backgroundPosition": "center bottom",
+    },
+    ".E6": Object {
+      "backgroundPosition": "center 50px",
+    },
+    ".E7": Object {
+      "backgroundPosition": "center 50%",
+    },
+    ".F1": Object {
+      "backgroundPosition": "right bottom 20px",
+    },
+    ".F2": Object {
+      "backgroundPosition": "left 20% bottom",
+    },
+    ".G1": Object {
+      "backgroundPosition": "right 20% bottom 20px",
+    },
+    ".G2": Object {
+      "backgroundPosition": "left 20px bottom 20%",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {},
+    ".a5": Object {},
+    ".a6": Object {},
+    ".a7": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 background-repeat 1`] = `
+Object {
+  "@app-component/testbackgroundrepeat": Object {
+    ".A": Object {
+      "backgroundRepeat": "repeat",
+    },
+    ".B": Object {
+      "backgroundRepeat": "repeat-x",
+    },
+    ".C": Object {
+      "backgroundRepeat": "repeat-y",
+    },
+    ".D": Object {
+      "backgroundRepeat": "no-repeat",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {},
+    ".b": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 background-size 1`] = `
+Object {
+  "@app-component/testbackgroundsize": Object {
+    ".A1": Object {
+      "backgroundSize": "10px 10px",
+    },
+    ".A2": Object {
+      "backgroundSize": "10px",
+    },
+    ".A3": Object {
+      "backgroundSize": "10px auto",
+    },
+    ".A4": Object {
+      "backgroundSize": "auto 10px",
+    },
+    ".A5": Object {
+      "backgroundSize": "10px",
+    },
+    ".B1": Object {
+      "backgroundSize": "10% 10%",
+    },
+    ".B2": Object {
+      "backgroundSize": "10%",
+    },
+    ".B3": Object {
+      "backgroundSize": "10% auto",
+    },
+    ".B4": Object {
+      "backgroundSize": "auto 10%",
+    },
+    ".C1": Object {
+      "backgroundSize": "auto",
+    },
+    ".C2": Object {
+      "backgroundSize": "auto auto",
+    },
+    ".D": Object {
+      "backgroundSize": "cover",
+    },
+    ".E": Object {
+      "backgroundSize": "contain",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".b3": Object {},
+    ".b4": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+    ".d1": Object {},
+    ".d2": Object {},
+    ".e1": Object {},
+    ".e2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 border 1`] = `
+Object {
+  "@app-component/testborder": Object {
+    ".A1": Object {
+      "borderBottomWidth": "1px",
+      "borderLeftWidth": "1px",
+      "borderRightWidth": "1px",
+      "borderTopWidth": "1px",
+    },
+    ".A2": Object {
+      "borderBottomWidth": "1px",
+      "borderLeftWidth": "1px",
+      "borderRightWidth": "1px",
+      "borderTopWidth": "1px",
+    },
+    ".A3": Object {
+      "borderBottomWidth": "1%",
+      "borderLeftWidth": "1%",
+      "borderRightWidth": "1%",
+      "borderTopWidth": "1%",
+    },
+    ".A4": Object {
+      "borderStyle": "dotted",
+    },
+    ".A5": Object {
+      "borderBottomColor": "#ffffff",
+      "borderLeftColor": "#ffffff",
+      "borderRightColor": "#ffffff",
+      "borderTopColor": "#ffffff",
+    },
+    ".B1": Object {
+      "borderBottomWidth": "1px",
+      "borderLeftWidth": "1px",
+      "borderRightWidth": "1px",
+      "borderStyle": "solid",
+      "borderTopWidth": "1px",
+    },
+    ".B2": Object {
+      "borderBottomWidth": "1px",
+      "borderLeftWidth": "1px",
+      "borderRightWidth": "1px",
+      "borderStyle": "solid",
+      "borderTopWidth": "1px",
+    },
+    ".B3": Object {
+      "borderBottomWidth": "1px",
+      "borderLeftWidth": "1px",
+      "borderRightWidth": "1px",
+      "borderStyle": "dotted",
+      "borderTopWidth": "1px",
+    },
+    ".B4": Object {
+      "borderBottomWidth": "1px",
+      "borderLeftWidth": "1px",
+      "borderRightWidth": "1px",
+      "borderStyle": "dashed",
+      "borderTopWidth": "1px",
+    },
+    ".C1": Object {
+      "borderBottomColor": "#FF0000",
+      "borderBottomWidth": "1px",
+      "borderLeftColor": "#FF0000",
+      "borderLeftWidth": "1px",
+      "borderRightColor": "#FF0000",
+      "borderRightWidth": "1px",
+      "borderTopColor": "#FF0000",
+      "borderTopWidth": "1px",
+    },
+    ".C2": Object {
+      "borderBottomColor": "#ffffff",
+      "borderBottomWidth": "1px",
+      "borderLeftColor": "#ffffff",
+      "borderLeftWidth": "1px",
+      "borderRightColor": "#ffffff",
+      "borderRightWidth": "1px",
+      "borderTopColor": "#ffffff",
+      "borderTopWidth": "1px",
+    },
+    ".C3": Object {
+      "borderBottomColor": "rgb(255,255,255)",
+      "borderBottomWidth": "1px",
+      "borderLeftColor": "rgb(255,255,255)",
+      "borderLeftWidth": "1px",
+      "borderRightColor": "rgb(255,255,255)",
+      "borderRightWidth": "1px",
+      "borderTopColor": "rgb(255,255,255)",
+      "borderTopWidth": "1px",
+    },
+    ".C4": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+      "borderBottomWidth": "1px",
+      "borderLeftColor": "rgba(255,255,255,0.5)",
+      "borderLeftWidth": "1px",
+      "borderRightColor": "rgba(255,255,255,0.5)",
+      "borderRightWidth": "1px",
+      "borderTopColor": "rgba(255,255,255,0.5)",
+      "borderTopWidth": "1px",
+    },
+    ".D1": Object {
+      "borderBottomColor": "#FF0000",
+      "borderLeftColor": "#FF0000",
+      "borderRightColor": "#FF0000",
+      "borderStyle": "solid",
+      "borderTopColor": "#FF0000",
+    },
+    ".D2": Object {
+      "borderBottomColor": "#ffffff",
+      "borderLeftColor": "#ffffff",
+      "borderRightColor": "#ffffff",
+      "borderStyle": "solid",
+      "borderTopColor": "#ffffff",
+    },
+    ".D3": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+      "borderLeftColor": "rgba(255,255,255,0.5)",
+      "borderRightColor": "rgba(255,255,255,0.5)",
+      "borderStyle": "solid",
+      "borderTopColor": "rgba(255,255,255,0.5)",
+    },
+    ".E1": Object {
+      "borderBottomColor": "#FF0000",
+      "borderBottomWidth": "1px",
+      "borderLeftColor": "#FF0000",
+      "borderLeftWidth": "1px",
+      "borderRightColor": "#FF0000",
+      "borderRightWidth": "1px",
+      "borderStyle": "solid",
+      "borderTopColor": "#FF0000",
+      "borderTopWidth": "1px",
+    },
+    ".E2": Object {
+      "borderBottomColor": "#FF0000",
+      "borderBottomWidth": "1px",
+      "borderLeftColor": "#FF0000",
+      "borderLeftWidth": "1px",
+      "borderRightColor": "#FF0000",
+      "borderRightWidth": "1px",
+      "borderStyle": "solid",
+      "borderTopColor": "#FF0000",
+      "borderTopWidth": "1px",
+    },
+    ".E3": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+      "borderBottomWidth": "1px",
+      "borderLeftColor": "rgba(255,255,255,0.5)",
+      "borderLeftWidth": "1px",
+      "borderRightColor": "rgba(255,255,255,0.5)",
+      "borderRightWidth": "1px",
+      "borderStyle": "solid",
+      "borderTopColor": "rgba(255,255,255,0.5)",
+      "borderTopWidth": "1px",
+    },
+    ".E4": Object {
+      "borderBottomColor": "rgba(255,100,200,0.5)",
+      "borderBottomWidth": "4px",
+      "borderLeftColor": "rgb(255,255,0)",
+      "borderLeftStyle": "dashed",
+      "borderLeftWidth": "1px",
+      "borderRightColor": "rgb(255,0,0)",
+      "borderRightStyle": "dotted",
+      "borderRightWidth": "2px",
+      "borderTopColor": "rgb(255,0,255)",
+      "borderTopStyle": "solid",
+      "borderTopWidth": "2px",
+    },
+    ".F": Object {
+      "borderBottomWidth": "0px",
+      "borderLeftWidth": "0px",
+      "borderRightWidth": "0px",
+      "borderTopWidth": "0px",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".b3": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+    ".c3": Object {},
+    ".d1": Object {},
+    ".d2": Object {},
+    ".d3": Object {},
+    ".d4": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 border-bottom-color 1`] = `
+Object {
+  "@app-component/testborderbottomcolor": Object {
+    ".A": Object {
+      "borderBottomColor": "#FF0000",
+    },
+    ".B1": Object {
+      "borderBottomColor": "#FFFFFF",
+    },
+    ".B2": Object {
+      "borderBottomColor": "#FFFFFF",
+    },
+    ".C1": Object {
+      "borderBottomColor": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "borderBottomColor": "rgb(0,0,0)",
+    },
+    ".D1": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "borderBottomColor": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "borderBottomColor": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+    },
+    ".D5": Object {
+      "borderBottomColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".D6": Object {
+      "borderBottomColor": "hsl(360,100%,100%)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 border-bottom-left-radius 1`] = `
+Object {
+  "@app-component/testborderbottomleftradius": Object {
+    ".A1": Object {
+      "borderBottomLeftRadius": "1px",
+    },
+    ".A2": Object {
+      "borderBottomLeftRadius": "1px",
+    },
+    ".B1": Object {
+      "borderBottomLeftRadius": "1px",
+    },
+    ".B2": Object {
+      "borderBottomLeftRadius": "0px",
+    },
+    ".a1": Object {
+      "borderBottomLeftRadius": "1px",
+    },
+    ".a2": Object {
+      "borderBottomLeftRadius": "1px",
+    },
+    ".a3": Object {
+      "borderBottomLeftRadius": "1px",
+    },
+    ".b": Object {
+      "borderBottomLeftRadius": "1px",
+    },
+    ".c": Object {},
+    ".d": Object {},
+    ".e1": Object {
+      "borderBottomLeftRadius": "1px",
+    },
+    ".e2": Object {
+      "borderBottomLeftRadius": "1px",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 border-bottom-right-radius 1`] = `
+Object {
+  "@app-component/testborderbottomrightradius": Object {
+    ".A1": Object {
+      "borderBottomRightRadius": "1px",
+    },
+    ".A2": Object {
+      "borderBottomRightRadius": "1px",
+    },
+    ".B1": Object {
+      "borderBottomRightRadius": "1px",
+    },
+    ".B2": Object {
+      "borderBottomRightRadius": "0px",
+    },
+    ".a1": Object {
+      "borderBottomRightRadius": "1px",
+    },
+    ".a2": Object {
+      "borderBottomRightRadius": "1px",
+    },
+    ".a3": Object {
+      "borderBottomRightRadius": "1px",
+    },
+    ".b": Object {
+      "borderBottomRightRadius": "1px",
+    },
+    ".c": Object {},
+    ".d": Object {},
+    ".e1": Object {
+      "borderBottomRightRadius": "1px",
+    },
+    ".e2": Object {
+      "borderBottomRightRadius": "1px",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 border-bottom-width 1`] = `
+Object {
+  "@app-component/testborderbottomwidth": Object {
+    ".A1": Object {
+      "borderBottomWidth": "1px",
+    },
+    ".A2": Object {
+      "borderBottomWidth": "1px",
+    },
+    ".B1": Object {
+      "borderBottomWidth": "1px",
+    },
+    ".B2": Object {
+      "borderBottomWidth": "0px",
+    },
+    ".a1": Object {
+      "borderBottomWidth": "1px",
+    },
+    ".a2": Object {
+      "borderBottomWidth": "1px",
+    },
+    ".a3": Object {
+      "borderBottomWidth": "1px",
+    },
+    ".b": Object {
+      "borderBottomWidth": "1px",
+    },
+    ".c": Object {},
+    ".d": Object {},
+    ".e1": Object {
+      "borderBottomWidth": "1px",
+    },
+    ".e2": Object {
+      "borderBottomWidth": "1px",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 border-color 1`] = `
+Object {
+  "@app-component/testbordercolor": Object {
+    ".A1": Object {
+      "borderBottomColor": "#FF0000",
+      "borderLeftColor": "#FF0000",
+      "borderRightColor": "#FF0000",
+      "borderTopColor": "#FF0000",
+    },
+    ".A2": Object {
+      "borderBottomColor": "#FFFFFF",
+      "borderLeftColor": "#FFFFFF",
+      "borderRightColor": "#FFFFFF",
+      "borderTopColor": "#FFFFFF",
+    },
+    ".A3": Object {
+      "borderBottomColor": "#FFFFFF",
+      "borderLeftColor": "#FFFFFF",
+      "borderRightColor": "#FFFFFF",
+      "borderTopColor": "#FFFFFF",
+    },
+    ".A4": Object {
+      "borderBottomColor": "rgb(255,255,255)",
+      "borderLeftColor": "rgb(255,255,255)",
+      "borderRightColor": "rgb(255,255,255)",
+      "borderTopColor": "rgb(255,255,255)",
+    },
+    ".A5": Object {
+      "borderBottomColor": "rgb(0,0,0)",
+      "borderLeftColor": "rgb(0,0,0)",
+      "borderRightColor": "rgb(0,0,0)",
+      "borderTopColor": "rgb(0,0,0)",
+    },
+    ".A6": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+      "borderLeftColor": "rgba(255,255,255,0.5)",
+      "borderRightColor": "rgba(255,255,255,0.5)",
+      "borderTopColor": "rgba(255,255,255,0.5)",
+    },
+    ".A7": Object {
+      "borderBottomColor": "rgba(0,0,0,0)",
+      "borderLeftColor": "rgba(0,0,0,0)",
+      "borderRightColor": "rgba(0,0,0,0)",
+      "borderTopColor": "rgba(0,0,0,0)",
+    },
+    ".A8": Object {
+      "borderBottomColor": "rgba(0,0,0,1)",
+      "borderLeftColor": "rgba(0,0,0,1)",
+      "borderRightColor": "rgba(0,0,0,1)",
+      "borderTopColor": "rgba(0,0,0,1)",
+    },
+    ".A9": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+      "borderLeftColor": "rgba(255,255,255,0.5)",
+      "borderRightColor": "rgba(255,255,255,0.5)",
+      "borderTopColor": "rgba(255,255,255,0.5)",
+    },
+    ".B1": Object {
+      "borderBottomColor": "#FF0000",
+      "borderLeftColor": "#FFFFFF",
+      "borderRightColor": "#FFFFFF",
+      "borderTopColor": "#FF0000",
+    },
+    ".B2": Object {
+      "borderBottomColor": "#FFFFFF",
+      "borderLeftColor": "rgb(255,255,255)",
+      "borderRightColor": "rgb(255,255,255)",
+      "borderTopColor": "#FFFFFF",
+    },
+    ".B3": Object {
+      "borderBottomColor": "rgb(0,0,0)",
+      "borderLeftColor": "rgba(255,255,255,0.5)",
+      "borderRightColor": "rgba(255,255,255,0.5)",
+      "borderTopColor": "rgb(0,0,0)",
+    },
+    ".B4": Object {
+      "borderBottomColor": "rgba(0,0,0,0)",
+      "borderLeftColor": "rgba(0,0,0,1)",
+      "borderRightColor": "rgba(0,0,0,1)",
+      "borderTopColor": "rgba(0,0,0,0)",
+    },
+    ".B5": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+      "borderLeftColor": "#FF0000",
+      "borderRightColor": "#FF0000",
+      "borderTopColor": "rgba(255,255,255,0.5)",
+    },
+    ".C1": Object {
+      "borderBottomColor": "#FFFFFF",
+      "borderLeftColor": "#FFFFFF",
+      "borderRightColor": "#FFFFFF",
+      "borderTopColor": "#FF0000",
+    },
+    ".C2": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+      "borderLeftColor": "rgb(0,0,0)",
+      "borderRightColor": "rgb(0,0,0)",
+      "borderTopColor": "rgb(255,255,255)",
+    },
+    ".C3": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+      "borderLeftColor": "rgba(0,0,0,1)",
+      "borderRightColor": "rgba(0,0,0,1)",
+      "borderTopColor": "rgba(0,0,0,0)",
+    },
+    ".D1": Object {
+      "borderBottomColor": "#FFFFFF",
+      "borderLeftColor": "rgb(255,255,255)",
+      "borderRightColor": "#FFFFFF",
+      "borderTopColor": "#FF0000",
+    },
+    ".D2": Object {
+      "borderBottomColor": "rgba(0,0,0,0)",
+      "borderLeftColor": "rgba(0,0,0,1)",
+      "borderRightColor": "rgba(255,255,255,0.5)",
+      "borderTopColor": "rgb(0,0,0)",
+    },
+    ".D3": Object {
+      "borderBottomColor": "#FFFFFF",
+      "borderLeftColor": "#FFFFFF",
+      "borderRightColor": "#FF0000",
+      "borderTopColor": "rgba(255,255,255,0.5)",
+    },
+    ".E1": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+      "borderLeftColor": "rgba(255,255,255,0.5)",
+      "borderRightColor": "rgba(255,255,255,0.5)",
+      "borderTopColor": "rgba(255,255,255,0.5)",
+    },
+    ".E2": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+      "borderLeftColor": "rgba(255,255,255,0.5)",
+      "borderRightColor": "rgba(255,255,255,0.5)",
+      "borderTopColor": "rgba(255,255,255,0.5)",
+    },
+    ".E3": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+      "borderLeftColor": "rgba(255,255,255,0.5)",
+      "borderRightColor": "rgba(255,255,255,0.5)",
+      "borderTopColor": "rgba(255,255,255,0.5)",
+    },
+    ".E4": Object {
+      "borderBottomColor": "rgba(255,255,255,0.5)",
+      "borderLeftColor": "rgba(255,255,255,0.5)",
+      "borderRightColor": "rgba(255,255,255,0.5)",
+      "borderTopColor": "rgba(255,255,255,0.5)",
+    },
+    ".E5": Object {
+      "borderBottomColor": "rgba(255,255,255,0.1)",
+      "borderLeftColor": "rgba(0,0,0,0.2)",
+      "borderRightColor": "rgba(0,0,0,0.2)",
+      "borderTopColor": "rgba(255,255,255,0.1)",
+    },
+    ".E6": Object {
+      "borderBottomColor": "rgba(255,255,255,0.3)",
+      "borderLeftColor": "rgba(0,0,0,0.2)",
+      "borderRightColor": "rgba(0,0,0,0.2)",
+      "borderTopColor": "rgba(255,255,255,0.1)",
+    },
+    ".E7": Object {
+      "borderBottomColor": "rgba(0,0,0,0.3)",
+      "borderLeftColor": "rgba(255,255,255,0.4)",
+      "borderRightColor": "rgba(0,0,0,0.2)",
+      "borderTopColor": "rgba(255,255,255,0.1)",
+    },
+    ".E8": Object {
+      "borderBottomColor": "#FF0000",
+      "borderLeftColor": "rgba(255,255,255,0.4)",
+      "borderRightColor": "#FFFFFF",
+      "borderTopColor": "rgba(255,255,255,0.1)",
+    },
+    ".F1": Object {
+      "borderBottomColor": "#FF0000",
+      "borderLeftColor": "hsla(360,100%,100%,0.4)",
+      "borderRightColor": "#FFFFFF",
+      "borderTopColor": "rgba(255,255,255,0.1)",
+    },
+    ".F2": Object {
+      "borderBottomColor": "hsla(123,46%,38%,0.6)",
+      "borderLeftColor": "rgba(0,0,0,1)",
+      "borderRightColor": "rgb(255,255,255)",
+      "borderTopColor": "hsl(0,0%,0%)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {},
+    ".a5": Object {},
+    ".a6": Object {},
+    ".a7": Object {},
+    ".a8": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".b3": Object {},
+    ".b4": Object {},
+    ".b5": Object {},
+    ".b6": Object {},
+    ".b7": Object {},
+    ".b8": Object {},
+    ".b9": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+    ".c3": Object {},
+    ".d1": Object {},
+    ".d2": Object {},
+    ".d3": Object {},
+    ".d4": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 border-left-color 1`] = `
+Object {
+  "@app-component/testborderleftcolor": Object {
+    ".A": Object {
+      "borderLeftColor": "#FF0000",
+    },
+    ".B1": Object {
+      "borderLeftColor": "#FFFFFF",
+    },
+    ".B2": Object {
+      "borderLeftColor": "#FFFFFF",
+    },
+    ".C1": Object {
+      "borderLeftColor": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "borderLeftColor": "rgb(0,0,0)",
+    },
+    ".D1": Object {
+      "borderLeftColor": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "borderLeftColor": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "borderLeftColor": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "borderLeftColor": "rgba(255,255,255,0.5)",
+    },
+    ".D5": Object {
+      "borderLeftColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".D6": Object {
+      "borderLeftColor": "hsl(360,100%,100%)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 border-left-width 1`] = `
+Object {
+  "@app-component/testborderleftwidth": Object {
+    ".A1": Object {
+      "borderLeftWidth": "1px",
+    },
+    ".A2": Object {
+      "borderLeftWidth": "1px",
+    },
+    ".B1": Object {
+      "borderLeftWidth": "1px",
+    },
+    ".B2": Object {
+      "borderLeftWidth": "0px",
+    },
+    ".a1": Object {
+      "borderLeftWidth": "1px",
+    },
+    ".a2": Object {
+      "borderLeftWidth": "1px",
+    },
+    ".a3": Object {
+      "borderLeftWidth": "1px",
+    },
+    ".b": Object {
+      "borderLeftWidth": "1px",
+    },
+    ".c": Object {},
+    ".d": Object {},
+    ".e1": Object {
+      "borderLeftWidth": "1px",
+    },
+    ".e2": Object {
+      "borderLeftWidth": "1px",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 border-radius 1`] = `
+Object {
+  "@app-component/testborderradius": Object {
+    ".A1": Object {
+      "borderRadius": "1px",
+    },
+    ".A2": Object {
+      "borderRadius": "1px",
+    },
+    ".B1": Object {
+      "borderRadius": "1px",
+    },
+    ".B2": Object {
+      "borderRadius": "0px",
+    },
+    ".a1": Object {
+      "borderRadius": "1px",
+    },
+    ".a2": Object {
+      "borderRadius": "1px",
+    },
+    ".a3": Object {
+      "borderRadius": "1px",
+    },
+    ".b": Object {
+      "borderRadius": "1px",
+    },
+    ".c": Object {},
+    ".d": Object {},
+    ".e1": Object {
+      "borderRadius": "1px",
+    },
+    ".e2": Object {
+      "borderRadius": "1px",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 border-right-color 1`] = `
+Object {
+  "@app-component/testborderrightcolor": Object {
+    ".A": Object {
+      "borderRightColor": "#FF0000",
+    },
+    ".B1": Object {
+      "borderRightColor": "#FFFFFF",
+    },
+    ".B2": Object {
+      "borderRightColor": "#FFFFFF",
+    },
+    ".C1": Object {
+      "borderRightColor": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "borderRightColor": "rgb(0,0,0)",
+    },
+    ".D1": Object {
+      "borderRightColor": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "borderRightColor": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "borderRightColor": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "borderRightColor": "rgba(255,255,255,0.5)",
+    },
+    ".D5": Object {
+      "borderRightColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".D6": Object {
+      "borderRightColor": "hsl(360,100%,100%)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 border-right-width 1`] = `
+Object {
+  "@app-component/testborderrightwidth": Object {
+    ".A1": Object {
+      "borderRightWidth": "1px",
+    },
+    ".A2": Object {
+      "borderRightWidth": "1px",
+    },
+    ".B1": Object {
+      "borderRightWidth": "1px",
+    },
+    ".B2": Object {
+      "borderRightWidth": "0px",
+    },
+    ".a1": Object {
+      "borderRightWidth": "1px",
+    },
+    ".a2": Object {
+      "borderRightWidth": "1px",
+    },
+    ".a3": Object {
+      "borderRightWidth": "1px",
+    },
+    ".b": Object {
+      "borderRightWidth": "1px",
+    },
+    ".c": Object {},
+    ".d": Object {},
+    ".e1": Object {
+      "borderRightWidth": "1px",
+    },
+    ".e2": Object {
+      "borderRightWidth": "1px",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 border-style 1`] = `
+Object {
+  "@app-component/testborderstyle": Object {
+    ".A": Object {
+      "borderStyle": "dotted",
+    },
+    ".B": Object {
+      "borderStyle": "dashed",
+    },
+    ".C1": Object {
+      "borderStyle": "solid",
+    },
+    ".C2": Object {
+      "borderStyle": "solid",
+    },
+    ".a": Object {},
+    ".b": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 border-top-color 1`] = `
+Object {
+  "@app-component/testbordertopcolor": Object {
+    ".A": Object {
+      "borderTopColor": "#FF0000",
+    },
+    ".B1": Object {
+      "borderTopColor": "#FFFFFF",
+    },
+    ".B2": Object {
+      "borderTopColor": "#FFFFFF",
+    },
+    ".C1": Object {
+      "borderTopColor": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "borderTopColor": "rgb(0,0,0)",
+    },
+    ".D1": Object {
+      "borderTopColor": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "borderTopColor": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "borderTopColor": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "borderTopColor": "rgba(255,255,255,0.5)",
+    },
+    ".D5": Object {
+      "borderTopColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".D6": Object {
+      "borderTopColor": "hsl(360,100%,100%)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 border-top-left-radius 1`] = `
+Object {
+  "@app-component/testbordertopleftradius": Object {
+    ".A1": Object {
+      "borderTopLeftRadius": "1px",
+    },
+    ".A2": Object {
+      "borderTopLeftRadius": "1px",
+    },
+    ".B1": Object {
+      "borderTopLeftRadius": "1px",
+    },
+    ".B2": Object {
+      "borderTopLeftRadius": "0px",
+    },
+    ".a1": Object {
+      "borderTopLeftRadius": "1px",
+    },
+    ".a2": Object {
+      "borderTopLeftRadius": "1px",
+    },
+    ".a3": Object {
+      "borderTopLeftRadius": "1px",
+    },
+    ".b": Object {
+      "borderTopLeftRadius": "1px",
+    },
+    ".c": Object {},
+    ".d": Object {},
+    ".e1": Object {
+      "borderTopLeftRadius": "1px",
+    },
+    ".e2": Object {
+      "borderTopLeftRadius": "1px",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 border-top-right-radius 1`] = `
+Object {
+  "@app-component/testbordertoprightradius": Object {
+    ".A1": Object {
+      "borderTopRightRadius": "1px",
+    },
+    ".A2": Object {
+      "borderTopRightRadius": "1px",
+    },
+    ".B1": Object {
+      "borderTopRightRadius": "1px",
+    },
+    ".B2": Object {
+      "borderTopRightRadius": "0px",
+    },
+    ".a1": Object {
+      "borderTopRightRadius": "1px",
+    },
+    ".a2": Object {
+      "borderTopRightRadius": "1px",
+    },
+    ".a3": Object {
+      "borderTopRightRadius": "1px",
+    },
+    ".b": Object {
+      "borderTopRightRadius": "1px",
+    },
+    ".c": Object {},
+    ".d": Object {},
+    ".e1": Object {
+      "borderTopRightRadius": "1px",
+    },
+    ".e2": Object {
+      "borderTopRightRadius": "1px",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 border-top-width 1`] = `
+Object {
+  "@app-component/testbordertopwidth": Object {
+    ".A1": Object {
+      "borderTopWidth": "1px",
+    },
+    ".A2": Object {
+      "borderTopWidth": "1px",
+    },
+    ".B1": Object {
+      "borderTopWidth": "1px",
+    },
+    ".B2": Object {
+      "borderTopWidth": "0px",
+    },
+    ".a1": Object {
+      "borderTopWidth": "1px",
+    },
+    ".a2": Object {
+      "borderTopWidth": "1px",
+    },
+    ".a3": Object {
+      "borderTopWidth": "1px",
+    },
+    ".b": Object {
+      "borderTopWidth": "1px",
+    },
+    ".c": Object {},
+    ".d": Object {},
+    ".e1": Object {
+      "borderTopWidth": "1px",
+    },
+    ".e2": Object {
+      "borderTopWidth": "1px",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 border-width 1`] = `
+Object {
+  "@app-component/testborderwidth": Object {
+    ".A1": Object {
+      "borderBottomWidth": "0px",
+      "borderLeftWidth": "0px",
+      "borderRightWidth": "0px",
+      "borderTopWidth": "0px",
+    },
+    ".A2": Object {
+      "borderBottomWidth": "10px",
+      "borderLeftWidth": "10px",
+      "borderRightWidth": "10px",
+      "borderTopWidth": "10px",
+    },
+    ".A3": Object {
+      "borderBottomWidth": "10px",
+      "borderLeftWidth": "10px",
+      "borderRightWidth": "10px",
+      "borderTopWidth": "10px",
+    },
+    ".A4": Object {
+      "borderBottomWidth": "10%",
+      "borderLeftWidth": "10%",
+      "borderRightWidth": "10%",
+      "borderTopWidth": "10%",
+    },
+    ".B1": Object {
+      "borderBottomWidth": "10px",
+      "borderLeftWidth": "20px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".B2": Object {
+      "borderBottomWidth": "10px",
+      "borderLeftWidth": "20px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".B3": Object {
+      "borderBottomWidth": "10px",
+      "borderLeftWidth": "20px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".B4": Object {
+      "borderBottomWidth": "10px",
+      "borderLeftWidth": "20px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".B5": Object {
+      "borderBottomWidth": "10%",
+      "borderLeftWidth": "20%",
+      "borderRightWidth": "20%",
+      "borderTopWidth": "10%",
+    },
+    ".C1": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "20px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".C2": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "20px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".C3": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "20px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".C4": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "20px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".C5": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "20px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".C6": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "20px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10%",
+    },
+    ".D1": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "40px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".D2": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "40px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".D3": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "40px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".D4": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "40px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".D5": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "40px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".D6": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "20px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10px",
+    },
+    ".D7": Object {
+      "borderBottomWidth": "30px",
+      "borderLeftWidth": "40px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10%",
+    },
+    ".D8": Object {
+      "borderBottomWidth": "0px",
+      "borderLeftWidth": "40px",
+      "borderRightWidth": "20px",
+      "borderTopWidth": "10%",
+    },
+    ".E": Object {
+      "borderBottomWidth": "0px",
+      "borderLeftWidth": "0px",
+      "borderRightWidth": "0px",
+      "borderTopWidth": "0px",
+    },
+    ".a": Object {},
+    ".b": Object {},
+    ".c": Object {},
+    ".d": Object {},
+    ".e": Object {},
+    ".f": Object {},
+    ".g": Object {},
+    ".h": Object {},
+    ".i": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 bottom 1`] = `
+Object {
+  "@app-component/testbottom": Object {
+    ".A": Object {
+      "bottom": "0px",
+    },
+    ".B1": Object {
+      "bottom": "100px",
+    },
+    ".B2": Object {
+      "bottom": "100px",
+    },
+    ".C": Object {
+      "bottom": "20%",
+    },
+    ".a": Object {},
+    ".b": Object {},
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 color 1`] = `
+Object {
+  "@app-component/testcolor": Object {
+    ".A": Object {
+      "color": "#FF0000",
+    },
+    ".B1": Object {
+      "color": "#FFFFFF",
+    },
+    ".B2": Object {
+      "color": "#FFFFFF",
+    },
+    ".C1": Object {
+      "color": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "color": "rgb(0,0,0)",
+    },
+    ".C3": Object {
+      "color": "hsl(360,100%,100%)",
+    },
+    ".C4": Object {
+      "color": "hsl(0,0%,0%)",
+    },
+    ".D1": Object {
+      "color": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "color": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "color": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "color": "rgba(255,255,255,0.5)",
+    },
+    ".E1": Object {
+      "color": "hsla(360,100%,100%,0.5)",
+    },
+    ".E2": Object {
+      "color": "hsla(0,0%,0%,0)",
+    },
+    ".E3": Object {
+      "color": "hsla(0,0%,0%,1)",
+    },
+    ".E4": Object {
+      "color": "hsla(360,100%,100%,0.5)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 display 1`] = `
+Object {
+  "@app-component/testdisplay": Object {
+    ".A": Object {
+      "display": "flex",
+    },
+    ".B": Object {
+      "display": "none",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".b3": Object {},
+    ".b4": Object {
+      "display": "flex",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 flex 1`] = `
+Object {
+  "@app-component/testflex": Object {
+    ".A": Object {
+      "flex": 1,
+    },
+    ".B": Object {
+      "flex": 0,
+    },
+    ".C": Object {
+      "flex": -1,
+    },
+    ".D": Object {
+      "flex": 1,
+    },
+    ".a": Object {},
+    ".b": Object {},
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 flex-basis 1`] = `
+Object {
+  "@app-component/testflexbasis": Object {
+    ".A1": Object {
+      "flexBasis": "100px",
+    },
+    ".A2": Object {
+      "flexBasis": "100px",
+    },
+    ".A3": Object {
+      "flexBasis": "100px",
+    },
+    ".B": Object {
+      "flexBasis": "50%",
+    },
+    ".a": Object {},
+    ".b1": Object {
+      "flexBasis": "100px",
+    },
+    ".b2": Object {
+      "flexBasis": "100px",
+    },
+    ".b3": Object {
+      "flexBasis": "100px",
+    },
+    ".b4": Object {
+      "flexBasis": "100px",
+    },
+    ".c1": Object {},
+    ".c2": Object {},
+    ".c3": Object {},
+    ".c4": Object {},
+    ".d": Object {},
+    ".e1": Object {},
+    ".e2": Object {},
+    ".e3": Object {},
+    ".f": Object {
+      "flexBasis": "-1px",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 flex-direction 1`] = `
+Object {
+  "@app-component/testflexdirection": Object {
+    ".A": Object {
+      "flexDirection": "column",
+    },
+    ".B": Object {
+      "flexDirection": "row",
+    },
+    ".C": Object {
+      "flexDirection": "row",
+    },
+    ".D": Object {
+      "flexDirection": "row-reverse",
+    },
+    ".E": Object {
+      "flexDirection": "column-reverse",
+    },
+    ".a": Object {},
+    ".b": Object {},
+    ".c": Object {},
+    ".d": Object {},
+    ".e": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 flex-grow 1`] = `
+Object {
+  "@app-component/testflexgrow": Object {
+    ".A1": Object {
+      "flexGrow": 1,
+    },
+    ".A2": Object {
+      "flexGrow": 3,
+    },
+    ".a": Object {},
+    ".b": Object {},
+    ".c": Object {
+      "flexGrow": -1,
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 flex-shrink 1`] = `
+Object {
+  "@app-component/testflexshrink": Object {
+    ".A1": Object {
+      "flexShrink": 1,
+    },
+    ".A2": Object {
+      "flexShrink": 3,
+    },
+    ".A3": Object {
+      "flexShrink": 0.6,
+    },
+    ".a": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".b3": Object {},
+    ".c": Object {
+      "flexShrink": -1,
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 flex-wrap 1`] = `
+Object {
+  "@app-component/testflexwrap": Object {
+    ".A": Object {
+      "flexWrap": "nowrap",
+    },
+    ".B": Object {
+      "flexWrap": "wrap",
+    },
+    ".C": Object {
+      "flexWrap": "wrap-reverse",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".b": Object {},
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 font-face 1`] = `
+Object {
+  "@app-component/testfontface": Object {
+    "@FONT-FACE": Object {
+      "myFont1": Object {
+        "fontName": "myFont1",
+        "fontSrc": Array [
+          "/packages/hap-packager/test/case/ux/TestStyle/FontFace/Sansation_Light.ttf",
+          "/packages/hap-packager/test/case/ux/TestStyle/FontFace/Sansation_Light.eot",
+          "http://xxx/xxx/Sansation_Light.eot",
+          "Times New Roman",
+          "Georgia",
+        ],
+      },
+      "myFont2": Object {
+        "fontName": "myFont2",
+        "fontSrc": Array [
+          "/packages/hap-packager/test/case/ux/TestStyle/FontFace/Sansation_Light.ttf",
+          "/packages/hap-packager/test/case/ux/TestStyle/FontFace/Sansation_Light.eot",
+          "Times New Roman",
+        ],
+      },
+      "myFont3": Object {
+        "fontName": "myFont3",
+        "fontSrc": Array [
+          "/packages/hap-packager/test/case/ux/TestStyle/Sansation_Light.eot",
+        ],
+      },
+      "myFont4": Object {
+        "fontName": "myFont4",
+        "fontSrc": Array [
+          "/packages/hap-packager/test/case/ux/Sansation_Light.ttf",
+          "/packages/hap-packager/test/case/ux/TestStyle/FontFace/Sansation_Light.eot",
+        ],
+      },
+      "myFont5": Object {
+        "fontName": "myFont5",
+        "fontSrc": Array [
+          "/packages/hap-packager/test/case/ux/TestStyle/FontFace/Sansation_Light.eot",
+        ],
+      },
+      "myFont6": Object {
+        "fontName": "myFont6",
+        "fontSrc": Array [
+          "/packages/hap-packager/test/case/ux/TestStyle/FontFace/Sansation_Light.eot",
+        ],
+      },
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 font-family 1`] = `
+Object {
+  "@app-component/testfontfamily": Object {
+    ".font1": Object {
+      "fontFamily": "myFont1, 'Times New Roman', Georgia, Serif",
+    },
+    ".font2": Object {
+      "fontFamily": "myFont2, Times New Roman,Georgia,\\"Serif\\"",
+    },
+    ".font3": Object {
+      "fontFamily": "myFont3",
+    },
+    ".font4": Object {
+      "fontFamily": "'Times New Roman'",
+    },
+    "@FONT-FACE": Object {
+      "myFont1": Object {
+        "fontName": "myFont1",
+        "fontSrc": Array [
+          "/packages/hap-packager/test/case/ux/TestStyle/FontFamily/Sansation_Light.ttf",
+          "/packages/hap-packager/test/case/ux/TestStyle/FontFamily/Sansation_Light.eot",
+        ],
+      },
+      "myFont2": Object {
+        "fontName": "myFont2",
+        "fontSrc": Array [
+          "/packages/hap-packager/test/case/ux/TestStyle/FontFamily/Sansation_Light.ttf",
+          "/packages/hap-packager/test/case/ux/TestStyle/FontFamily/Sansation_Light.eot",
+        ],
+      },
+      "myFont3": Object {
+        "fontName": "myFont3",
+        "fontSrc": Array [
+          "/packages/hap-packager/test/case/ux/TestStyle/Sansation_Light.eot",
+        ],
+      },
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 font-size 1`] = `
+Object {
+  "@app-component/testfontsize": Object {
+    ".A": Object {
+      "fontSize": "30px",
+    },
+    ".B": Object {
+      "fontSize": "30px",
+    },
+    ".C": Object {
+      "fontSize": "30px",
+    },
+    ".D": Object {
+      "fontSize": "0px",
+    },
+    ".a": Object {
+      "fontSize": "30px",
+    },
+    ".b": Object {
+      "fontSize": "30px",
+    },
+    ".c": Object {
+      "fontSize": "30px",
+    },
+    ".d": Object {
+      "fontSize": "30px",
+    },
+    ".e": Object {},
+    ".f": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 font-style 1`] = `
+Object {
+  "@app-component/testfontstyle": Object {
+    ".A": Object {
+      "fontStyle": "normal",
+    },
+    ".B": Object {
+      "fontStyle": "italic",
+    },
+    ".a": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 font-weight 1`] = `
+Object {
+  "@app-component/testfontweight": Object {
+    ".A": Object {
+      "fontWeight": "normal",
+    },
+    ".B": Object {
+      "fontWeight": "bold",
+    },
+    ".C": Object {
+      "fontWeight": "100",
+    },
+    ".D": Object {
+      "fontWeight": "lighter",
+    },
+    ".E": Object {
+      "fontWeight": "bolder",
+    },
+    ".F": Object {
+      "fontWeight": "101",
+    },
+    ".a": Object {},
+    ".b": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 height 1`] = `
+Object {
+  "@app-component/testheight": Object {
+    ".A": Object {
+      "height": "100px",
+    },
+    ".B": Object {
+      "height": "100%",
+    },
+    ".C": Object {
+      "height": "100px",
+    },
+    ".D": Object {
+      "height": "100%",
+    },
+    ".E": Object {
+      "height": "100px",
+    },
+    ".F": Object {
+      "height": "0px",
+    },
+    ".a": Object {
+      "height": "100px",
+    },
+    ".b": Object {
+      "height": "100px",
+    },
+    ".c": Object {
+      "height": "100px",
+    },
+    ".d": Object {
+      "height": "100px",
+    },
+    ".e": Object {
+      "height": "100px",
+    },
+    ".f": Object {},
+    ".g": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 indicator-bottom 1`] = `
+Object {
+  "@app-component/testindicatorbottom": Object {
+    ".A": Object {
+      "indicatorBottom": "0px",
+    },
+    ".B": Object {
+      "indicatorBottom": "10px",
+    },
+    ".C": Object {
+      "indicatorBottom": "10%",
+    },
+    ".a": Object {
+      "indicatorBottom": "10px",
+    },
+    ".b": Object {
+      "indicatorBottom": "10px",
+    },
+    ".c": Object {
+      "indicatorBottom": "10px",
+    },
+    ".d": Object {},
+    ".e": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 indicator-color 1`] = `
+Object {
+  "@app-component/testindicatorcolor": Object {
+    ".A": Object {
+      "indicatorColor": "#FF0000",
+    },
+    ".B1": Object {
+      "indicatorColor": "#FFFFFF",
+    },
+    ".B2": Object {
+      "indicatorColor": "#FFFFFF",
+    },
+    ".C1": Object {
+      "indicatorColor": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "indicatorColor": "rgb(0,0,0)",
+    },
+    ".C3": Object {
+      "indicatorColor": "hsl(360,100%,100%)",
+    },
+    ".C4": Object {
+      "indicatorColor": "hsl(0,0%,0%)",
+    },
+    ".D1": Object {
+      "indicatorColor": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "indicatorColor": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "indicatorColor": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "indicatorColor": "rgba(255,255,255,0.5)",
+    },
+    ".E1": Object {
+      "indicatorColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".E2": Object {
+      "indicatorColor": "hsla(0,0%,0%,0)",
+    },
+    ".E3": Object {
+      "indicatorColor": "hsla(0,0%,0%,1)",
+    },
+    ".E4": Object {
+      "indicatorColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 indicator-left 1`] = `
+Object {
+  "@app-component/testindicatorleft": Object {
+    ".A": Object {
+      "indicatorLeft": "0px",
+    },
+    ".B": Object {
+      "indicatorLeft": "10px",
+    },
+    ".C": Object {
+      "indicatorLeft": "10%",
+    },
+    ".a": Object {
+      "indicatorLeft": "10px",
+    },
+    ".b": Object {
+      "indicatorLeft": "10px",
+    },
+    ".c": Object {
+      "indicatorLeft": "10px",
+    },
+    ".d": Object {},
+    ".e": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 indicator-right 1`] = `
+Object {
+  "@app-component/testindicatorright": Object {
+    ".A": Object {
+      "indicatorRight": "0px",
+    },
+    ".B": Object {
+      "indicatorRight": "10px",
+    },
+    ".C": Object {
+      "indicatorRight": "10%",
+    },
+    ".a": Object {
+      "indicatorRight": "10px",
+    },
+    ".b": Object {
+      "indicatorRight": "10px",
+    },
+    ".c": Object {
+      "indicatorRight": "10px",
+    },
+    ".d": Object {},
+    ".e": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 indicator-selected-color 1`] = `
+Object {
+  "@app-component/testindicatorselectedcolor": Object {
+    ".A": Object {
+      "indicatorSelectedColor": "#FF0000",
+    },
+    ".B1": Object {
+      "indicatorSelectedColor": "#FFFFFF",
+    },
+    ".B2": Object {
+      "indicatorSelectedColor": "#FFFFFF",
+    },
+    ".C1": Object {
+      "indicatorSelectedColor": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "indicatorSelectedColor": "rgb(0,0,0)",
+    },
+    ".C3": Object {
+      "indicatorSelectedColor": "hsl(360,100%,100%)",
+    },
+    ".C4": Object {
+      "indicatorSelectedColor": "hsl(0,0%,0%)",
+    },
+    ".D1": Object {
+      "indicatorSelectedColor": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "indicatorSelectedColor": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "indicatorSelectedColor": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "indicatorSelectedColor": "rgba(255,255,255,0.5)",
+    },
+    ".E1": Object {
+      "indicatorSelectedColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".E2": Object {
+      "indicatorSelectedColor": "hsla(0,0%,0%,0)",
+    },
+    ".E3": Object {
+      "indicatorSelectedColor": "hsla(0,0%,0%,1)",
+    },
+    ".E4": Object {
+      "indicatorSelectedColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 indicator-size 1`] = `
+Object {
+  "@app-component/testindicatorsize": Object {
+    ".A": Object {
+      "indicatorSize": "0px",
+    },
+    ".B": Object {
+      "indicatorSize": "10px",
+    },
+    ".C": Object {
+      "indicatorSize": "10px",
+    },
+    ".a": Object {
+      "indicatorSize": "10%",
+    },
+    ".b": Object {
+      "indicatorSize": "10px",
+    },
+    ".c": Object {
+      "indicatorSize": "10px",
+    },
+    ".d": Object {
+      "indicatorSize": "10px",
+    },
+    ".e": Object {},
+    ".f": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 indicator-top 1`] = `
+Object {
+  "@app-component/testindicatortop": Object {
+    ".A": Object {
+      "indicatorTop": "0px",
+    },
+    ".B": Object {
+      "indicatorTop": "10px",
+    },
+    ".C": Object {
+      "indicatorTop": "10%",
+    },
+    ".a": Object {
+      "indicatorTop": "10px",
+    },
+    ".b": Object {
+      "indicatorTop": "10px",
+    },
+    ".c": Object {
+      "indicatorTop": "10px",
+    },
+    ".d": Object {},
+    ".e": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 justify-content 1`] = `
+Object {
+  "@app-component/testjustifycontent": Object {
+    ".A": Object {
+      "justifyContent": "flex-start",
+    },
+    ".B": Object {
+      "justifyContent": "flex-end",
+    },
+    ".C": Object {
+      "justifyContent": "center",
+    },
+    ".D": Object {
+      "justifyContent": "space-between",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {},
+    ".b": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 left 1`] = `
+Object {
+  "@app-component/testleft": Object {
+    ".A": Object {
+      "left": "0px",
+    },
+    ".B1": Object {
+      "left": "100px",
+    },
+    ".B2": Object {
+      "left": "100px",
+    },
+    ".C": Object {
+      "left": "20%",
+    },
+    ".a": Object {},
+    ".b": Object {},
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 line-height 1`] = `
+Object {
+  "@app-component/testlineheight": Object {
+    ".A": Object {
+      "lineHeight": "30px",
+    },
+    ".B": Object {
+      "lineHeight": "30px",
+    },
+    ".C": Object {
+      "lineHeight": "0px",
+    },
+    ".a1": Object {
+      "lineHeight": "30px",
+    },
+    ".a2": Object {
+      "lineHeight": "30px",
+    },
+    ".a3": Object {
+      "lineHeight": "30px",
+    },
+    ".b": Object {
+      "lineHeight": "30%",
+    },
+    ".c": Object {
+      "lineHeight": "30px",
+    },
+    ".d": Object {
+      "lineHeight": "1.5px",
+    },
+    ".e": Object {},
+    ".f": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 lines 1`] = `
+Object {
+  "@app-component/testlines": Object {
+    ".A": Object {
+      "lines": -1,
+    },
+    ".B": Object {
+      "lines": 0,
+    },
+    ".C": Object {
+      "lines": 1,
+    },
+    ".D": Object {
+      "lines": 10,
+    },
+    ".a": Object {},
+    ".b": Object {},
+    ".c": Object {},
+    ".d": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 margin 1`] = `
+Object {
+  "@app-component/testmargin": Object {
+    ".A1": Object {
+      "marginBottom": "0px",
+      "marginLeft": "0px",
+      "marginRight": "0px",
+      "marginTop": "0px",
+    },
+    ".A2": Object {
+      "marginBottom": "10px",
+      "marginLeft": "10px",
+      "marginRight": "10px",
+      "marginTop": "10px",
+    },
+    ".A3": Object {
+      "marginBottom": "10px",
+      "marginLeft": "10px",
+      "marginRight": "10px",
+      "marginTop": "10px",
+    },
+    ".A4": Object {
+      "marginBottom": "10%",
+      "marginLeft": "10%",
+      "marginRight": "10%",
+      "marginTop": "10%",
+    },
+    ".B1": Object {
+      "marginBottom": "10px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".B2": Object {
+      "marginBottom": "10px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".B3": Object {
+      "marginBottom": "10px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".B4": Object {
+      "marginBottom": "10px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".B5": Object {
+      "marginBottom": "10%",
+      "marginLeft": "20%",
+      "marginRight": "20%",
+      "marginTop": "10%",
+    },
+    ".C1": Object {
+      "marginBottom": "30px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".C2": Object {
+      "marginBottom": "30px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".C3": Object {
+      "marginBottom": "30px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".C4": Object {
+      "marginBottom": "30px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".C5": Object {
+      "marginBottom": "30px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".C6": Object {
+      "marginBottom": "30px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10%",
+    },
+    ".D1": Object {
+      "marginBottom": "30px",
+      "marginLeft": "40px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".D2": Object {
+      "marginBottom": "30px",
+      "marginLeft": "40px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".D3": Object {
+      "marginBottom": "30px",
+      "marginLeft": "40px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".D4": Object {
+      "marginBottom": "30px",
+      "marginLeft": "40px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".D5": Object {
+      "marginBottom": "30px",
+      "marginLeft": "40px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".D6": Object {
+      "marginBottom": "30px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+    },
+    ".D7": Object {
+      "marginBottom": "30px",
+      "marginLeft": "40px",
+      "marginRight": "20px",
+      "marginTop": "10%",
+    },
+    ".D8": Object {
+      "marginBottom": "0px",
+      "marginLeft": "40px",
+      "marginRight": "20px",
+      "marginTop": "10%",
+    },
+    ".E1": Object {
+      "marginBottom": "auto",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "marginTop": "auto",
+    },
+    ".E2": Object {
+      "marginBottom": "auto",
+      "marginLeft": "0px",
+      "marginRight": "0px",
+      "marginTop": "auto",
+    },
+    ".E3": Object {
+      "marginBottom": "0px",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "marginTop": "0px",
+    },
+    ".E4": Object {
+      "marginBottom": "auto",
+      "marginLeft": "0px",
+      "marginRight": "0px",
+      "marginTop": "auto",
+    },
+    ".E5": Object {
+      "marginBottom": "auto",
+      "marginLeft": "0px",
+      "marginRight": "0px",
+      "marginTop": "auto",
+    },
+    ".E6": Object {
+      "marginBottom": "auto",
+      "marginLeft": "0px",
+      "marginRight": "auto",
+      "marginTop": "auto",
+    },
+    ".E7": Object {
+      "marginBottom": "auto",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "marginTop": "auto",
+    },
+    ".a": Object {},
+    ".b": Object {},
+    ".c": Object {},
+    ".d": Object {},
+    ".e": Object {},
+    ".f": Object {},
+    ".g": Object {},
+    ".h": Object {},
+    ".i": Object {},
+    ".j": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 margin-bottom 1`] = `
+Object {
+  "@app-component/testmarginbottom": Object {
+    ".A": Object {
+      "marginBottom": "0px",
+    },
+    ".B": Object {
+      "marginBottom": "10px",
+    },
+    ".C": Object {
+      "marginBottom": "10px",
+    },
+    ".D": Object {
+      "marginBottom": "10%",
+    },
+    ".E": Object {
+      "marginBottom": "auto",
+    },
+    ".a": Object {
+      "marginBottom": "10px",
+    },
+    ".b": Object {
+      "marginBottom": "10px",
+    },
+    ".c": Object {
+      "marginBottom": "10px",
+    },
+    ".d": Object {
+      "marginBottom": "10px",
+    },
+    ".e": Object {
+      "marginBottom": "10px",
+    },
+    ".f": Object {},
+    ".g": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 margin-left 1`] = `
+Object {
+  "@app-component/testmarginleft": Object {
+    ".A": Object {
+      "marginLeft": "0px",
+    },
+    ".B": Object {
+      "marginLeft": "10px",
+    },
+    ".C": Object {
+      "marginLeft": "10px",
+    },
+    ".D": Object {
+      "marginLeft": "10%",
+    },
+    ".E": Object {
+      "marginLeft": "auto",
+    },
+    ".a": Object {
+      "marginLeft": "10px",
+    },
+    ".b": Object {
+      "marginLeft": "10px",
+    },
+    ".c": Object {
+      "marginLeft": "10px",
+    },
+    ".d": Object {
+      "marginLeft": "10px",
+    },
+    ".e": Object {
+      "marginLeft": "10px",
+    },
+    ".f": Object {},
+    ".g": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 margin-right 1`] = `
+Object {
+  "@app-component/testmarginright": Object {
+    ".A": Object {
+      "marginRight": "0px",
+    },
+    ".B": Object {
+      "marginRight": "10px",
+    },
+    ".C": Object {
+      "marginRight": "10px",
+    },
+    ".D": Object {
+      "marginRight": "10%",
+    },
+    ".E": Object {
+      "marginRight": "auto",
+    },
+    ".a": Object {
+      "marginRight": "10px",
+    },
+    ".b": Object {
+      "marginRight": "10px",
+    },
+    ".c": Object {
+      "marginRight": "10px",
+    },
+    ".d": Object {
+      "marginRight": "10px",
+    },
+    ".e": Object {
+      "marginRight": "10px",
+    },
+    ".f": Object {},
+    ".g": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 margin-top 1`] = `
+Object {
+  "@app-component/testmargintop": Object {
+    ".A": Object {
+      "marginTop": "0px",
+    },
+    ".B": Object {
+      "marginTop": "10px",
+    },
+    ".C": Object {
+      "marginTop": "10px",
+    },
+    ".D": Object {
+      "marginTop": "10%",
+    },
+    ".E": Object {
+      "marginTop": "auto",
+    },
+    ".a": Object {
+      "marginTop": "10px",
+    },
+    ".b": Object {
+      "marginTop": "10px",
+    },
+    ".c": Object {
+      "marginTop": "10px",
+    },
+    ".d": Object {
+      "marginTop": "10px",
+    },
+    ".e": Object {
+      "marginTop": "10px",
+    },
+    ".f": Object {},
+    ".g": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 media-query-less 1`] = `
+Object {
+  "@app-component/testmediaqueryless": Object {
+    ".demo": Object {
+      "color": "#FF0000",
+    },
+    "@MEDIA": Array [
+      Object {
+        ".ls": Object {
+          "color": "#000000",
+        },
+        "condition": "screen and (max-width: 100)",
+      },
+      Object {
+        ".demo1": Object {
+          "color": "#FF0000",
+        },
+        ".demo2": Object {
+          "color": "#FF0000",
+        },
+        ".ls1": Object {
+          "color": "#111111",
+        },
+        "condition": "screen and (orientation: portrait)",
+      },
+      Object {
+        ".ls2": Object {
+          "color": "#222222",
+        },
+        "condition": "screen and (max-device-height: 100)",
+      },
+    ],
+  },
+}
+`;
+
+exports[`Style编译测试 media-query1 1`] = `
+Object {
+  "@app-component/testmediaquery1": Object {
+    ".demo1": Object {
+      "color": "#FF0000",
+      "height": "200px",
+      "width": "200px",
+    },
+    ".demo2": Object {
+      "borderBottomColor": "#123456",
+      "borderBottomWidth": "1px",
+      "borderLeftColor": "#123456",
+      "borderLeftWidth": "1px",
+      "borderRightColor": "#123456",
+      "borderRightWidth": "1px",
+      "borderStyle": "solid",
+      "borderTopColor": "#123456",
+      "borderTopWidth": "1px",
+    },
+    "@MEDIA": Array [
+      Object {
+        ".box1": Object {
+          "height": "200px",
+          "width": "200px",
+        },
+        "condition": "screen and (min-height: 1500) and (max-height: 500) or (900 <= height < 1100)",
+      },
+      Object {
+        ".box1": Object {
+          "height": "200px",
+          "width": "200px",
+        },
+        "condition": "not screen and (min-width: 1500) and (max-width: 500) and (900 < width <= 1100)",
+      },
+      Object {
+        ".box2": Object {
+          "width": "100px",
+        },
+        "condition": "only screen and (min-device-height: 1500) and (max-device-height: 500) and (900 < device-height < 1100)",
+      },
+      Object {
+        ".box3": Object {
+          "width": "100px",
+        },
+        "condition": "screen and (min-device-width: 1500) and (max-device-width: 500) and (900 <= device-width <= 1100)",
+      },
+      Object {
+        ".box4": Object {
+          "width": "100px",
+        },
+        "condition": "screen and (width: 300) and (height: 500) and (device-width: 300) and (device-height: 500)",
+      },
+      Object {
+        ".box5": Object {
+          "width": "100px",
+        },
+        "condition": "screen and (orientation: portrait) or not screen and (orientation: landscape)",
+      },
+      Object {
+        ".box6": Object {
+          "width": "100px",
+        },
+        "condition": "screen and (resolution: 96dpi) and (resolution: 1dppx) and (resolution: 36dpcm)",
+      },
+      Object {
+        ".box7": Object {
+          "width": "100px",
+        },
+        "condition": "screen and (min-resolution: 96dpi) and (max-resolution: 1dppx)",
+      },
+      Object {
+        ".box8": Object {
+          "width": "100px",
+        },
+        "condition": "screen and (aspect-ratio: 1/2) and (1 /2 > aspect-ratio > 1/5)",
+      },
+      Object {
+        ".box9": Object {
+          "width": "100px",
+        },
+        "condition": "screen and (max-aspect-ratio: 1/1) and (min-aspect-ratio: 0.1)",
+      },
+    ],
+  },
+}
+`;
+
+exports[`Style编译测试 media-query2 1`] = `
+Object {
+  "@app-component/testmediaquery2": Object {
+    ".container1": Object {
+      "backgroundColor": "#00FF00",
+      "width": "1000px",
+    },
+    ".container2": Object {
+      "backgroundColor": "#00FF00",
+      "height": "2000px",
+    },
+    ".demo-page": Object {
+      "alignItems": "center",
+      "flexDirection": "column-reverse",
+      "justifyContent": "center",
+    },
+    "@MEDIA": Array [
+      Object {
+        ".commom3-b": Object {
+          "color": "#000033",
+        },
+        "condition": "screen and (height > 100) and screen and (orientation: landscape) and screen and (resolution: 96dpi)",
+      },
+      Object {
+        ".common1-a": Object {
+          "height": "100px",
+          "width": "100px",
+        },
+        "condition": "screen and (height > 100) and screen and (orientation: landscape) and screen and (min-device-height: 1000)",
+      },
+      Object {
+        ".common-a": Object {
+          "height": "100px",
+          "width": "100px",
+        },
+        "condition": "screen and (height > 100) and screen and (min-resolution: 70dpi)",
+      },
+      Object {
+        ".common-b": Object {
+          "width": "200px",
+        },
+        "condition": "screen and (height > 100) and screen and (min-resolution: 70dpi) and not screen and (min-resolution: 80dpi)",
+      },
+      Object {
+        ".commom-d": Object {
+          "color": "#000000",
+        },
+        "condition": "screen and (height > 100)",
+      },
+      Object {
+        ".commom3-b": Object {
+          "color": "#000033",
+        },
+        "condition": "screen and (orientation: portrait) and screen and (resolution: 96dpi)",
+      },
+      Object {
+        ".common1-a": Object {
+          "height": "100px",
+          "width": "100px",
+        },
+        "condition": "screen and (orientation: portrait) and screen and (min-device-height: 1000)",
+      },
+      Object {
+        ".container1": Object {
+          "backgroundColor": "#00FF00",
+          "width": "100px",
+        },
+        ".container2": Object {
+          "backgroundColor": "#00FF00",
+          "height": "200px",
+        },
+        "condition": "screen and (orientation: landscape)",
+      },
+      Object {
+        ".container4": Object {
+          "height": "1400px",
+        },
+        "condition": "screen and (orientation: landscape) and screen and (min-height: 400) or (min-width: 400) and screen and (max-height: 500)",
+      },
+      Object {
+        ".container3": Object {
+          "color": "#FF0000",
+          "fontSize": "50px",
+          "height": "1300px",
+        },
+        "condition": "screen and (orientation: landscape) and screen and (min-height: 400) or (min-width: 400)",
+      },
+      Object {
+        ".containerA": Object {
+          "backgroundColor": "#00FF00",
+          "width": "300px",
+        },
+        ".containerB": Object {
+          "backgroundColor": "#00FF00",
+          "height": "400px",
+        },
+        ".custom-color": Object {
+          "color": "#fff000",
+        },
+        "condition": "screen and (min-width: 400) and (max-width: 700) or screen and (aspect-ratio: 1/1)",
+      },
+      Object {
+        ".b2": Object {
+          "color": "#abcdef",
+        },
+        "condition": "only screen and (100 <= width < 200) and screen and (orientation: landscape)",
+      },
+      Object {
+        ".a2": Object {
+          "color": "#abcdef",
+        },
+        "condition": "only screen and (100 <= width < 200)",
+      },
+    ],
+  },
+}
+`;
+
+exports[`Style编译测试 mylocation 1`] = `
+Object {
+  "@app-component/testmylocation": Object {
+    ".A1": Object {
+      "mylocationFillColor": "#FF0000",
+      "mylocationIconPath": "/packages/hap-packager/test/case/ux/TestStyle/Mylocation/ma1.png",
+      "mylocationStrokeColor": "#008000",
+    },
+    ".A2": Object {
+      "mylocationFillColor": "rgb(255,255,255)",
+      "mylocationIconPath": "/packages/hap-packager/test/case/ux/TestStyle/Mylocation/ma1.png",
+      "mylocationStrokeColor": "#008000",
+    },
+    ".A3": Object {
+      "mylocationFillColor": "#FF0000",
+      "mylocationIconPath": "/packages/hap-packager/test/case/ux/TestStyle/Mylocation/ma1.png",
+      "mylocationStrokeColor": "rgba(255,255,255,0.5)",
+    },
+    ".B1": Object {},
+    ".B2": Object {},
+    ".C1": Object {
+      "mylocationFillColor": "#FF0000",
+      "mylocationIconPath": "/packages/hap-packager/test/case/ux/TestStyle/Mylocation/ma1.png",
+    },
+    ".C2": Object {
+      "mylocationIconPath": "/packages/hap-packager/test/case/ux/TestStyle/Mylocation/ma1.png",
+    },
+    ".C3": Object {
+      "mylocationFillColor": "#FF0000",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 mylocation-fill-color 1`] = `
+Object {
+  "@app-component/testmylocationfillcolor": Object {
+    ".A": Object {
+      "mylocationFillColor": "#FF0000",
+    },
+    ".B1": Object {
+      "mylocationFillColor": "#FFFFFF",
+    },
+    ".B2": Object {
+      "mylocationFillColor": "#FFFFFF",
+    },
+    ".C1": Object {
+      "mylocationFillColor": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "mylocationFillColor": "rgb(0,0,0)",
+    },
+    ".C3": Object {
+      "mylocationFillColor": "hsl(360,100%,100%)",
+    },
+    ".C4": Object {
+      "mylocationFillColor": "hsl(0,0%,0%)",
+    },
+    ".D1": Object {
+      "mylocationFillColor": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "mylocationFillColor": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "mylocationFillColor": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "mylocationFillColor": "rgba(255,255,255,0.5)",
+    },
+    ".E1": Object {
+      "mylocationFillColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".E2": Object {
+      "mylocationFillColor": "hsla(0,0%,0%,0)",
+    },
+    ".E3": Object {
+      "mylocationFillColor": "hsla(0,0%,0%,1)",
+    },
+    ".E4": Object {
+      "mylocationFillColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 mylocation-icon-path 1`] = `
+Object {
+  "@app-component/testmylocationiconpath": Object {
+    ".A": Object {
+      "mylocationIconPath": "https://www.baidu.com/images/ma1.png",
+    },
+    ".B": Object {
+      "mylocationIconPath": "/packages/hap-packager/test/case/ux/TestStyle/MylocationIconPath/ma1.png",
+    },
+    ".C": Object {
+      "mylocationIconPath": "data:image/png;base64,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",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {
+      "mylocationIconPath": "/packages/hap-packager/test/case/ux/TestStyle/MylocationIconPath/a",
+    },
+    ".b2": Object {
+      "mylocationIconPath": "/packages/hap-packager/test/case/ux/TestStyle/MylocationIconPath/@uri",
+    },
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 mylocation-stroke-color 1`] = `
+Object {
+  "@app-component/testmylocationstrokecolor": Object {
+    ".A": Object {
+      "mylocationStrokeColor": "#FF0000",
+    },
+    ".B1": Object {
+      "mylocationStrokeColor": "#FFFFFF",
+    },
+    ".B2": Object {
+      "mylocationStrokeColor": "#FFFFFF",
+    },
+    ".C1": Object {
+      "mylocationStrokeColor": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "mylocationStrokeColor": "rgb(0,0,0)",
+    },
+    ".C3": Object {
+      "mylocationStrokeColor": "hsl(360,100%,100%)",
+    },
+    ".C4": Object {
+      "mylocationStrokeColor": "hsl(0,0%,0%)",
+    },
+    ".D1": Object {
+      "mylocationStrokeColor": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "mylocationStrokeColor": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "mylocationStrokeColor": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "mylocationStrokeColor": "rgba(255,255,255,0.5)",
+    },
+    ".E1": Object {
+      "mylocationStrokeColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".E2": Object {
+      "mylocationStrokeColor": "hsla(0,0%,0%,0)",
+    },
+    ".E3": Object {
+      "mylocationStrokeColor": "hsla(0,0%,0%,1)",
+    },
+    ".E4": Object {
+      "mylocationStrokeColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 object-fit 1`] = `
+Object {
+  "@app-component/testobjectfit": Object {
+    ".A1": Object {
+      "objectFit": "fill",
+    },
+    ".A2": Object {
+      "objectFit": "contain",
+    },
+    ".A3": Object {
+      "objectFit": "cover",
+    },
+    ".A4": Object {
+      "objectFit": "none",
+    },
+    ".A5": Object {
+      "objectFit": "scale-down",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 opacity 1`] = `
+Object {
+  "@app-component/testopacity": Object {
+    ".A1": Object {
+      "opacity": 1,
+    },
+    ".A2": Object {
+      "opacity": 1,
+    },
+    ".B1": Object {
+      "opacity": 0.5,
+    },
+    ".B2": Object {
+      "opacity": 0.5,
+    },
+    ".a": Object {
+      "opacity": 2,
+    },
+    ".b": Object {},
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 padding 1`] = `
+Object {
+  "@app-component/testpadding": Object {
+    ".A1": Object {
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "paddingTop": "0px",
+    },
+    ".A2": Object {
+      "paddingBottom": "10px",
+      "paddingLeft": "10px",
+      "paddingRight": "10px",
+      "paddingTop": "10px",
+    },
+    ".A3": Object {
+      "paddingBottom": "10px",
+      "paddingLeft": "10px",
+      "paddingRight": "10px",
+      "paddingTop": "10px",
+    },
+    ".A4": Object {
+      "paddingBottom": "10%",
+      "paddingLeft": "10%",
+      "paddingRight": "10%",
+      "paddingTop": "10%",
+    },
+    ".B1": Object {
+      "paddingBottom": "10px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".B2": Object {
+      "paddingBottom": "10px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".B3": Object {
+      "paddingBottom": "10px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".B4": Object {
+      "paddingBottom": "10px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".B5": Object {
+      "paddingBottom": "10%",
+      "paddingLeft": "20%",
+      "paddingRight": "20%",
+      "paddingTop": "10%",
+    },
+    ".C1": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".C2": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".C3": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".C4": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".C5": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".C6": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "10%",
+    },
+    ".D1": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "40px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".D2": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "40px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".D3": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "40px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".D4": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "40px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".D5": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "40px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".D6": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "10px",
+    },
+    ".D7": Object {
+      "paddingBottom": "30px",
+      "paddingLeft": "40px",
+      "paddingRight": "20px",
+      "paddingTop": "10%",
+    },
+    ".D8": Object {
+      "paddingBottom": "0px",
+      "paddingLeft": "40px",
+      "paddingRight": "20px",
+      "paddingTop": "10%",
+    },
+    ".E": Object {
+      "paddingBottom": "0px",
+      "paddingLeft": "0px",
+      "paddingRight": "0px",
+      "paddingTop": "0px",
+    },
+    ".a": Object {},
+    ".b": Object {},
+    ".c": Object {},
+    ".d": Object {},
+    ".e": Object {},
+    ".f": Object {},
+    ".g": Object {},
+    ".h": Object {},
+    ".i": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 padding-bottom 1`] = `
+Object {
+  "@app-component/testpaddingbottom": Object {
+    ".A": Object {
+      "paddingBottom": "0px",
+    },
+    ".B": Object {
+      "paddingBottom": "10px",
+    },
+    ".C": Object {
+      "paddingBottom": "10px",
+    },
+    ".D": Object {
+      "paddingBottom": "10%",
+    },
+    ".a": Object {
+      "paddingBottom": "10px",
+    },
+    ".b": Object {
+      "paddingBottom": "10px",
+    },
+    ".c": Object {
+      "paddingBottom": "10px",
+    },
+    ".d": Object {
+      "paddingBottom": "10px",
+    },
+    ".e": Object {
+      "paddingBottom": "10px",
+    },
+    ".f": Object {},
+    ".g": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 padding-left 1`] = `
+Object {
+  "@app-component/testpaddingleft": Object {
+    ".A": Object {
+      "paddingLeft": "0px",
+    },
+    ".B": Object {
+      "paddingLeft": "10px",
+    },
+    ".C": Object {
+      "paddingLeft": "10px",
+    },
+    ".D": Object {
+      "paddingLeft": "10%",
+    },
+    ".a": Object {
+      "paddingLeft": "10px",
+    },
+    ".b": Object {
+      "paddingLeft": "10px",
+    },
+    ".c": Object {
+      "paddingLeft": "10px",
+    },
+    ".d": Object {
+      "paddingLeft": "10px",
+    },
+    ".e": Object {
+      "paddingLeft": "10px",
+    },
+    ".f": Object {},
+    ".g": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 padding-right 1`] = `
+Object {
+  "@app-component/testpaddingright": Object {
+    ".A": Object {
+      "paddingRight": "0px",
+    },
+    ".B": Object {
+      "paddingRight": "10px",
+    },
+    ".C": Object {
+      "paddingRight": "10px",
+    },
+    ".D": Object {
+      "paddingRight": "10%",
+    },
+    ".a": Object {
+      "paddingRight": "10px",
+    },
+    ".b": Object {
+      "paddingRight": "10px",
+    },
+    ".c": Object {
+      "paddingRight": "10px",
+    },
+    ".d": Object {
+      "paddingRight": "10px",
+    },
+    ".e": Object {
+      "paddingRight": "10px",
+    },
+    ".f": Object {},
+    ".g": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 padding-top 1`] = `
+Object {
+  "@app-component/testpaddingtop": Object {
+    ".A": Object {
+      "paddingTop": "0px",
+    },
+    ".B": Object {
+      "paddingTop": "10px",
+    },
+    ".C": Object {
+      "paddingTop": "10px",
+    },
+    ".D": Object {
+      "paddingTop": "10%",
+    },
+    ".a": Object {
+      "paddingTop": "10px",
+    },
+    ".b": Object {
+      "paddingTop": "10px",
+    },
+    ".c": Object {
+      "paddingTop": "10px",
+    },
+    ".d": Object {
+      "paddingTop": "10px",
+    },
+    ".e": Object {
+      "paddingTop": "10px",
+    },
+    ".f": Object {},
+    ".g": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 placeholder-color 1`] = `
+Object {
+  "@app-component/testplaceholdercolor": Object {
+    ".A": Object {
+      "placeholderColor": "#FF0000",
+    },
+    ".B1": Object {
+      "placeholderColor": "#FFFFFF",
+    },
+    ".B2": Object {
+      "placeholderColor": "#FFFFFF",
+    },
+    ".C1": Object {
+      "placeholderColor": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "placeholderColor": "rgb(0,0,0)",
+    },
+    ".C3": Object {
+      "placeholderColor": "hsl(360,100%,100%)",
+    },
+    ".C4": Object {
+      "placeholderColor": "hsl(0,0%,0%)",
+    },
+    ".D1": Object {
+      "placeholderColor": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "placeholderColor": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "placeholderColor": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "placeholderColor": "rgba(255,255,255,0.5)",
+    },
+    ".E1": Object {
+      "placeholderColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".E2": Object {
+      "placeholderColor": "hsla(0,0%,0%,0)",
+    },
+    ".E3": Object {
+      "placeholderColor": "hsla(0,0%,0%,1)",
+    },
+    ".E4": Object {
+      "placeholderColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 position 1`] = `
+Object {
+  "@app-component/testposition": Object {
+    ".A1": Object {
+      "position": "static",
+    },
+    ".A2": Object {
+      "position": "fixed",
+    },
+    ".A3": Object {
+      "position": "absolute",
+    },
+    ".A4": Object {
+      "position": "relative",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 progress-color 1`] = `
+Object {
+  "@app-component/testprogresscolor": Object {
+    ".A": Object {
+      "progressColor": "#FF0000",
+    },
+    ".B1": Object {
+      "progressColor": "#FFFFFF",
+    },
+    ".B2": Object {
+      "progressColor": "#FFFFFF",
+    },
+    ".C1": Object {
+      "progressColor": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "progressColor": "rgb(0,0,0)",
+    },
+    ".C3": Object {
+      "progressColor": "hsl(360,100%,100%)",
+    },
+    ".C4": Object {
+      "progressColor": "hsl(0,0%,0%)",
+    },
+    ".D1": Object {
+      "progressColor": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "progressColor": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "progressColor": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "progressColor": "rgba(255,255,255,0.5)",
+    },
+    ".E1": Object {
+      "progressColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".E2": Object {
+      "progressColor": "hsla(0,0%,0%,0)",
+    },
+    ".E3": Object {
+      "progressColor": "hsla(0,0%,0%,1)",
+    },
+    ".E4": Object {
+      "progressColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 pseudo 1`] = `
+Object {
+  "@app-component/testpseudo": Object {
+    ".A": Object {
+      "flex": 0,
+      "flex:active": 5,
+      "flex:checked": 2,
+      "flex:disabled": 3,
+      "flex:focus": 4,
+      "flex:visited": 1,
+    },
+    ".a": Object {
+      "flex": 0,
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 resize-mode 1`] = `
+Object {
+  "@app-component/testresizemode": Object {
+    ".A": Object {
+      "resizeMode": "cover",
+    },
+    ".B": Object {
+      "resizeMode": "contain",
+    },
+    ".C": Object {
+      "resizeMode": "stretch",
+    },
+    ".D": Object {
+      "resizeMode": "center",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {},
+    ".b": Object {},
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 right 1`] = `
+Object {
+  "@app-component/testright": Object {
+    ".A": Object {
+      "right": "0px",
+    },
+    ".B1": Object {
+      "right": "100px",
+    },
+    ".B2": Object {
+      "right": "100px",
+    },
+    ".C": Object {
+      "right": "20%",
+    },
+    ".a": Object {},
+    ".b": Object {},
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 rotate 1`] = `
+Object {
+  "@app-component/testrotate": Object {
+    ".A1": Object {
+      "transform": "{\\"rotate\\":\\"10deg\\"}",
+    },
+    ".A2": Object {
+      "transform": "{\\"rotate\\":\\"10deg\\"}",
+    },
+    ".A3": Object {
+      "transform": "{\\"rotate\\":\\"-10deg\\"}",
+    },
+    ".A4": Object {
+      "transform": "{\\"rotate\\":\\"-10deg\\"}",
+    },
+    ".B1": Object {
+      "transform": "{\\"rotate\\":\\"10deg\\"}",
+    },
+    ".a1": Object {
+      "transform": "{\\"rotate\\":\\"10deg\\"}",
+    },
+    ".a2": Object {},
+    ".a3": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 rotate-x 1`] = `
+Object {
+  "@app-component/testrotateX": Object {
+    ".A1": Object {
+      "transform": "{\\"rotateX\\":\\"10deg\\"}",
+    },
+    ".A2": Object {
+      "transform": "{\\"rotateX\\":\\"10deg\\"}",
+    },
+    ".A3": Object {
+      "transform": "{\\"rotateX\\":\\"10deg\\"}",
+    },
+    ".B1": Object {
+      "transform": "{\\"rotateX\\":\\"-10deg\\"}",
+    },
+    ".a1": Object {
+      "transform": "{\\"rotateX\\":\\"10deg\\"}",
+    },
+    ".a2": Object {},
+    ".a3": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 rotate-y 1`] = `
+Object {
+  "@app-component/testrotateY": Object {
+    ".A1": Object {
+      "transform": "{\\"rotateY\\":\\"10deg\\"}",
+    },
+    ".A2": Object {
+      "transform": "{\\"rotateY\\":\\"10deg\\"}",
+    },
+    ".A3": Object {
+      "transform": "{\\"rotateY\\":\\"10deg\\"}",
+    },
+    ".B1": Object {
+      "transform": "{\\"rotateY\\":\\"-10deg\\"}",
+    },
+    ".a1": Object {
+      "transform": "{\\"rotateY\\":\\"10deg\\"}",
+    },
+    ".a2": Object {},
+    ".a3": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 scale 1`] = `
+Object {
+  "@app-component/testscale": Object {
+    ".A1": Object {
+      "transform": "{\\"scaleX\\":1,\\"scaleY\\":1}",
+    },
+    ".A2": Object {
+      "transform": "{\\"scaleX\\":1,\\"scaleY\\":0.5}",
+    },
+    ".B1": Object {
+      "transform": "{\\"scaleX\\":1,\\"scaleY\\":1}",
+    },
+    ".B2": Object {
+      "transform": "{\\"scaleX\\":0.5,\\"scaleY\\":0.5}",
+    },
+    ".C1": Object {
+      "transform": "{\\"scaleX\\":-1,\\"scaleY\\":-1}",
+    },
+    ".C2": Object {
+      "transform": "{\\"scaleX\\":1,\\"scaleY\\":-1}",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 scale-x 1`] = `
+Object {
+  "@app-component/testscaleX": Object {
+    ".A1": Object {
+      "transform": "{\\"scaleX\\":1}",
+    },
+    ".A2": Object {
+      "transform": "{\\"scaleX\\":1}",
+    },
+    ".B1": Object {
+      "transform": "{\\"scaleX\\":-1}",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 scale-y 1`] = `
+Object {
+  "@app-component/testscaleY": Object {
+    ".A1": Object {
+      "transform": "{\\"scaleY\\":1}",
+    },
+    ".A2": Object {
+      "transform": "{\\"scaleY\\":1}",
+    },
+    ".B1": Object {
+      "transform": "{\\"scaleY\\":-1}",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 selected-color 1`] = `
+Object {
+  "@app-component/testselectedcolor": Object {
+    ".A": Object {
+      "selectedColor": "#FF0000",
+    },
+    ".B1": Object {
+      "selectedColor": "#FFFFFF",
+    },
+    ".B2": Object {
+      "selectedColor": "#FFFFFF",
+    },
+    ".C1": Object {
+      "selectedColor": "rgb(255,255,255)",
+    },
+    ".C2": Object {
+      "selectedColor": "rgb(0,0,0)",
+    },
+    ".C3": Object {
+      "selectedColor": "hsl(360,100%,100%)",
+    },
+    ".C4": Object {
+      "selectedColor": "hsl(0,0%,0%)",
+    },
+    ".D1": Object {
+      "selectedColor": "rgba(255,255,255,0.5)",
+    },
+    ".D2": Object {
+      "selectedColor": "rgba(0,0,0,0)",
+    },
+    ".D3": Object {
+      "selectedColor": "rgba(0,0,0,1)",
+    },
+    ".D4": Object {
+      "selectedColor": "rgba(255,255,255,0.5)",
+    },
+    ".E1": Object {
+      "selectedColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".E2": Object {
+      "selectedColor": "hsla(0,0%,0%,0)",
+    },
+    ".E3": Object {
+      "selectedColor": "hsla(0,0%,0%,1)",
+    },
+    ".E4": Object {
+      "selectedColor": "hsla(360,100%,100%,0.5)",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 selector 1`] = `
+Object {
+  "@app-component/index": Object {
+    "#testIdId2": Object {
+      "color": "#0000af",
+    },
+    "#testIdId3": Object {
+      "color": "#0000af",
+    },
+    "#testIdId4": Object {
+      "color": "#6969f3",
+    },
+    "#testInlineId1": Object {
+      "color": "#6969f3",
+    },
+    "#testInlineId2": Object {
+      "color": "#6969f3",
+    },
+    "#testInlineId3": Object {
+      "color": "#6969f3",
+    },
+    ".desc2": Object {
+      "color": "#00A000",
+    },
+    ".doc-page #test-class #testClassId1": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "test-class",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testClassId1",
+          },
+        ],
+      },
+      "color": "#0000af",
+    },
+    ".doc-page #test-class .class1": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "test-class",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "class1",
+          },
+        ],
+      },
+      "color": "#d3d3d3",
+    },
+    ".doc-page #test-class .class2": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "test-class",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "class2",
+          },
+        ],
+      },
+      "color": "#00A000",
+    },
+    ".doc-page #testId #testIdId1": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testId",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testIdId1",
+          },
+        ],
+      },
+      "color": "#d3d3d3",
+    },
+    ".doc-page #testId #testIdId2": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testId",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testIdId2",
+          },
+        ],
+      },
+      "color": "#00A000",
+    },
+    ".doc-page #testInline #testInlineId1": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testInline",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testInlineId1",
+          },
+        ],
+      },
+      "color": "#0000af",
+    },
+    ".doc-page #testInline #testInlineId2": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testInline",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testInlineId2",
+          },
+        ],
+      },
+      "color": "#0000af",
+    },
+    ".doc-page #testInline .testInlineClass1": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testInline",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "testInlineClass1",
+          },
+        ],
+      },
+      "color": "#00A000",
+    },
+    ".doc-page #testInline .testInlineClass2": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testInline",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "testInlineClass2",
+          },
+        ],
+      },
+      "color": "#00A000",
+    },
+    ".doc-page #testInline .testInlineClass3": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testInline",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "testInlineClass3",
+          },
+        ],
+      },
+      "color": "#00A000",
+    },
+    ".doc-page #testInline .testInlineClass4": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testInline",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "testInlineClass4",
+          },
+        ],
+      },
+      "color": "#00A000",
+    },
+    ".doc-page #testInline text": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testInline",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "n": "text",
+            "t": "t",
+          },
+        ],
+      },
+      "color": "#d3d3d3",
+    },
+    ".doc-page #testPesedoClass .testPesedoClassClass1": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testPesedoClass",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "testPesedoClassClass1",
+          },
+        ],
+      },
+      "backgroundColor": "#d3d3d3",
+      "borderBottomWidth": "1px",
+      "borderLeftWidth": "1px",
+      "borderRightWidth": "1px",
+      "borderTopWidth": "1px",
+      "color": "#0000af",
+      "color:disabled": "#ff0000",
+    },
+    ".doc-page #testScore #testScore1": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testScore",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testScore1",
+          },
+        ],
+      },
+      "color": "#6969f3",
+    },
+    ".doc-page #testScore #testScore2": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testScore",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testScore2",
+          },
+        ],
+      },
+      "color": "#6969f3",
+    },
+    ".doc-page #testScore #testScoreBody #testScore2": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testScore",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testScoreBody",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testScore2",
+          },
+        ],
+      },
+      "color": "#0000af",
+    },
+    ".doc-page #testScoreBody #testScore1": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testScoreBody",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testScore1",
+          },
+        ],
+      },
+      "color": "#0000af",
+    },
+    ".doc-page #testTag .flex-column > text": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testTag",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "flex-column",
+          },
+          Object {
+            "t": "child",
+          },
+          Object {
+            "n": "text",
+            "t": "t",
+          },
+        ],
+      },
+      "backgroundColor": "#949090",
+    },
+    ".doc-page #testTag div .class1": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testTag",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "n": "div",
+            "t": "t",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "class1",
+          },
+        ],
+      },
+      "color": "#00A000",
+    },
+    ".doc-page #testTag div text": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testTag",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "n": "div",
+            "t": "t",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "n": "text",
+            "t": "t",
+          },
+        ],
+      },
+      "color": "#d3d3d3",
+    },
+    ".doc-page .test-fragment .class-var-1": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "test-fragment",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "class-var-1",
+          },
+        ],
+      },
+      "color": "#FF0000",
+    },
+    ".doc-page .test-fragment .class-var-2": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "test-fragment",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "class-var-2",
+          },
+        ],
+      },
+      "color": "#0000FF",
+    },
+    ".doc-page .test-fragment .desc": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "test-fragment",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "desc",
+          },
+        ],
+      },
+      "color": "#FF0000",
+    },
+    ".doc-page .test-fragment .third": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "test-fragment",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "third",
+          },
+        ],
+      },
+      "color": "#D3D3D3",
+    },
+    ".doc-page .test-fragment .title": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-page",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "test-fragment",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "title",
+          },
+        ],
+      },
+      "fontWeight": "normal",
+    },
+    ".testInlineClass4": Object {
+      "color": "#5bb05b",
+    },
+    ".testInlineClass5": Object {
+      "color": "#5bb05b",
+    },
+    ".testPesedoClassClass1": Object {
+      "color:disabled": "#9C27B0",
+    },
+    "text": Object {
+      "fontWeight": "bold",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 selector-less 1`] = `
+Object {
+  "@app-component/index": Object {
+    ".page-less #testTag .doc-row-desc": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "page-less",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testTag",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-row-desc",
+          },
+        ],
+      },
+      "color": "#ff0000",
+    },
+    ".page-less #testTag .less-font-comma": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "page-less",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testTag",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "less-font-comma",
+          },
+        ],
+      },
+      "fontSize": "60px",
+    },
+    ".page-less #testTag .less-font-text": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "page-less",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testTag",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "less-font-text",
+          },
+        ],
+      },
+      "fontSize": "60px",
+    },
+    ".page-less text": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "page-less",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "n": "text",
+            "t": "t",
+          },
+        ],
+      },
+      "fontWeight": "bold",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 selector-less-file 1`] = `
+Object {
+  "@app-component/index": Object {
+    ".page-less #testTag .doc-row-desc": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "page-less",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testTag",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "doc-row-desc",
+          },
+        ],
+      },
+      "color": "#ff0000",
+    },
+    ".page-less #testTag .less-font-comma": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "page-less",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testTag",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "less-font-comma",
+          },
+        ],
+      },
+      "fontSize": "60px",
+    },
+    ".page-less #testTag .less-font-text": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "page-less",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "equals",
+            "i": false,
+            "n": "id",
+            "t": "a",
+            "v": "testTag",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "less-font-text",
+          },
+        ],
+      },
+      "fontSize": "60px",
+    },
+    ".page-less text": Object {
+      "_meta": Object {
+        "ruleDef": Array [
+          Object {
+            "a": "element",
+            "i": false,
+            "n": "class",
+            "t": "a",
+            "v": "page-less",
+          },
+          Object {
+            "t": "d",
+          },
+          Object {
+            "n": "text",
+            "t": "t",
+          },
+        ],
+      },
+      "fontWeight": "bold",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 simple 1`] = `
+Object {
+  "@app-component/testsimple": Object {
+    ".container": Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "flexDirection": "column",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 star-background 1`] = `
+Object {
+  "@app-component/teststarBackground": Object {
+    ".A1": Object {
+      "starBackground": "/packages/hap-packager/test/case/ux/TestStyle/StarBackground/a.png",
+    },
+    ".A2": Object {
+      "starBackground": "/packages/hap-packager/test/case/ux/TestStyle/StarBackground/a.png",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {
+      "starBackground": "/packages/hap-packager/test/case/ux/TestStyle/StarBackground/a",
+    },
+    ".a5": Object {
+      "starBackground": "/packages/hap-packager/test/case/ux/TestStyle/StarBackground/@uri",
+    },
+    ".a6": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 star-foreground 1`] = `
+Object {
+  "@app-component/teststarForeground": Object {
+    ".A1": Object {
+      "starForeground": "/packages/hap-packager/test/case/ux/TestStyle/StarForeground/a.png",
+    },
+    ".A2": Object {
+      "starForeground": "/packages/hap-packager/test/case/ux/TestStyle/StarForeground/a.png",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {
+      "starForeground": "/packages/hap-packager/test/case/ux/TestStyle/StarForeground/a",
+    },
+    ".a5": Object {
+      "starForeground": "/packages/hap-packager/test/case/ux/TestStyle/StarForeground/@uri",
+    },
+    ".a6": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 star-secondary 1`] = `
+Object {
+  "@app-component/teststarSecondary": Object {
+    ".A1": Object {
+      "starSecondary": "/packages/hap-packager/test/case/ux/TestStyle/StarSecondary/a.png",
+    },
+    ".A2": Object {
+      "starSecondary": "/packages/hap-packager/test/case/ux/TestStyle/StarSecondary/a.png",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".a4": Object {
+      "starSecondary": "/packages/hap-packager/test/case/ux/TestStyle/StarSecondary/a",
+    },
+    ".a5": Object {
+      "starSecondary": "/packages/hap-packager/test/case/ux/TestStyle/StarSecondary/@uri",
+    },
+    ".a6": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 stroke-width 1`] = `
+Object {
+  "@app-component/teststrokewidth": Object {
+    ".A": Object {
+      "strokeWidth": "100px",
+    },
+    ".B": Object {
+      "strokeWidth": "100%",
+    },
+    ".C": Object {
+      "strokeWidth": "100px",
+    },
+    ".D": Object {
+      "strokeWidth": "100%",
+    },
+    ".E": Object {
+      "strokeWidth": "100px",
+    },
+    ".F": Object {
+      "strokeWidth": "0px",
+    },
+    ".a": Object {
+      "strokeWidth": "100px",
+    },
+    ".b": Object {
+      "strokeWidth": "100px",
+    },
+    ".c": Object {
+      "strokeWidth": "100px",
+    },
+    ".d": Object {
+      "strokeWidth": "100px",
+    },
+    ".e": Object {
+      "strokeWidth": "100px",
+    },
+    ".f": Object {},
+    ".g": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 text-align 1`] = `
+Object {
+  "@app-component/testtextalign": Object {
+    ".A": Object {
+      "textAlign": "left",
+    },
+    ".B": Object {
+      "textAlign": "center",
+    },
+    ".C": Object {
+      "textAlign": "right",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".b": Object {},
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 text-decoration 1`] = `
+Object {
+  "@app-component/testtextdecoration": Object {
+    ".A": Object {
+      "textDecoration": "underline",
+    },
+    ".B": Object {
+      "textDecoration": "line-through",
+    },
+    ".C": Object {
+      "textDecoration": "none",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".a3": Object {},
+    ".b": Object {},
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 text-indent 1`] = `
+Object {
+  "@app-component/testtextIndent": Object {
+    ".A": Object {
+      "textIndent": "100px",
+    },
+    ".B": Object {
+      "textIndent": "100%",
+    },
+    ".C": Object {
+      "textIndent": "100px",
+    },
+    ".D": Object {
+      "textIndent": "100%",
+    },
+    ".E": Object {
+      "textIndent": "100px",
+    },
+    ".F": Object {
+      "textIndent": "0px",
+    },
+    ".a": Object {
+      "textIndent": "100px",
+    },
+    ".b": Object {
+      "textIndent": "100em",
+    },
+    ".c": Object {
+      "textIndent": "100px",
+    },
+    ".d": Object {
+      "textIndent": "100px",
+    },
+    ".e": Object {
+      "textIndent": "100px",
+    },
+    ".f": Object {},
+    ".g": Object {},
+    ".h": Object {
+      "textIndent": "1cm",
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 text-overflow 1`] = `
+Object {
+  "@app-component/testtextoverflow": Object {
+    ".A": Object {
+      "textOverflow": "clip",
+    },
+    ".B": Object {
+      "textOverflow": "ellipsis",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b": Object {},
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 top 1`] = `
+Object {
+  "@app-component/testtop": Object {
+    ".A": Object {
+      "top": "0px",
+    },
+    ".B1": Object {
+      "top": "100px",
+    },
+    ".B2": Object {
+      "top": "100px",
+    },
+    ".C": Object {
+      "top": "20%",
+    },
+    ".a": Object {},
+    ".b": Object {},
+    ".c": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 transform 1`] = `
+Object {
+  "@app-component/testtransform": Object {
+    ".box": Object {
+      "animationName": "multiVal",
+    },
+    "@KEYFRAMES": Object {
+      "multiVal": Array [
+        Object {
+          "time": 0,
+          "transform": "{\\"scaleX\\":0,\\"scaleY\\":0,\\"translateX\\":\\"0px\\",\\"rotate\\":\\"0deg\\"}",
+        },
+        Object {
+          "time": 100,
+          "transform": "{\\"scaleX\\":1,\\"scaleY\\":1,\\"translateX\\":\\"100px\\",\\"rotate\\":\\"150deg\\"}",
+        },
+      ],
+    },
+  },
+}
+`;
+
+exports[`Style编译测试 translate 1`] = `
+Object {
+  "@app-component/testtranslate": Object {
+    ".A1": Object {
+      "transform": "{\\"translateX\\":\\"100px\\",\\"translateY\\":\\"0px\\"}",
+    },
+    ".A2": Object {
+      "transform": "{\\"translateX\\":\\"100px\\",\\"translateY\\":\\"100px\\"}",
+    },
+    ".B1": Object {
+      "transform": "{\\"translateX\\":\\"100px\\",\\"translateY\\":\\"100px\\"}",
+    },
+    ".B2": Object {
+      "transform": "{\\"translateX\\":\\"-100px\\",\\"translateY\\":\\"100px\\"}",
+    },
+    ".B3": Object {
+      "transform": "{\\"translateX\\":\\"-100%\\",\\"translateY\\":\\"100px\\"}",
+    },
+    ".C1": Object {
+      "transform": "{\\"translateX\\":\\"-100%\\",\\"translateY\\":\\"100%\\"}",
+    },
+    ".a1": Object {
+      "transform": "{\\"translateX\\":\\"100%\\",\\"translateY\\":\\"0px\\"}",
+    },
+    ".a2": Object {
+      "transform": "{\\"translateX\\":\\"100px\\",\\"translateY\\":\\"100px\\"}",
+    },
+    ".b1": Object {
+      "transform": "{\\"translateX\\":\\"-100px\\",\\"translateY\\":\\"-100px\\"}",
+    },
+    ".b2": Object {},
+    ".c1": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 translate-x 1`] = `
+Object {
+  "@app-component/testtranslateX": Object {
+    ".A1": Object {
+      "transform": "{\\"translateX\\":\\"100px\\"}",
+    },
+    ".A2": Object {
+      "transform": "{\\"translateX\\":\\"-100px\\"}",
+    },
+    ".B1": Object {
+      "transform": "{\\"translateX\\":\\"100px\\"}",
+    },
+    ".B2": Object {
+      "transform": "{\\"translateX\\":\\"100px\\"}",
+    },
+    ".C1": Object {
+      "transform": "{\\"translateX\\":\\"100%\\"}",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 translate-y 1`] = `
+Object {
+  "@app-component/testtranslateY": Object {
+    ".A1": Object {
+      "transform": "{\\"translateY\\":\\"100px\\"}",
+    },
+    ".A2": Object {
+      "transform": "{\\"translateY\\":\\"-100px\\"}",
+    },
+    ".B1": Object {
+      "transform": "{\\"translateY\\":\\"100px\\"}",
+    },
+    ".B2": Object {
+      "transform": "{\\"translateY\\":\\"100px\\"}",
+    },
+    ".C1": Object {
+      "transform": "{\\"translateY\\":\\"100%\\"}",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 visibility 1`] = `
+Object {
+  "@app-component/testvisibility": Object {
+    ".A": Object {
+      "visibility": "visible",
+    },
+    ".B": Object {
+      "visibility": "hidden",
+    },
+    ".a1": Object {},
+    ".a2": Object {},
+    ".b1": Object {},
+    ".b2": Object {},
+    ".c1": Object {},
+    ".c2": Object {},
+  },
+}
+`;
+
+exports[`Style编译测试 width 1`] = `
+Object {
+  "@app-component/testwidth": Object {
+    ".A": Object {
+      "width": "100px",
+    },
+    ".B": Object {
+      "width": "100%",
+    },
+    ".C": Object {
+      "width": "100px",
+    },
+    ".D": Object {
+      "width": "100%",
+    },
+    ".E": Object {
+      "width": "100px",
+    },
+    ".F": Object {
+      "width": "0px",
+    },
+    ".a": Object {
+      "width": "100px",
+    },
+    ".b": Object {
+      "width": "100px",
+    },
+    ".c": Object {
+      "width": "100px",
+    },
+    ".d": Object {
+      "width": "100px",
+    },
+    ".e": Object {
+      "width": "100px",
+    },
+    ".f": Object {},
+    ".g": Object {},
+  },
+}
+`;

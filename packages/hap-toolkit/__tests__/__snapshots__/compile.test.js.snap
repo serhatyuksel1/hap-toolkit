@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试compile compile build 1`] = `
+Array [
+  "app.js",
+  "app.js.map",
+  "CardDemo/index.js",
+  "CardDemo/index.js.map",
+  "Demo/index.js",
+  "Demo/index.js.map",
+  "workers/request/index.js",
+  "workers/request/index.js.map",
+]
+`;
+
+exports[`测试compile compile release 1`] = `
+Array [
+  "app.js",
+  "CardDemo/index.js",
+  "Demo/index.js",
+  "workers/request/index.js",
+]
+`;
+
+exports[`测试compile generate webpack config 1`] = `
+Object {
+  "CardDemo/index": "./src/CardDemo/index.ux?uxType=card",
+  "Demo/index": "./src/Demo/index.ux?uxType=page",
+  "app": "./src/app.ux?uxType=app",
+  "workers/request/index": "./src/workers/request/index.js",
+}
+`;

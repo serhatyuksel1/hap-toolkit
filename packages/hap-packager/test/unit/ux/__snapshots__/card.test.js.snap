@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card编译测试 card1 1`] = `
+Object {
+  "@app-component/testcard1": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "children": Array [
+          Object {
+            "attr": Object {
+              "type": "item",
+            },
+            "type": "list-item",
+          },
+        ],
+        "type": "list",
+      },
+      Object {
+        "attr": Object {},
+        "type": "refresh",
+      },
+      Object {
+        "attr": Object {
+          "type": "ux",
+        },
+        "type": "richtext",
+      },
+      Object {
+        "attr": Object {},
+        "children": Array [
+          Object {
+            "attr": Object {},
+            "type": "text",
+          },
+        ],
+        "type": "swiper",
+      },
+      Object {
+        "attr": Object {},
+        "children": Array [
+          Object {
+            "attr": Object {},
+            "type": "tab-bar",
+          },
+          Object {
+            "attr": Object {},
+            "type": "tab-content",
+          },
+        ],
+        "type": "tabs",
+      },
+      Object {
+        "attr": Object {},
+        "type": "slider",
+      },
+      Object {
+        "attr": Object {
+          "src": "",
+        },
+        "type": "video",
+      },
+      Object {
+        "attr": Object {},
+        "type": "web",
+      },
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Card编译测试 card2 1`] = `
+Object {
+  "@app-component/testcard2": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "type": "div",
+      },
+      Object {
+        "attr": Object {
+          "placement": "top",
+          "target": "test_popup",
+        },
+        "children": Array [
+          Object {
+            "attr": Object {
+              "value": "popup",
+            },
+            "type": "text",
+          },
+        ],
+        "type": "popup",
+      },
+      Object {
+        "attr": Object {},
+        "children": Array [
+          Object {
+            "attr": Object {
+              "value": "1",
+            },
+            "type": "text",
+          },
+          Object {
+            "attr": Object {
+              "value": "2",
+            },
+            "type": "text",
+          },
+        ],
+        "type": "stack",
+      },
+      Object {
+        "attr": Object {},
+        "children": Array [
+          Object {
+            "attr": Object {},
+            "children": Array [
+              Object {
+                "attr": Object {
+                  "type": "type1",
+                },
+                "type": "list-item",
+              },
+              Object {
+                "attr": Object {
+                  "type": "type2",
+                },
+                "type": "list-item",
+              },
+            ],
+            "type": "block",
+          },
+        ],
+        "type": "list",
+      },
+      Object {
+        "attr": Object {
+          "src": "",
+        },
+        "type": "image",
+      },
+      Object {
+        "attr": Object {},
+        "type": "progress",
+      },
+      Object {
+        "attr": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "children": Array [
+          Object {
+            "attr": Object {},
+            "type": "span",
+          },
+        ],
+        "type": "text",
+      },
+      Object {
+        "attr": Object {
+          "href": "",
+        },
+        "type": "a",
+      },
+      Object {
+        "attr": Object {
+          "type": "text",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {},
+        "type": "label",
+      },
+      Object {
+        "attr": Object {
+          "type": "text",
+        },
+        "type": "picker",
+      },
+      Object {
+        "attr": Object {},
+        "children": Array [
+          Object {
+            "attr": Object {
+              "value": "",
+            },
+            "type": "option",
+          },
+        ],
+        "type": "select",
+      },
+      Object {
+        "attr": Object {},
+        "type": "switch",
+      },
+      Object {
+        "attr": Object {},
+        "type": "textarea",
+      },
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Card编译测试 events1 1`] = `
+Object {
+  "@app-component/testevents1": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "events": Object {
+          "click": "click",
+        },
+        "type": "div",
+      },
+      Object {
+        "attr": Object {},
+        "events": Object {
+          "longpress": "longpress",
+        },
+        "type": "div",
+      },
+      Object {
+        "attr": Object {},
+        "events": Object {
+          "focus": "focus",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {},
+        "events": Object {
+          "blur": "blur",
+        },
+        "type": "input",
+      },
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Card编译测试 events2 1`] = `
+Object {
+  "@app-component/testevents2": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "events": Object {
+          "apper": "appear",
+        },
+        "type": "div",
+      },
+      Object {
+        "attr": Object {},
+        "events": Object {
+          "disapper": "disappear",
+        },
+        "type": "div",
+      },
+      Object {
+        "attr": Object {},
+        "events": Object {
+          "swipe": "onswipe",
+        },
+        "type": "input",
+      },
+    ],
+    "type": "div",
+  },
+}
+`;

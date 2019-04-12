@@ -1,0 +1,8 @@
+<template>
+  <div>
+    <!--不支持通用事件-->
+    <div onapper="appear"></div>
+    <div ondisapper="disappear"></div>
+    <input onswipe="onswipe" />
+  </div>
+</template>

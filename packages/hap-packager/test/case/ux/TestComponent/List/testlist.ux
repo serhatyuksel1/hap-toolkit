@@ -1,0 +1,32 @@
+<template>
+  <div class="container">
+    <list
+      onscroll="scrollFn"
+      onscrollbottom="scrollbottomFn"
+      onscrolltop="scrolltopFn"
+      onscrollend="scrollendFn"
+      onscrolltouchup="scrolltouchupFn">
+      <list-item></list-item>
+      <list-item></list-item>
+    </list>
+  </div>
+</template>
+
+<style>
+  .container {
+    flex:1;
+    flex-direction: column;
+    background-color: #FFFFFF;
+  }
+</style>
+
+<script>
+  export default {
+    data: {},
+    scrollFn () {},
+    scrollbottomFn () {},
+    scrolltopFn () {},
+    scrollendFn () {},
+    scrolltouchupFn () {},
+  }
+</script>

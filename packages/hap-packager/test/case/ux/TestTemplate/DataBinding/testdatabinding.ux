@@ -1,0 +1,37 @@
+<template>
+  <div class="container {{ message ? 'hey   you' : 'ah  ha' }} gap {{ 'next' }} trailing">
+    <text>{{message}}</text>
+    <text>{{ {
+      one: 'hello',
+      two: 'world'
+    } }}</text>
+    <text>{{
+      text
+    }}</text>
+    <a src="
+    {{
+      url
+    }}
+    ">快应用官方网站</a>
+    <text>{{ "Hello " + name + "!" }}</text>
+  </div>
+</template>
+
+<style>
+  .container {
+    flex:1;
+    flex-direction: column;
+    background-color: #FFFFFF;
+  }
+</style>
+
+<script>
+  export default {
+    data: {
+      message: 'Hello Binding!',
+      text: 'Hello world!',
+      url: 'https://www.quickapp.cn',
+      name: 'Bill'
+    }
+  }
+</script>

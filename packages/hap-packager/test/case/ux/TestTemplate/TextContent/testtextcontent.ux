@@ -1,0 +1,137 @@
+<template>
+  <div>
+    <!-- 组件text支持子组件span和标签内文本 -->
+    <text>   text   </text>
+
+    <text>
+      <span>   span   </span>
+    </text>
+
+    <text>
+      text<span>span</span>
+    </text>
+
+    <text>
+      <span>span</span>text
+    </text>
+
+    <text>
+      text
+      <span>span</span>
+      text
+    </text>
+
+    <text>
+      text
+      <span>span</span>
+      <span>span</span>
+      text
+    </text>
+
+    <text>
+      text
+      <span>span</span>
+      text
+      <span>span</span>
+    </text>
+
+    <text>
+      text
+      <span>span</span>
+      text
+      <span>span</span>
+      text
+    </text>
+
+    <text>
+      <a href="#">a</a>
+    </text>
+
+    <text>
+      text
+      <a href="#">a</a>
+    </text>
+
+    <text>
+      <a href="#">a</a>
+      text
+    </text>
+
+    <text>
+      text
+      <a href="#">a</a>
+      text
+    </text>
+
+    <text>
+      <span>span</span>
+      <a href="#">a</a>
+    </text>
+
+    <text>
+      <a href="#">a</a>
+      <span>span</span>
+    </text>
+
+    <text>
+      <span>span</span>
+      <a href="#">a</a>
+      <span>span</span>
+    </text>
+
+    <text>
+      text
+      <a href="#">a</a>
+      <span>span</span>
+    </text>
+
+    <text>
+      <span>span</span>
+      <a href="#">a</a>
+      text
+    </text>
+
+    <!-- 组件a支持子组件span和标签内文本 -->
+    <a>a</a>
+
+    <a>
+      <span>span</span>
+    </a>
+
+    <a>
+      a<span>span</span>
+    </a>
+
+    <a>
+      <span>span</span>a
+    </a>
+
+    <a>
+      a
+      <span>span</span>
+      a
+    </a>
+
+    <a>
+      a
+      <span>span</span>
+      <span>span</span>
+      a
+    </a>
+
+    <a>
+      a
+      <span>span</span>
+      a
+      <span>span</span>
+    </a>
+
+    <a>
+      a
+      <span>span</span>
+      a
+      <span>span</span>
+      a
+    </a>
+  </div>
+</template>

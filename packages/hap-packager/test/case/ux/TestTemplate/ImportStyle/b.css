@@ -1,0 +1,8 @@
+.A {
+    color: yellow;
+    flex-direction: row;
+}
+
+.C {
+    flex: 1;
+}

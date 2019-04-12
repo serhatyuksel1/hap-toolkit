@@ -1,0 +1,30 @@
+{
+  "name": "sample",
+  "version": "0.4.1",
+  "subversion": {
+    "toolkit": "0.3.1"
+  },
+  "description": "Quickapp Samples",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "server": "hap server",
+    "debug": "hap debug",
+    "build": "hap build",
+    "release": "hap release",
+    "watch": "hap watch",
+    "test": "npx jest __tests__/*.test.js"
+  },
+  "devDependencies": {
+    "catching": "^1.0.2",
+    "fkill": "^5.3.0",
+    "hap-dev-utils": "^0.4.1",
+    "hap-toolkit": "^0.4.1",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "node-fetch": "^2.3.0",
+    "qrcode-js": "0.0.2"
+  },
+  "private": true
+}

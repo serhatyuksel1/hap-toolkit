@@ -1,0 +1,1484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component编译测试 a 1`] = `
+Object {
+  "@app-component/testa": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "value": "http://baidu.com",
+        },
+        "type": "a",
+      },
+      Object {
+        "attr": Object {
+          "value": "function () {return this.http}",
+        },
+        "type": "a",
+      },
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 camera 1`] = `
+Object {
+  "@app-component/testcamera": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "deviceposition": "back",
+          "flash": "auto",
+        },
+        "events": Object {
+          "error": "errorFn",
+        },
+        "type": "camera",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 div 1`] = `
+Object {
+  "@app-component/testdiv": Object {
+    "attr": Object {
+      "dataData1": "abc",
+      "dataData1Data2": "abc",
+      "dataData2": "function () {return this.attrData}",
+    },
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 image 1`] = `
+Object {
+  "@app-component/testimage": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "dataData1": "abc",
+          "src": "/Common/home.png",
+        },
+        "type": "image",
+      },
+      Object {
+        "attr": Object {
+          "dataData2": "function () {return this.attrData}",
+          "src": "/packages/hap-packager/test/case/ux/TestComponent/Image/Common/home.png",
+        },
+        "type": "image",
+      },
+      Object {
+        "attr": Object {
+          "dataData1Data2": "abc",
+          "src": "/packages/hap-packager/test/case/ux/TestComponent/Common/home.png",
+        },
+        "type": "image",
+      },
+      Object {
+        "attr": Object {
+          "src": "function () {return this.imgSrc}",
+        },
+        "events": Object {
+          "complete": "completeFn",
+          "error": "erroreFn",
+        },
+        "type": "image",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 input 1`] = `
+Object {
+  "@app-component/testinput": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "type": "button",
+        },
+        "events": Object {
+          "click": "clickBtn",
+        },
+        "style": Object {
+          "color": "#FF0000",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "name": "myCheckbox",
+          "type": "checkbox",
+          "value": "first checkbox",
+        },
+        "style": Object {
+          "color": "#FF0000",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "name": "myCheckbox",
+          "type": "checkbox",
+          "value": "second checkbox",
+        },
+        "style": Object {
+          "color": "#FF0000",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "enterkeytype": "next",
+          "maxlength": "5",
+          "placeholder": "text",
+          "type": "text",
+        },
+        "events": Object {
+          "change": "changeText",
+          "enterkeyclick": "enterkeyclickfn",
+          "selectionchange": "selectionchangeFn",
+        },
+        "style": Object {
+          "fontSize": "50px",
+          "placeholdeColor": "red",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "placeholder": "mail",
+          "type": "text",
+        },
+        "events": Object {
+          "change": "changeMail",
+        },
+        "style": Object {
+          "fontSize": "50px",
+          "placeholdeColor": "red",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "placeholder": "date",
+          "type": "date",
+        },
+        "events": Object {
+          "change": "changeDate",
+        },
+        "style": Object {
+          "fontSize": "50px",
+          "placeholdeColor": "red",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "placeholder": "time",
+          "type": "time",
+        },
+        "events": Object {
+          "change": "changeTime",
+        },
+        "style": Object {
+          "fontSize": "50px",
+          "placeholdeColor": "red",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "placeholder": "number",
+          "type": "number",
+        },
+        "events": Object {
+          "change": "changeNumber",
+        },
+        "style": Object {
+          "fontSize": "50px",
+          "placeholdeColor": "red",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "type": "password",
+        },
+        "style": Object {
+          "fontSize": "50px",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "type": "radio",
+        },
+        "events": Object {
+          "change": "clickBtn",
+        },
+        "style": Object {
+          "width": "50px",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "autocomplete": "on",
+          "type": "tel",
+        },
+        "type": "input",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 label 1`] = `
+Object {
+  "@app-component/testlabel": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "value": "标签名称：",
+        },
+        "type": "label",
+      },
+      Object {
+        "attr": Object {
+          "target": "input1",
+          "value": "input1:",
+        },
+        "type": "label",
+      },
+      Object {
+        "attr": Object {
+          "id": "input1",
+          "placeholder": "input1",
+          "type": "text",
+        },
+        "id": "input1",
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "target": "textarea1",
+          "value": "textarea1:",
+        },
+        "type": "label",
+      },
+      Object {
+        "attr": Object {
+          "id": "textarea1",
+          "placeholder": "textarea...",
+        },
+        "id": "textarea1",
+        "type": "textarea",
+      },
+      Object {
+        "attr": Object {
+          "target": "radio1",
+          "value": "radio1:",
+        },
+        "type": "label",
+      },
+      Object {
+        "attr": Object {
+          "id": "radio1",
+          "type": "radio",
+        },
+        "id": "radio1",
+        "style": Object {
+          "width": "50px",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "value": "clickLabel:",
+        },
+        "events": Object {
+          "click": "clicklabel",
+        },
+        "type": "label",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 list 1`] = `
+Object {
+  "@app-component/testlist": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "children": Array [
+          Object {
+            "attr": Object {},
+            "type": "list-item",
+          },
+          Object {
+            "attr": Object {},
+            "type": "list-item",
+          },
+        ],
+        "events": Object {
+          "scroll": "scrollFn",
+          "scrollbottom": "scrollbottomFn",
+          "scrollend": "scrollendFn",
+          "scrolltop": "scrolltopFn",
+          "scrolltouchup": "scrolltouchupFn",
+        },
+        "type": "list",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 map 1`] = `
+Object {
+  "@app-component/testmap": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "circles": "",
+          "controls": "",
+          "coordtype": "wgs84",
+          "groundoverlays": "",
+          "includepoints": "",
+          "latitude": "90",
+          "longitude": "90",
+          "markers": "function () {return this.markers}",
+          "polylines": "",
+          "rotate": "90",
+          "scale": "4",
+          "showmylocation": "false",
+        },
+        "type": "map",
+      },
+      Object {
+        "attr": Object {},
+        "events": Object {
+          "callouttap": "callouttap",
+          "controltap": "controltap",
+          "loaded": "loaded",
+          "markertap": "markertap",
+          "regionchange": "regionchange",
+          "tap": "tap",
+        },
+        "type": "map",
+      },
+      Object {
+        "attr": Object {
+          "enableoverlooking": "false",
+          "enablerotate": "true",
+          "enablescroll": "true",
+          "enablezoom": "true",
+          "showcompass": "true",
+        },
+        "type": "map",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 picker 1`] = `
+Object {
+  "@app-component/testpicker": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "range": "[1,2,3,4,5]",
+          "selected": "2",
+          "type": "text",
+        },
+        "events": Object {
+          "change": "changeText",
+        },
+        "type": "picker",
+      },
+      Object {
+        "attr": Object {
+          "end": "3000-1-1",
+          "slected": "2017-4-7",
+          "start": "2000-1-1",
+          "type": "date",
+        },
+        "events": Object {
+          "change": "changeDate",
+        },
+        "type": "picker",
+      },
+      Object {
+        "attr": Object {
+          "type": "time",
+        },
+        "events": Object {
+          "change": "changeTime",
+        },
+        "type": "picker",
+      },
+      Object {
+        "attr": Object {
+          "type": "time",
+        },
+        "events": Object {
+          "change": "changeTime",
+        },
+        "type": "picker",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 popup 1`] = `
+Object {
+  "@app-component/testpopup": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "id": "popup1",
+          "type": "button",
+          "value": "top",
+        },
+        "id": "popup1",
+        "style": Object {
+          "color": "#FF0000",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "placement": "top",
+          "target": "popup1",
+        },
+        "children": Array [
+          Object {
+            "attr": Object {
+              "value": "这是popup测试",
+            },
+            "type": "text",
+          },
+        ],
+        "type": "popup",
+      },
+      Object {
+        "attr": Object {
+          "id": "popup2",
+          "type": "button",
+          "value": "top",
+        },
+        "id": "popup2",
+        "style": Object {
+          "color": "#FF0000",
+        },
+        "type": "input",
+      },
+      Object {
+        "attr": Object {
+          "placement": "top",
+          "target": "test_popup",
+        },
+        "children": Array [
+          Object {
+            "attr": Object {
+              "value": "这是popup测试",
+            },
+            "type": "text",
+          },
+        ],
+        "style": Object {
+          "maskColor": "#ff0000",
+        },
+        "type": "popup",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 progress 1`] = `
+Object {
+  "@app-component/testprogress": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "percent": "80",
+          "type": "horizontal",
+        },
+        "style": Object {
+          "color": "#FF0000",
+          "strokeWidth": "100px",
+        },
+        "type": "progress",
+      },
+      Object {
+        "attr": Object {
+          "type": "circular",
+        },
+        "style": Object {
+          "color": "#FF0000",
+        },
+        "type": "progress",
+      },
+      Object {
+        "attr": Object {
+          "type": "circular",
+        },
+        "style": Object {
+          "color": "#FFFF00",
+        },
+        "type": "progress",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 rating 1`] = `
+Object {
+  "@app-component/testrating": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "classList": Array [
+          "bg",
+        ],
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {
+          "numstars": "5",
+          "rating": "3",
+          "stepsize": "0.5",
+        },
+        "style": Object {
+          "height": "100px",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {
+          "numstars": "5",
+          "rating": "3",
+        },
+        "style": Object {
+          "starBackground": "/packages/hap-packager/test/case/ux/TestComponent/Rating/1.png",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {
+          "numstars": "5",
+          "rating": "3",
+          "stepsize": "0.5",
+        },
+        "events": Object {
+          "change": "changeNum",
+        },
+        "style": Object {
+          "starBackground": "/packages/hap-packager/test/case/ux/TestComponent/Rating/1.png",
+          "starForeground": "/packages/hap-packager/test/case/ux/TestComponent/Rating/3.png",
+          "starSecondary": "/packages/hap-packager/test/case/ux/TestComponent/Rating/2.png",
+        },
+        "type": "rating",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 refresh 1`] = `
+Object {
+  "@app-component/testrefresh": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "refreshing": "function () {return this.is_refreshing}",
+          "type": "auto",
+        },
+        "children": Array [
+          Object {
+            "attr": Object {},
+            "type": "test",
+          },
+        ],
+        "events": Object {
+          "refresh": "refresh",
+        },
+        "type": "refresh",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 rich-text 1`] = `
+Object {
+  "@app-component/testrichtext": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "type": "mix",
+          "value": "function () {return this.native}",
+        },
+        "type": "richtext",
+      },
+      Object {
+        "attr": Object {
+          "type": "ux",
+          "value": "function () {return this.native}",
+        },
+        "type": "richtext",
+      },
+      Object {
+        "attr": Object {
+          "type": "html",
+          "value": "function () {return this.html}",
+        },
+        "type": "richtext",
+      },
+      Object {
+        "attr": Object {
+          "type": "mix",
+          "value": "function () {return this.native}",
+        },
+        "type": "richtext",
+      },
+      Object {
+        "attr": Object {
+          "type": "ux",
+          "value": "function () {return this.native}",
+        },
+        "type": "richtext",
+      },
+      Object {
+        "attr": Object {
+          "type": "html",
+          "value": "function () {return this.html}",
+        },
+        "type": "richtext",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 select-option 1`] = `
+Object {
+  "@app-component/testselectoption": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "children": Array [
+          Object {
+            "attr": Object {
+              "content": "丹栗鸡",
+              "selected": "true",
+              "value": "50",
+            },
+            "type": "option",
+          },
+          Object {
+            "attr": Object {
+              "content": "藤椒鸡",
+              "value": "100",
+            },
+            "type": "option",
+          },
+          Object {
+            "attr": Object {
+              "content": "口水鸡",
+              "value": "200",
+            },
+            "type": "option",
+          },
+          Object {
+            "attr": Object {
+              "content": "花生稀饭",
+              "value": "peanutSoup",
+            },
+            "type": "option",
+          },
+          Object {
+            "attr": Object {
+              "content": "叶儿粑",
+              "value": "叶儿粑",
+            },
+            "type": "option",
+          },
+          Object {
+            "attr": Object {
+              "content": "老鸭汤",
+              "value": "",
+            },
+            "type": "option",
+          },
+          Object {
+            "attr": Object {
+              "content": "鱼火锅",
+              "value": "300",
+            },
+            "type": "option",
+          },
+          Object {
+            "attr": Object {
+              "content": "杨豆腐脑",
+              "value": "杨豆腐脑",
+            },
+            "type": "option",
+          },
+          Object {
+            "attr": Object {
+              "content": "乌腿鸡",
+              "value": "乌腿鸡",
+            },
+            "type": "option",
+          },
+        ],
+        "type": "select",
+      },
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 slider 1`] = `
+Object {
+  "@app-component/testslider": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "max": "100",
+          "min": "10",
+          "step": "2",
+          "value": "50",
+        },
+        "events": Object {
+          "change": "changeSlider",
+        },
+        "style": Object {
+          "selectedColor": "#FF0000",
+        },
+        "type": "slider",
+      },
+      Object {
+        "attr": Object {},
+        "type": "slider",
+      },
+      Object {
+        "attr": Object {
+          "max": "100",
+          "min": "10",
+        },
+        "type": "slider",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 span 1`] = `
+Object {
+  "@app-component/testspan": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "children": Array [
+          Object {
+            "attr": Object {
+              "value": "hello",
+            },
+            "style": Object {
+              "color": "#FF0000",
+              "textDecoration": "underline",
+            },
+            "type": "span",
+          },
+        ],
+        "type": "text",
+      },
+      Object {
+        "attr": Object {
+          "href": "http://baidu.com",
+        },
+        "children": Array [
+          Object {
+            "attr": Object {},
+            "style": Object {
+              "color": "#FF0000",
+            },
+            "type": "span",
+          },
+          Object {
+            "attr": Object {},
+            "style": Object {
+              "color": "#FF0000",
+              "textDecoration": "line-through",
+            },
+            "type": "span",
+          },
+          Object {
+            "attr": Object {},
+            "style": Object {
+              "color": "#FF0000",
+              "textDecoration": "underline",
+            },
+            "type": "span",
+          },
+        ],
+        "type": "a",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 stack 1`] = `
+Object {
+  "@app-component/teststack": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "children": Array [
+          Object {
+            "attr": Object {
+              "src": "/Common/home.png",
+            },
+            "type": "image",
+          },
+        ],
+        "type": "stack",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 star-background 1`] = `
+Object {
+  "@app-component/teststarBackground": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starBackground": "/packages/hap-packager/test/case/ux/TestComponent/StarBackground/a.png",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starBackground": "/packages/hap-packager/test/case/ux/TestComponent/StarBackground/a.png",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starBackground": "/packages/hap-packager/test/case/ux/TestComponent/StarBackground/a",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starBackground": "/packages/hap-packager/test/case/ux/TestComponent/StarBackground/@uri",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starBackground": "/common/a.png",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starBackground": "https://www.quickapp.cn/assets/images/home/a.png",
+        },
+        "type": "rating",
+      },
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 star-foreground 1`] = `
+Object {
+  "@app-component/teststarForeground": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starForeground": "/packages/hap-packager/test/case/ux/TestComponent/StarForeground/a.png",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starForeground": "/packages/hap-packager/test/case/ux/TestComponent/StarForeground/a.png",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starForeground": "/packages/hap-packager/test/case/ux/TestComponent/StarForeground/a",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starForeground": "/packages/hap-packager/test/case/ux/TestComponent/StarForeground/@uri",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starForeground": "/common/a.png",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starForeground": "https://www.quickapp.cn/assets/images/home/a.png",
+        },
+        "type": "rating",
+      },
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 star-secondary 1`] = `
+Object {
+  "@app-component/teststarSecondary": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starSecondary": "/packages/hap-packager/test/case/ux/TestComponent/StarSecondary/a.png",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starSecondary": "/packages/hap-packager/test/case/ux/TestComponent/StarSecondary/a.png",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starSecondary": "/packages/hap-packager/test/case/ux/TestComponent/StarSecondary/a",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starSecondary": "/packages/hap-packager/test/case/ux/TestComponent/StarSecondary/@uri",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {},
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starSecondary": "/common/a.png",
+        },
+        "type": "rating",
+      },
+      Object {
+        "attr": Object {},
+        "style": Object {
+          "starSecondary": "https://www.quickapp.cn/assets/images/home/a.png",
+        },
+        "type": "rating",
+      },
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 swiper 1`] = `
+Object {
+  "@app-component/testswiper": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "autoplay": "true",
+          "duration": "1",
+          "index": "1",
+          "indicator": "false",
+          "interval": "1000ms",
+          "loop": "true",
+          "nextmargin": "10px",
+          "previousmargin": "10px",
+          "vertical": "false",
+        },
+        "children": Array [
+          Object {
+            "attr": Object {
+              "value": "item1",
+            },
+            "type": "text",
+          },
+          Object {
+            "attr": Object {
+              "value": "item2",
+            },
+            "type": "text",
+          },
+          Object {
+            "attr": Object {
+              "value": "item3",
+            },
+            "type": "text",
+          },
+        ],
+        "type": "swiper",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 switch 1`] = `
+Object {
+  "@app-component/testswitch": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "checked": "true",
+        },
+        "events": Object {
+          "change": "changeSwitch",
+        },
+        "type": "switch",
+      },
+      Object {
+        "attr": Object {
+          "checked": "false",
+        },
+        "events": Object {
+          "change": "changeSwitch",
+        },
+        "type": "switch",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 tabs 1`] = `
+Object {
+  "@app-component/testtabs": Object {
+    "attr": Object {
+      "index": "1",
+    },
+    "children": Array [
+      Object {
+        "attr": Object {},
+        "children": Array [
+          Object {
+            "attr": Object {},
+            "type": "text",
+          },
+          Object {
+            "attr": Object {},
+            "type": "text",
+          },
+          Object {
+            "attr": Object {},
+            "type": "text",
+          },
+        ],
+        "type": "tab-bar",
+      },
+      Object {
+        "attr": Object {
+          "scrollable": "true",
+        },
+        "children": Array [
+          Object {
+            "attr": Object {},
+            "type": "div",
+          },
+          Object {
+            "attr": Object {},
+            "type": "refresh",
+          },
+          Object {
+            "attr": Object {},
+            "children": Array [
+              Object {
+                "attr": Object {},
+                "type": "list-item",
+              },
+              Object {
+                "attr": Object {},
+                "type": "list-item",
+              },
+              Object {
+                "attr": Object {},
+                "type": "list-item",
+              },
+            ],
+            "type": "list",
+          },
+        ],
+        "type": "tab-content",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "events": Object {
+      "change": "changeActive",
+    },
+    "type": "tabs",
+  },
+}
+`;
+
+exports[`Component编译测试 text 1`] = `
+Object {
+  "@app-component/testtext": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "value": "hello",
+        },
+        "type": "text",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 textarea 1`] = `
+Object {
+  "@app-component/testtextarea": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "maxlength": "5",
+          "type": "text",
+        },
+        "events": Object {
+          "change": "changeText",
+          "selectionchange": "selectionchangeFn",
+        },
+        "type": "textarea",
+      },
+      Object {
+        "attr": Object {
+          "type": "email",
+        },
+        "style": Object {
+          "placeholderColor": "#FF0000",
+        },
+        "type": "textarea",
+      },
+      Object {
+        "attr": Object {
+          "type": "date",
+        },
+        "type": "textarea",
+      },
+      Object {
+        "attr": Object {
+          "type": "time",
+        },
+        "type": "textarea",
+      },
+      Object {
+        "attr": Object {
+          "type": "number",
+        },
+        "type": "textarea",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 video 1`] = `
+Object {
+  "@app-component/testvideo": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "autoplay": "false",
+          "controls": "true",
+          "poster": "/Common/home.png",
+          "src": "/Common/a.mp4",
+        },
+        "events": Object {
+          "error": "errorVideo",
+          "finish": "finishVideo",
+          "pause": "pauseVideo",
+          "prepared": "preparedVideo",
+          "start": "startVideo",
+        },
+        "type": "video",
+      },
+      Object {
+        "attr": Object {
+          "autoplay": "false",
+          "controls": "false",
+          "src": "/packages/hap-packager/test/case/ux/TestComponent/Common/a.mp4",
+        },
+        "events": Object {
+          "error": "errorVideo",
+          "finish": "finishVideo",
+          "pause": "pauseVideo",
+        },
+        "type": "video",
+      },
+      Object {
+        "attr": Object {
+          "src": "https://swsdl.vivo.com.cn/appstore/developer/uploadfile/20180323/20180323183010837.mp4",
+        },
+        "type": "video",
+      },
+      Object {
+        "attr": Object {
+          "src": "function () {return this.videoSrc}",
+        },
+        "type": "video",
+      },
+      Object {
+        "attr": Object {
+          "muted": "function () {return this.muted}",
+        },
+        "type": "video",
+      },
+      Object {
+        "attr": Object {
+          "muted": "false",
+        },
+        "type": "video",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;
+
+exports[`Component编译测试 web 1`] = `
+Object {
+  "@app-component/testweb": Object {
+    "attr": Object {},
+    "children": Array [
+      Object {
+        "attr": Object {
+          "src": "https://doc.quickapp.cn",
+          "trustedurl": "['https://doc.quickapp.cn']",
+        },
+        "events": Object {
+          "error": "errorfn",
+          "message": "messagefn",
+          "pagefinish": "pagefinishfn",
+          "pagestart": "pagestartfn",
+          "titlereceive": "titlereceivefn",
+        },
+        "type": "web",
+      },
+    ],
+    "classList": Array [
+      "container",
+    ],
+    "type": "div",
+  },
+}
+`;

@@ -1,0 +1,45 @@
+<template>
+  <div>
+  </div>
+</template>
+
+<style>
+  .A {
+    indicator-bottom: 0;
+  }
+
+  .B {
+    indicator-bottom: 10px;
+  }
+
+  .C {
+    indicator-bottom: 10%;
+  }
+
+  .a {
+    indicator-bottom: 10rem;
+  }
+
+  .b {
+    indicator-bottom: 10em;
+  }
+
+  .c {
+    indicator-bottom: 10pt;
+  }
+
+  .d {
+    indicator-bottom: @indicatorTopLength;
+  }
+
+  .e {
+    indicator-bottom: a;
+  }
+</style>
+
+<script>
+  export default {
+    data: {
+    }
+  }
+</script>

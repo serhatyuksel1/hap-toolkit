@@ -1,0 +1,12 @@
+<template>
+  <text>{{message}}</text>
+</template>
+
+<script>
+  export default {
+    props: ['message'],
+    data: {
+      message: ''
+    }
+  }
+</script>

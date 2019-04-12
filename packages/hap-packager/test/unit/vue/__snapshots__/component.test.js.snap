@@ -1,0 +1,1074 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component编译测试 a 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/A/testa.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(\\"div\\", [
+    _c(\\"a\\", [_vm._v(\\"http://baidu.com\\")]),
+    _vm._v(\\" \\"),
+    _c(\\"a\\", [_vm._v(_vm._s(_vm.http))])
+  ])
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 app.js 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/app.vue",
+  },
+}
+`;
+
+exports[`Component编译测试 div 1`] = `
+Object {
+  "default": Object {
+    "A1": "class A1 {}",
+    "__file": "TestComponent/Div/testdiv.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+    "testES": Object {
+      "A1": "class A1 {}",
+      "manifestJSON": Object {
+        "components": Array [],
+        "config": Object {
+          "logLevel": "off",
+        },
+        "features": Array [],
+        "icon": "/Common/icon.png",
+        "name": "testcomponent",
+        "package": "com.app.case.testcomponent",
+        "permissions": Array [
+          Object {
+            "origin": "*",
+          },
+        ],
+        "router": Object {
+          "entry": "Div",
+          "pages": Object {
+            "A": Object {
+              "component": "testa",
+            },
+            "Div": Object {
+              "component": "testdiv",
+            },
+            "RichText": Object {
+              "component": "testrichtext",
+            },
+            "Stack": Object {
+              "component": "teststack",
+            },
+          },
+        },
+        "version": "1.0",
+        "versionCode": "1",
+      },
+    },
+  },
+}
+`;
+
+exports[`Component编译测试 image 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Image/testimage.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 input 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Input/testinput.vue",
+    "_compiled": true,
+    "changeDate": "function (e) {// changeDate
+  }",
+    "changeMail": "function (e) {// changeMail
+  }",
+    "changeNumber": "function (e) {// changeNumber
+  }",
+    "changeText": "function (e) {// changeText
+  }",
+    "changeTime": "function (e) {// changeTime
+  }",
+    "clickBtn": "function () {// clickBtn
+  }",
+    "data": Object {},
+    "enterkeyclickfn": "function (e) {// enterkeyclickfn
+  }",
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}",
+    "selectionchangeFn": "function (e) {// selectionchange
+  }",
+    "staticRenderFns": Array [
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"div\\", { staticClass: \\"container\\" }, [
+      _c(\\"input\\", {
+        staticStyle: { color: \\"red\\" },
+        attrs: { type: \\"button\\", onclick: \\"clickBtn\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"input\\", {
+        staticStyle: { color: \\"red\\" },
+        attrs: { type: \\"checkbox\\", name: \\"myCheckbox\\", value: \\"first checkbox\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"input\\", {
+        staticStyle: { color: \\"red\\" },
+        attrs: {
+          type: \\"checkbox\\",
+          name: \\"myCheckbox\\",
+          value: \\"second checkbox\\"
+        }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"input\\", {
+        staticStyle: { \\"font-size\\": \\"50px\\", \\"placeholde-color\\": \\"red\\" },
+        attrs: {
+          type: \\"text\\",
+          placeholder: \\"text\\",
+          enterkeytype: \\"next\\",
+          maxlength: \\"5\\",
+          onenterkeyclick: \\"enterkeyclickfn\\",
+          onchange: \\"changeText\\",
+          onselectionchange: \\"selectionchangeFn\\"
+        }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"input\\", {
+        staticStyle: { \\"font-size\\": \\"50px\\", \\"placeholde-color\\": \\"red\\" },
+        attrs: { type: \\"mail\\", placeholder: \\"mail\\", onchange: \\"changeMail\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"input\\", {
+        staticStyle: { \\"font-size\\": \\"50px\\", \\"placeholde-color\\": \\"red\\" },
+        attrs: { type: \\"date\\", placeholder: \\"date\\", onchange: \\"changeDate\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"input\\", {
+        staticStyle: { \\"font-size\\": \\"50px\\", \\"placeholde-color\\": \\"red\\" },
+        attrs: { type: \\"time\\", placeholder: \\"time\\", onchange: \\"changeTime\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"input\\", {
+        staticStyle: { \\"font-size\\": \\"50px\\", \\"placeholde-color\\": \\"red\\" },
+        attrs: {
+          type: \\"number\\",
+          placeholder: \\"number\\",
+          onchange: \\"changeNumber\\"
+        }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"input\\", {
+        staticStyle: { \\"font-size\\": \\"50px\\" },
+        attrs: { type: \\"password\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"input\\", {
+        staticStyle: { width: \\"50px\\" },
+        attrs: { type: \\"radio\\", onchange: \\"clickBtn\\" }
+      })
+    ])
+  }",
+    ],
+  },
+}
+`;
+
+exports[`Component编译测试 label 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Label/testlabel.vue",
+    "_compiled": true,
+    "clicklabel": "function () {// clicklabel
+  }",
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}",
+    "staticRenderFns": Array [
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"div\\", { staticClass: \\"container\\" }, [
+      _c(\\"label\\", [_vm._v(\\"标签名称：\\")]),
+      _vm._v(\\" \\"),
+      _c(\\"label\\", { attrs: { target: \\"input1\\" } }, [_vm._v(\\"input1:\\")]),
+      _vm._v(\\" \\"),
+      _c(\\"input\\", {
+        attrs: { type: \\"text\\", id: \\"input1\\", placeholder: \\"input1\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"label\\", { attrs: { target: \\"textarea1\\" } }, [_vm._v(\\"textarea1:\\")]),
+      _vm._v(\\" \\"),
+      _c(\\"textarea\\", {
+        attrs: { id: \\"textarea1\\", placeholder: \\"textarea...\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"label\\", { attrs: { target: \\"radio1\\" } }, [_vm._v(\\"radio1:\\")]),
+      _vm._v(\\" \\"),
+      _c(\\"input\\", {
+        staticStyle: { width: \\"50px\\" },
+        attrs: { type: \\"radio\\", id: \\"radio1\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"label\\", { attrs: { onclick: \\"clicklabel\\" } }, [_vm._v(\\"clickLabel:\\")])
+    ])
+  }",
+    ],
+  },
+}
+`;
+
+exports[`Component编译测试 list 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/List/testlist.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    \\"div\\",
+    { staticClass: \\"container\\" },
+    [_c(\\"list\\", [_c(\\"list-item\\"), _vm._v(\\" \\"), _c(\\"list-item\\")], 1)],
+    1
+  )
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 map 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Map/testmap.vue",
+    "_compiled": true,
+    "callouttap": "function (e) {}",
+    "controltap": "function (e) {}",
+    "data": Object {
+      "markers": Array [
+        Object {
+          "id": 1,
+          "latitude": 90,
+          "longitude": 90,
+        },
+      ],
+    },
+    "loaded": "function () {}",
+    "markertap": "function (e) {}",
+    "regionchange": "function (e) {}",
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+    "tap": "function (e) {}",
+  },
+}
+`;
+
+exports[`Component编译测试 picker 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Picker/testpicker.vue",
+    "_compiled": true,
+    "changeDate": "function (e) {// changeDate
+  }",
+    "changeText": "function (e) {// changeText
+  }",
+    "changeTime": "function (e) {// changeTime
+  }",
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    \\"div\\",
+    { staticClass: \\"container\\" },
+    [
+      _c(\\"picker\\", {
+        attrs: {
+          type: \\"text\\",
+          range: \\"[1,2,3,4,5]\\",
+          selected: \\"2\\",
+          onchange: \\"changeText\\"
+        }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"picker\\", {
+        attrs: {
+          type: \\"date\\",
+          start: \\"2000-1-1\\",
+          end: \\"3000-1-1\\",
+          slected: \\"2017-4-7\\",
+          onchange: \\"changeDate\\"
+        }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"picker\\", { attrs: { type: \\"time\\", onchange: \\"changeTime\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"picker\\", { attrs: { type: \\"time\\", onchange: \\"changeTime\\" } })
+    ],
+    1
+  )
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 popup 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Popup/testpopup.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    \\"div\\",
+    { staticClass: \\"container\\" },
+    [
+      _c(\\"input\\", {
+        staticStyle: { color: \\"red\\" },
+        attrs: { type: \\"button\\", id: \\"popup1\\", value: \\"top\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"popup\\", { attrs: { target: \\"popup1\\", placement: \\"top\\" } }, [
+        _c(\\"text\\", [_vm._v(\\"这是popup测试\\")])
+      ]),
+      _vm._v(\\" \\"),
+      _c(\\"input\\", {
+        staticStyle: { color: \\"red\\" },
+        attrs: { type: \\"button\\", id: \\"popup2\\", value: \\"top\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(
+        \\"popup\\",
+        {
+          staticStyle: { \\"mask-color\\": \\"#ff0000\\" },
+          attrs: { target: \\"test_popup\\", placement: \\"top\\" }
+        },
+        [_c(\\"text\\", [_vm._v(\\"这是popup测试\\")])]
+      )
+    ],
+    1
+  )
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 progress 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Progress/testprogress.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}",
+    "staticRenderFns": Array [
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"div\\", { staticClass: \\"container\\" }, [
+      _c(\\"progress\\", {
+        staticStyle: { \\"stroke-width\\": \\"100px\\", color: \\"red\\" },
+        attrs: { type: \\"horizontal\\", percent: \\"80\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"progress\\", {
+        staticStyle: { color: \\"red\\" },
+        attrs: { type: \\"circular\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"progress\\", {
+        staticStyle: { color: \\"yellow\\" },
+        attrs: { type: \\"circular\\" }
+      })
+    ])
+  }",
+    ],
+  },
+}
+`;
+
+exports[`Component编译测试 rating 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Rating/testrating.vue",
+    "_compiled": true,
+    "changeNum": "changeNum(e) {// TODO
+  }",
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    \\"div\\",
+    { staticClass: \\"container\\" },
+    [
+      _c(\\"rating\\"),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticClass: \\"bg\\" }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", {
+        staticStyle: { height: \\"100px\\" },
+        attrs: { numstars: \\"5\\", rating: \\"3\\", stepsize: \\"0.5\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", {
+        staticStyle: { starBackground: \\"url('./1.png')\\" },
+        attrs: { numstars: \\"5\\", rating: \\"3\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", {
+        staticStyle: {
+          starBackground: \\"url(./1.png)\\",
+          starSecondary: \\"url(./2.png)\\",
+          starForeground: \\"url(./3.png)\\"
+        },
+        attrs: {
+          numstars: \\"5\\",
+          rating: \\"3\\",
+          stepsize: \\"0.5\\",
+          onchange: \\"changeNum\\"
+        }
+      })
+    ],
+    1
+  )
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 refresh 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Refresh/testrefresh.vue",
+    "_compiled": true,
+    "data": Object {
+      "is_refreshing": false,
+    },
+    "refresh": "function (e) {
+    var that_ = this;
+    that_.is_refreshing = e.refreshing; // 更新刷新状态
+
+    setTimeout(function () {
+      that_.is_refreshing = \\"false\\"; //关闭刷新状态
+    }, 3000);
+  }",
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 rich-text 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/RichText/testrichtext.vue",
+    "_compiled": true,
+    "data": Object {
+      "html": "<div><p>type = html</p></div>",
+      "native": "<div><text>native组件</text></div>",
+    },
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 select-option 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/SelectOption/testselectoption.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}",
+    "staticRenderFns": Array [
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"div\\", [
+      _c(\\"select\\", [
+        _c(\\"option\\", { attrs: { value: \\"50\\", selected: \\"true\\" } }, [
+          _vm._v(\\"丹栗鸡\\")
+        ]),
+        _vm._v(\\" \\"),
+        _c(\\"option\\", { attrs: { value: \\"100\\" } }, [_vm._v(\\"藤椒鸡\\")]),
+        _vm._v(\\" \\"),
+        _c(\\"option\\", { attrs: { value: \\"200\\" } }, [_vm._v(\\"口水鸡\\")]),
+        _vm._v(\\" \\"),
+        _c(\\"option\\", { attrs: { value: \\"peanutSoup\\" } }, [_vm._v(\\"花生稀饭\\")]),
+        _vm._v(\\" \\"),
+        _c(\\"option\\", [_vm._v(\\"叶儿粑\\")]),
+        _vm._v(\\" \\"),
+        _c(\\"option\\", { attrs: { value: \\"\\" } }, [_vm._v(\\"老鸭汤\\")]),
+        _vm._v(\\" \\"),
+        _c(\\"option\\", { attrs: { value: \\"300\\" } }, [_vm._v(\\"鱼火锅\\")]),
+        _vm._v(\\" \\"),
+        _c(\\"option\\", [_vm._v(\\"杨豆腐脑\\")]),
+        _vm._v(\\" \\"),
+        _c(\\"option\\", [_vm._v(\\"乌腿鸡\\")])
+      ])
+    ])
+  }",
+    ],
+  },
+}
+`;
+
+exports[`Component编译测试 slider 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Slider/testslider.vue",
+    "_compiled": true,
+    "changeDate": "function (e) {// changeDate
+  }",
+    "changeSlider": "function (e) {// changeSlider
+  }",
+    "changeText": "function (e) {// changeText
+  }",
+    "changeTime": "function (e) {// changeTime
+  }",
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    \\"div\\",
+    { staticClass: \\"container\\" },
+    [
+      _c(\\"slider\\", {
+        staticStyle: { \\"selected-color\\": \\"red\\" },
+        attrs: {
+          min: \\"10\\",
+          max: \\"100\\",
+          step: \\"2\\",
+          value: \\"50\\",
+          onchange: \\"changeSlider\\"
+        }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"slider\\"),
+      _vm._v(\\" \\"),
+      _c(\\"slider\\", { attrs: { min: \\"10\\", max: \\"100\\" } })
+    ],
+    1
+  )
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 span 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Span/testspan.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(\\"div\\", { staticClass: \\"container\\" }, [
+    _c(\\"text\\", [
+      _c(
+        \\"span\\",
+        { staticStyle: { color: \\"red\\", \\"text-decoration\\": \\"underline\\" } },
+        [_vm._v(\\"hello\\")]
+      )
+    ]),
+    _vm._v(\\" \\"),
+    _vm._m(0)
+  ])
+}",
+    "staticRenderFns": Array [
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"a\\", { attrs: { href: \\"http://baidu.com\\" } }, [
+      _c(\\"span\\", { staticStyle: { color: \\"red\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"span\\", {
+        staticStyle: { color: \\"red\\", \\"text-decoration\\": \\"line-through\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"span\\", {
+        staticStyle: { color: \\"red\\", \\"text-decoration\\": \\"underline\\" }
+      })
+    ])
+  }",
+    ],
+  },
+}
+`;
+
+exports[`Component编译测试 stack 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Stack/teststack.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    \\"div\\",
+    { staticClass: \\"container\\" },
+    [_c(\\"stack\\", [_c(\\"img\\", { attrs: { src: \\"/Common/home.png\\" } })])],
+    1
+  )
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 star-background 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/StarBackground/teststarBackground.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    \\"div\\",
+    [
+      _c(\\"rating\\", { staticStyle: { \\"star-background\\": \\"url('./a.png')\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-background\\": \\"url(./a.png)\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-background\\": \\"url()\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-background\\": \\"'./a.png'\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-background\\": \\"@uri\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-background\\": \\"url(a)\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-background\\": \\"url(@uri)\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-background\\": \\"uri('./a.png')\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", {
+        staticStyle: { \\"star-background\\": \\"url(/common/a.png)\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", {
+        staticStyle: {
+          \\"star-background\\":
+            \\"url(https://www.quickapp.cn/assets/images/home/a.png)\\"
+        }
+      })
+    ],
+    1
+  )
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 star-foreground 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/StarForeground/teststarForeground.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    \\"div\\",
+    [
+      _c(\\"rating\\", { staticStyle: { \\"star-foreground\\": \\"url('./a.png')\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-foreground\\": \\"url(./a.png)\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-foreground\\": \\"url()\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-foreground\\": \\"'./a.png'\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-foreground\\": \\"@uri\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-foreground\\": \\"url(a)\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-foreground\\": \\"url(@uri)\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-foreground\\": \\"uri('./a.png')\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", {
+        staticStyle: { \\"star-foreground\\": \\"url(/common/a.png)\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", {
+        staticStyle: {
+          \\"star-foreground\\":
+            \\"url(https://www.quickapp.cn/assets/images/home/a.png)\\"
+        }
+      })
+    ],
+    1
+  )
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 star-secondary 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/StarSecondary/teststarSecondary.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    \\"div\\",
+    [
+      _c(\\"rating\\", { staticStyle: { \\"star-secondary\\": \\"url('./a.png')\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-secondary\\": \\"url(./a.png)\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-secondary\\": \\"url()\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-secondary\\": \\"'./a.png'\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-secondary\\": \\"@uri\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-secondary\\": \\"url(a)\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-secondary\\": \\"url(@uri)\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-secondary\\": \\"uri('./a.png')\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", { staticStyle: { \\"star-secondary\\": \\"url(/common/a.png)\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"rating\\", {
+        staticStyle: {
+          \\"star-secondary\\":
+            \\"url(https://www.quickapp.cn/assets/images/home/a.png)\\"
+        }
+      })
+    ],
+    1
+  )
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 swiper 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Swiper/testswiper.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    \\"div\\",
+    { staticClass: \\"container\\" },
+    [
+      _c(
+        \\"swiper\\",
+        {
+          attrs: {
+            index: \\"1\\",
+            autoplay: \\"true\\",
+            interval: \\"1000ms\\",
+            indicator: \\"false\\",
+            loop: \\"true\\"
+          }
+        },
+        [
+          _c(\\"text\\", [_vm._v(\\"item1\\")]),
+          _vm._v(\\" \\"),
+          _c(\\"text\\", [_vm._v(\\"item2\\")]),
+          _vm._v(\\" \\"),
+          _c(\\"text\\", [_vm._v(\\"item3\\")])
+        ]
+      )
+    ],
+    1
+  )
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 switch 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Switch/testswitch.vue",
+    "_compiled": true,
+    "changeSwitch": "function (e) {// changeSwitch
+  }",
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(\\"div\\", { staticClass: \\"container\\" }, [
+    _c(\\"switch\\", { attrs: { checked: \\"true\\", onchange: \\"changeSwitch\\" } }),
+    _vm._v(\\" \\"),
+    _c(\\"switch\\", { attrs: { checked: \\"false\\", onchange: \\"changeSwitch\\" } })
+  ])
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 tabs 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Tabs/testtabs.vue",
+    "_compiled": true,
+    "changeActive": "function (e) {// {index: indexValue}
+  }",
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    \\"tabs\\",
+    {
+      staticClass: \\"container\\",
+      attrs: { index: \\"1\\", onchange: \\"changeActive\\" }
+    },
+    [
+      _c(\\"tab-bar\\", [
+        _c(\\"text\\"),
+        _vm._v(\\" \\"),
+        _c(\\"text\\"),
+        _vm._v(\\" \\"),
+        _c(\\"text\\")
+      ]),
+      _vm._v(\\" \\"),
+      _c(
+        \\"tab-content\\",
+        { attrs: { scrollable: \\"true\\" } },
+        [
+          _c(\\"div\\"),
+          _vm._v(\\" \\"),
+          _c(\\"refresh\\"),
+          _vm._v(\\" \\"),
+          _c(
+            \\"list\\",
+            [
+              _c(\\"list-item\\"),
+              _vm._v(\\" \\"),
+              _c(\\"list-item\\"),
+              _vm._v(\\" \\"),
+              _c(\\"list-item\\")
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 text 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Text/testtext.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(\\"div\\", { staticClass: \\"container\\" }, [
+    _c(\\"text\\", [_vm._v(\\"hello\\")])
+  ])
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 textarea 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Textarea/testtextarea.vue",
+    "_compiled": true,
+    "changeText": "function (e) {// changeTextarea
+  }",
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}",
+    "selectionchangeFn": "function (e) {// selectionchange
+  }",
+    "staticRenderFns": Array [
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"div\\", { staticClass: \\"container\\" }, [
+      _c(\\"textarea\\", {
+        attrs: {
+          type: \\"text\\",
+          maxlength: \\"5\\",
+          onchange: \\"changeText\\",
+          onselectionchange: \\"selectionchangeFn\\"
+        }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"textarea\\", {
+        staticStyle: { \\"placeholder-color\\": \\"red\\" },
+        attrs: { type: \\"email\\" }
+      }),
+      _vm._v(\\" \\"),
+      _c(\\"textarea\\", { attrs: { type: \\"date\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"textarea\\", { attrs: { type: \\"time\\" } }),
+      _vm._v(\\" \\"),
+      _c(\\"textarea\\", { attrs: { type: \\"number\\" } })
+    ])
+  }",
+    ],
+  },
+}
+`;
+
+exports[`Component编译测试 video 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Video/testvideo.vue",
+    "_compiled": true,
+    "data": Object {},
+    "onerror": "function () {// preparedVideo
+  }",
+    "onfinish": "function () {// preparedVideo
+  }",
+    "pauseVideo": "function () {// preparedVideo
+  }",
+    "preparedVideo": "function () {// preparedVideo
+  }",
+    "render": "function () {}",
+    "startVideo": "function () {// preparedVideo
+  }",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Component编译测试 web 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestComponent/Web/testweb.vue",
+    "_compiled": true,
+    "data": Object {},
+    "errorfn": "function () {// TODO
+  }",
+    "messagefn": "function () {// TODO
+  }",
+    "pagefinishfn": "function () {// TODO
+  }",
+    "pagestartfn": "function () {// TODO
+  }",
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    \\"div\\",
+    { staticClass: \\"container\\" },
+    [
+      _c(\\"web\\", {
+        attrs: {
+          onpagestart: \\"pagestartfn\\",
+          trustedurl: \\"['https://doc.quickapp.cn']\\",
+          onpagefinish: \\"pagefinishfn\\",
+          ontitlereceive: \\"titlereceivefn\\",
+          onerror: \\"errorfn\\",
+          onmessage: \\"messagefn\\",
+          src: \\"https://doc.quickapp.cn\\"
+        }
+      })
+    ],
+    1
+  )
+}",
+    "staticRenderFns": Array [],
+    "titlereceivefn": "function () {// TODO
+  }",
+  },
+}
+`;

@@ -1,0 +1,37 @@
+<template>
+  <div>
+  </div>
+</template>
+
+<style>
+  .A1 {
+    transform: scaleX(1);
+  }
+
+  .A2 {
+    transform: scaleX( 1 );
+  }
+
+  .B1 {
+    transform: scaleX( -1 );
+  }
+
+  .a1 {
+    transform: scaleX(1px);
+  }
+
+  .a2 {
+    transform: scaleX('1');
+  }
+
+  .a3 {
+    transform: scaleX();
+  }
+</style>
+
+<script>
+  export default {
+    data: {
+    }
+  }
+</script>

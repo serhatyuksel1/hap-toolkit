@@ -1,0 +1,9 @@
+<template>
+  <div>
+    <!--支持通用事件-->
+    <div onclick="click"></div>
+    <div onlongpress="longpress"></div>
+    <input onfocus="focus" />
+    <input onblur="blur" />
+  </div>
+</template>

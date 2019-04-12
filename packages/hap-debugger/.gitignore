@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+devtools/**/release
+!/lib
+node_modules
+.idea/
+dist
+package-lock.json
+*.pyc
+*.map
+
+src/**
+lib/**/*.js.map

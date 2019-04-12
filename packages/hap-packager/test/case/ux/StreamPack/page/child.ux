@@ -1,0 +1,14 @@
+<template>
+  <div class="child">
+    <text>This is a child</text>
+  </div>
+</template>
+
+<style>
+.child.ok {
+  background-image: url('./image.jpg');
+}
+.child-not-ok {
+  background-image: url('../other-dir/image.jpg');
+}
+</style>

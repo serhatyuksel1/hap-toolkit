@@ -1,0 +1,24 @@
+<template>
+  <div class="container">
+    <swiper index="1" autoplay="true" interval="1000ms" indicator="false" loop="true">
+      <text>item1</text>
+      <text>item2</text>
+      <text>item3</text>
+    </swiper>
+  </div>
+</template>
+
+<style>
+  .container {
+    flex:1;
+    flex-direction: column;
+    background-color: #FFFFFF;
+  }
+</style>
+
+<script>
+  export default {
+    data: {
+    }
+  }
+</script>

@@ -1,0 +1,9 @@
+<import name="header" src="./header"></import>
+<template>
+  <div>
+    <header>
+      <text>title</text>
+    </header>
+    <footer></footer>
+  </div>
+</template>

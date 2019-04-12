@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试processImport函数 process import 1`] = `
+"/* comment */
+
+
+@media  screen and (orientation: portrait) {
+/*@import  './common2.css';*/
+
+
+
+@media  screen and (resolution: 96dpi) {
+.commom3 {
+  color: #000033;
+}
+}
+
+
+.common1 {
+  color: #000001;
+}
+
+
+.common {
+  color: #000000;
+}
+}
+
+
+.box {
+  width: 100px;
+}
+
+@import './common2.css' screen and (orientation: portrait);"
+`;

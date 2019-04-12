@@ -1,0 +1,45 @@
+<template>
+  <div>
+  </div>
+</template>
+
+<style>
+  .A {
+    display: flex;
+  }
+
+  .B {
+    display: none;
+  }
+
+  .a1 {
+    display: 'block';
+  }
+
+  .a2 {
+    display: 'none';
+  }
+
+  .b1 {
+    display: inline;
+  }
+
+  .b2 {
+    display: inline-block;
+  }
+
+  .b3 {
+    display: table;
+  }
+
+  .b4 {
+    display: block;
+  }
+</style>
+
+<script>
+  export default {
+    data: {
+    }
+  }
+</script>

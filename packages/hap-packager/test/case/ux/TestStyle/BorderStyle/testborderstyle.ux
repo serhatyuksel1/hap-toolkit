@@ -1,0 +1,38 @@
+<template>
+  <div>
+  </div>
+</template>
+
+<style>
+  .A {
+    border-style: dotted;
+  }
+
+  .B {
+    border-style: dashed;
+  }
+
+  .C1 {
+    border-style: solid;
+  }
+
+  .C2 {
+    border-style:   solid;
+  }
+
+  .a {
+    border-style: double;
+  }
+
+  .b {
+    border-style: ;
+  }
+
+</style>
+
+<script>
+  export default {
+    data: {
+    }
+  }
+</script>

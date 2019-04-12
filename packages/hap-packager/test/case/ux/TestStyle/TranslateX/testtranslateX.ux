@@ -1,0 +1,42 @@
+<template>
+  <div>
+  </div>
+</template>
+
+<style>
+  .A1 {
+    transform: translateX(100px);
+  }
+
+  .A2 {
+    transform: translateX(-100px);
+  }
+
+  .B1 {
+    transform: translateX(100px );
+  }
+
+  .B2 {
+    transform: translateX(100);
+  }
+
+  .C1 {
+    transform: translateX(100%);
+  }
+
+  .a1 {
+    transform: translateX();
+  }
+
+  .a2 {
+    transform: translateX('100px');
+  }
+
+</style>
+
+<script>
+  export default {
+    data: {
+    }
+  }
+</script>

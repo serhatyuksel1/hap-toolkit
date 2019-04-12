@@ -1,0 +1,66 @@
+<template>
+  <div>
+  </div>
+</template>
+
+<style>
+  .A {
+    width: 100px;
+  }
+
+  .B {
+    width: 100%;
+  }
+
+  .C {
+    width:   100px;
+  }
+
+  .D {
+    width:   100%;
+  }
+
+  .E {
+    width: 100;
+  }
+
+  .F {
+    width: 0;
+  }
+
+  .a {
+    width: 100rem;
+  }
+
+  .b {
+    width: 100em;
+  }
+
+  .c {
+    width: 100pt;
+  }
+
+  .d {
+    width: 100 %;
+  }
+
+  .e {
+    width: 100 px;
+  }
+
+  .f {
+    width: @widthLength;
+  }
+
+  .g {
+    width: long;
+  }
+
+</style>
+
+<script>
+  export default {
+    data: {
+    }
+  }
+</script>

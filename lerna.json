@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "packages/*",
+    "test/build/projects/*"
+  ],
+  "version": "0.4.1"
+}

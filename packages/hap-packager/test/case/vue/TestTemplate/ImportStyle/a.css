@@ -1,0 +1,10 @@
+@import './b.css';
+
+.A {
+    color: blue;
+    flex: 1;
+}
+
+.B {
+    width: 100px;
+}

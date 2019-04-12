@@ -1,0 +1,51 @@
+<template>
+  <div class="container">
+    <list>
+      <block v-for="cities">
+        <list-item type="city">
+          <text>{{$item.name}}</text>
+        </list-item>
+
+        <block v-for="$item.spots">
+          <list-item type="spot">
+            <text>{{$item.address}}</text>
+          </list-item>
+        </block>
+      </block>
+    </list>
+  </div>
+</template>
+
+<style>
+  .container {
+    flex: 1;
+    flex-direction: column;
+    background-color: #FFFFFF;
+  }
+</style>
+
+<script>
+  export default {
+    data: {
+      cities: [{
+        name: 'beijing',
+        spots: [{
+          name: '海淀',
+          address: '海淀区'
+        }, {
+          name: '朝阳',
+          address: '朝阳区'
+        }]
+      }, {
+        name: 'shanghai',
+        spots: [{
+          name: '浦东',
+          address: '浦东新区'
+        }, {
+          name: '金山',
+          address: '金山区'
+        }]
+      }]
+    }
+  }
+</script>

@@ -1,0 +1,682 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Template编译测试 allowed-keywords 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/AllowedKeywords/testallowedkeywords.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(\\"div\\", { staticClass: \\"container\\" }, [
+    _c(\\"text\\", [_vm._v(_vm._s(Infinity))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(null))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(undefined))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(NaN))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(isFinite(0)))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(isNaN(0)))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(true))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(false))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(parseFloat(\\"1.11\\")))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(parseInt(\\"10\\")))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _vm._v(_vm._s(encodeURI(\\"https://doc.quickapp.cn/quick app/\\")))
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _vm._v(_vm._s(decodeURI(\\"https://doc.quickapp.cn/quick%20app/\\")))
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _vm._v(_vm._s(encodeURIComponent(\\"https://doc.quickapp.cn/quick app/\\")))
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _vm._v(
+        _vm._s(
+          decodeURIComponent(\\"https%3A%2F%2Fdoc.quickapp.cn%2Fquick%20app%2F\\")
+        )
+      )
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(Math.random()))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(Number(0)))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(Date()))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(Array(5)))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(Boolean(1)))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(Object({ a: 1 })))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(String(\\"str\\")))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(RegExp(\\"abc\\")))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(new Map([[\\"A\\", 1], [\\"B\\", 2], [\\"C\\", 3]])))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(new Set([\\"A\\", \\"B\\", \\"C\\"])))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(JSON.stringify({ a: 1 })))]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(_vm._s(__webpack_require__(/*! ../manifest.json */ \\"./TestTemplate/manifest.json\\")))])
+  ])
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 app.js 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/app.vue",
+  },
+}
+`;
+
+exports[`Template编译测试 block 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/Block/testblock.vue",
+    "_compiled": true,
+    "data": Object {
+      "cities": Array [
+        Object {
+          "name": "beijing",
+          "spots": Array [
+            Object {
+              "address": "海淀区",
+              "name": "海淀",
+            },
+            Object {
+              "address": "朝阳区",
+              "name": "朝阳",
+            },
+          ],
+        },
+        Object {
+          "name": "shanghai",
+          "spots": Array [
+            Object {
+              "address": "浦东新区",
+              "name": "浦东",
+            },
+            Object {
+              "address": "金山区",
+              "name": "金山",
+            },
+          ],
+        },
+      ],
+    },
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 data-binding 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/DataBinding/testdatabinding.vue",
+    "_compiled": true,
+    "data": Object {
+      "message": "Hello Binding!",
+      "name": "Bill",
+      "text": "Hello world!",
+      "url": "https://www.quickapp.cn",
+    },
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 event-binding 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/EventBinding/testeventbinding.vue",
+    "_compiled": true,
+    "clickDiv1": "function (e) {// 点击第一个div
+  }",
+    "clickDiv2": "function (e) {// 点击第二个div
+  }",
+    "data": Object {},
+    "event": "function (e) {}",
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(\\"div\\", { staticClass: \\"container\\" }, [
+    _c(\\"div\\", { attrs: { onclick: \\"clickDiv1\\" } }),
+    _vm._v(\\" \\"),
+    _c(\\"div\\", { on: { click: _vm.clickDiv2 } }),
+    _vm._v(\\" \\"),
+    _c(\\"div\\", {
+      attrs: { ontouchend: \\"event\\", ontouchcancel: \\"event\\" },
+      on: { touchstart: _vm.event, touchmove: _vm.event }
+    })
+  ])
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 expression 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/Expression/testexpression.vue",
+    "_compiled": true,
+    "data": Object {
+      "value1": 1,
+      "value2": 2,
+    },
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 for 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/For/testfor.vue",
+    "_compiled": true,
+    "data": Object {
+      "list": Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+      ],
+    },
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 if 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/If/testif.vue",
+    "_compiled": true,
+    "data": Object {
+      "condition": -1,
+    },
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 import-style 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/ImportStyle/testimportstyle.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(\\"div\\")
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 inline-style 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/InlineStyle/testinlinestyle.vue",
+    "_compiled": true,
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(\\"div\\", [
+    _c(\\"text\\", { staticStyle: { padding: \\"10px 20px 30px 40px\\" } }, [
+      _vm._v(\\"test padding\\")
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", { staticStyle: { margin: \\"10px 20px 30px 40px\\" } }, [
+      _vm._v(\\"test margin\\")
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", { staticStyle: { border: \\"1px solid red\\" } }, [
+      _vm._v(\\"test border\\")
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", { staticStyle: { \\"border-width\\": \\"10px 20px 30px 40px\\" } }, [
+      _vm._v(\\"test border-width\\")
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", { staticStyle: { \\"border-color\\": \\"red black #0000FF #fff\\" } }, [
+      _vm._v(\\"test border-color\\")
+    ])
+  ])
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 list 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/List/testlist.vue",
+    "_compiled": true,
+    "data": Object {
+      "cities": Array [
+        Object {
+          "name": "beijing",
+          "spots": Array [
+            Object {
+              "address": "海淀区",
+              "name": "海淀",
+            },
+            Object {
+              "address": "朝阳区",
+              "name": "朝阳",
+            },
+          ],
+        },
+        Object {
+          "name": "shanghai",
+          "spots": Array [
+            Object {
+              "address": "浦东新区",
+              "name": "浦东",
+            },
+            Object {
+              "address": "金山区",
+              "name": "金山",
+            },
+          ],
+        },
+      ],
+    },
+    "render": "function () {}",
+    "scroll": "function (e) {// {scrollX:scrollXValue, scrollY:scrollYValue}，均为相对上次滚动距离
+  }",
+    "scrollbottom": "function (e) {// 列表滚动到底部
+  }",
+    "scrollend": "function (e) {// 列表滑动结束
+  }",
+    "scrolltop": "function (e) {// 列表滚动到顶部
+  }",
+    "scrolltouchup": "function (e) {// 列表滑动过程中手指抬起
+  }",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 nested-if 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/NestedIf/testnestedif.vue",
+    "_compiled": true,
+    "data": Object {
+      "level1False": false,
+      "level1True": true,
+      "level2False": false,
+      "level2True": true,
+      "level3False": false,
+      "level3True": true,
+    },
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 refresh 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/Refresh/testrefresh.vue",
+    "_compiled": true,
+    "changeSwiper": "function (e) {// {index: currentIndex}
+  }",
+    "changeTabs": "function (e) {// {index: indexValue}
+  }",
+    "data": Object {
+      "swiperList": Array [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+      ],
+    },
+    "refresh": "function (e) {// {refreshing: refreshingValue}
+  }",
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 reg-exp 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/RegExp/testregexp.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 show 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/Show/testshow.vue",
+    "_compiled": true,
+    "data": Object {
+      "visible": false,
+    },
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 simple 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/Simple/testsimple.vue",
+    "_compiled": true,
+    "data": Object {},
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(\\"div\\", { staticClass: \\"container\\" })
+}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 tabs 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/Tabs/testtabs.vue",
+    "_compiled": true,
+    "changeSwiper": "function (e) {// {index: currentIndex}
+  }",
+    "changeTabs": "function (e) {// {index: indexValue}
+  }",
+    "data": Object {
+      "cities": Array [
+        Object {
+          "name": "beijing",
+          "spots": Array [
+            Object {
+              "address": "海淀区",
+              "name": "海淀",
+            },
+            Object {
+              "address": "朝阳区",
+              "name": "朝阳",
+            },
+          ],
+        },
+        Object {
+          "name": "shanghai",
+          "spots": Array [
+            Object {
+              "address": "浦东新区",
+              "name": "浦东",
+            },
+            Object {
+              "address": "金山区",
+              "name": "金山",
+            },
+          ],
+        },
+      ],
+      "swiperList": Array [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+      ],
+    },
+    "refresh": "function (e) {// {refreshing: refreshingValue}
+  }",
+    "render": "function () {}",
+    "scroll": "function (e) {// {scrollX:scrollXValue, scrollY:scrollYValue}，均为相对上次滚动距离
+  }",
+    "scrollbottom": "function (e) {// 列表滚动到底部
+  }",
+    "scrolltop": "function (e) {// 列表滚动到顶部
+  }",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 template-literals 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/TemplateLiterals/testtemplateliterals.vue",
+    "_compiled": true,
+    "data": Object {
+      "message": "hell world",
+    },
+    "render": "function () {}",
+    "staticRenderFns": Array [],
+  },
+}
+`;
+
+exports[`Template编译测试 text-content 1`] = `
+Object {
+  "default": Object {
+    "__file": "TestTemplate/TextContent/testtextcontent.vue",
+    "_compiled": true,
+    "render": "function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(\\"div\\", [
+    _c(\\"text\\", [_vm._v(\\"   text   \\")]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_c(\\"span\\", [_vm._v(\\"   span   \\")])]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_vm._v(\\"\\\\n    text\\"), _c(\\"span\\", [_vm._v(\\"span\\")])]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_c(\\"span\\", [_vm._v(\\"span\\")]), _vm._v(\\"text\\\\n  \\")]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _vm._v(\\"\\\\n    text\\\\n    \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\"\\\\n    text\\\\n  \\")
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _vm._v(\\"\\\\n    text\\\\n    \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\" \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\"\\\\n    text\\\\n  \\")
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _vm._v(\\"\\\\n    text\\\\n    \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\"\\\\n    text\\\\n    \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")])
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _vm._v(\\"\\\\n    text\\\\n    \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\"\\\\n    text\\\\n    \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\"\\\\n    text\\\\n  \\")
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [_c(\\"a\\", { attrs: { href: \\"#\\" } }, [_vm._v(\\"a\\")])]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _vm._v(\\"\\\\n    text\\\\n    \\"),
+      _c(\\"a\\", { attrs: { href: \\"#\\" } }, [_vm._v(\\"a\\")])
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _c(\\"a\\", { attrs: { href: \\"#\\" } }, [_vm._v(\\"a\\")]),
+      _vm._v(\\"\\\\n    text\\\\n  \\")
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _vm._v(\\"\\\\n    text\\\\n    \\"),
+      _c(\\"a\\", { attrs: { href: \\"#\\" } }, [_vm._v(\\"a\\")]),
+      _vm._v(\\"\\\\n    text\\\\n  \\")
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\" \\"),
+      _c(\\"a\\", { attrs: { href: \\"#\\" } }, [_vm._v(\\"a\\")])
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _c(\\"a\\", { attrs: { href: \\"#\\" } }, [_vm._v(\\"a\\")]),
+      _vm._v(\\" \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")])
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\" \\"),
+      _c(\\"a\\", { attrs: { href: \\"#\\" } }, [_vm._v(\\"a\\")]),
+      _vm._v(\\" \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")])
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _vm._v(\\"\\\\n    text\\\\n    \\"),
+      _c(\\"a\\", { attrs: { href: \\"#\\" } }, [_vm._v(\\"a\\")]),
+      _vm._v(\\" \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")])
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"text\\", [
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\" \\"),
+      _c(\\"a\\", { attrs: { href: \\"#\\" } }, [_vm._v(\\"a\\")]),
+      _vm._v(\\"\\\\n    text\\\\n  \\")
+    ]),
+    _vm._v(\\" \\"),
+    _c(\\"a\\", [_vm._v(\\"a\\")]),
+    _vm._v(\\" \\"),
+    _vm._m(0),
+    _vm._v(\\" \\"),
+    _vm._m(1),
+    _vm._v(\\" \\"),
+    _vm._m(2),
+    _vm._v(\\" \\"),
+    _vm._m(3),
+    _vm._v(\\" \\"),
+    _vm._m(4),
+    _vm._v(\\" \\"),
+    _vm._m(5),
+    _vm._v(\\" \\"),
+    _vm._m(6)
+  ])
+}",
+    "staticRenderFns": Array [
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"a\\", [_c(\\"span\\", [_vm._v(\\"span\\")])])
+  }",
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"a\\", [_vm._v(\\"\\\\n    a\\"), _c(\\"span\\", [_vm._v(\\"span\\")])])
+  }",
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"a\\", [_c(\\"span\\", [_vm._v(\\"span\\")]), _vm._v(\\"a\\\\n  \\")])
+  }",
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"a\\", [
+      _vm._v(\\"\\\\n    a\\\\n    \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\"\\\\n    a\\\\n  \\")
+    ])
+  }",
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"a\\", [
+      _vm._v(\\"\\\\n    a\\\\n    \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\" \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\"\\\\n    a\\\\n  \\")
+    ])
+  }",
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"a\\", [
+      _vm._v(\\"\\\\n    a\\\\n    \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\"\\\\n    a\\\\n    \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")])
+    ])
+  }",
+      "function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(\\"a\\", [
+      _vm._v(\\"\\\\n    a\\\\n    \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\"\\\\n    a\\\\n    \\"),
+      _c(\\"span\\", [_vm._v(\\"span\\")]),
+      _vm._v(\\"\\\\n    a\\\\n  \\")
+    ])
+  }",
+    ],
+  },
+}
+`;

@@ -1,0 +1,23 @@
+{
+  "modules" : [
+    { "name": "emulation", "type": "autostart" },
+    { "name": "inspector_main", "type": "autostart" },
+    { "name": "mobile_throttling", "type": "autostart" },
+    { "name": "browser_components", "type": "autostart" },
+
+    { "name": "accessibility", "type": "remote" },
+    { "name": "animation" },
+    { "name": "browser_console" },
+    { "name": "browser_debugger" },
+    { "name": "cookie_table" },
+    { "name": "devices" },
+    { "name": "elements" },
+    { "name": "emulated_devices" , "type": "remote" },
+    { "name": "har_importer" },
+    { "name": "network" },
+    { "name": "product_registry_impl", "type": "remote" },
+    { "name": "resources" }
+  ],
+  "extends": "shell",
+  "has_html": true
+}

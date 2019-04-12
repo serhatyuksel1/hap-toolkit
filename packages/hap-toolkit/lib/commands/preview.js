@@ -1,0 +1,2 @@
+"use strict";var _utils=require("../common/utils"),_createPreview=_interopRequireDefault(require("../../server/lib/preview/create-preview"));function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}module.exports=async function(e,{port:t}){(await(0,_createPreview.default)(e)).listen(t,()=>{console.log(`> 访问以下地址查看 ${e} 的预览:\n`+`> 本地: http://localhost:${t}/preview\n`+`> 局域网: http://${(0,_utils.getIPv4IPAddress)()}:${t}/preview`)})};
+//# sourceMappingURL=preview.js.map

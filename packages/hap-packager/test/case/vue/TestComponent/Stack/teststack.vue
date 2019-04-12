@@ -1,0 +1,22 @@
+<template>
+    <div class="container">
+        <stack>
+            <img src="/Common/home.png"/>
+        </stack>
+    </div>
+</template>
+
+<style>
+    .container {
+        flex:1;
+        flex-direction: column;
+        background-color: #FFFFFF;
+    }
+</style>
+
+<script>
+  export default {
+    data: {
+    }
+  }
+</script>

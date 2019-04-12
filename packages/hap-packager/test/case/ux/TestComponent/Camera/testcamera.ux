@@ -1,0 +1,23 @@
+<template>
+  <div class="container">
+    <camera
+      deviceposition="back"
+      flash="auto"
+      onerror="errorFn"/>
+  </div>
+</template>
+
+<style>
+  .container {
+    flex:1;
+    flex-direction: column;
+    background-color: #FFFFFF;
+  }
+</style>
+
+<script>
+  export default {
+    data: {},
+    errorFn () {}
+  }
+</script>

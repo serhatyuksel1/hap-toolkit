@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`initialize a project init project 1`] = `
+Array [
+  ".eslintrc.json",
+  ".gitignore",
+  "babel.config.js",
+  "package.json",
+  "sign",
+  "sign/debug",
+  "sign/debug/certificate.pem",
+  "sign/debug/private.pem",
+  "src",
+  "src/About",
+  "src/About/index.ux",
+  "src/app.ux",
+  "src/CardDemo",
+  "src/CardDemo/index.ux",
+  "src/Common",
+  "src/Common/logo.png",
+  "src/Demo",
+  "src/Demo/index.ux",
+  "src/DemoDetail",
+  "src/DemoDetail/index.ux",
+  "src/manifest.json",
+  "src/util.js",
+]
+`;

@@ -1,0 +1,3209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Template编译测试 allowed-keywords 1`] = `
+Object {
+  "@app-component/testallowedkeywords": Object {
+    "data": Object {},
+    "method1": "function () {}",
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "value": "function () {return Infinity}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return null}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return undefined}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return NaN}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return isFinite(0)}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return isNaN(0)}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return true}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return false}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return parseFloat('1.11')}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return parseInt('10')}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return encodeURI('https://doc.quickapp.cn/quick app/')}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return decodeURI('https://doc.quickapp.cn/quick%20app/')}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return encodeURIComponent('https://doc.quickapp.cn/quick app/')}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return decodeURIComponent('https%3A%2F%2Fdoc.quickapp.cn%2Fquick%20app%2F')}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return Math.random()}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return Number(0)}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return Date()}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return Array(5)}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return Boolean(1)}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return Object({a:1})}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return String('str')}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return RegExp('abc')}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return new Map([['A',1],['B',2],['C',3]])}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return new Set(['A','B','C'])}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return JSON.stringify({a :1})}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return 'bindEvent'}",
+          },
+          "events": Object {
+            "click": "function (evt) {this.method1.bind(this,evt)}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return __webpack_require__(/*! ../manifest.json */ \\"./TestTemplate/manifest.json\\")}",
+          },
+          "type": "text",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 block 1`] = `
+Object {
+  "@app-component/testblock": Object {
+    "data": Object {
+      "cities": Array [
+        Object {
+          "name": "beijing",
+          "spots": Array [
+            Object {
+              "address": "海淀区",
+              "name": "海淀",
+            },
+            Object {
+              "address": "朝阳区",
+              "name": "朝阳",
+            },
+          ],
+        },
+        Object {
+          "name": "shanghai",
+          "spots": Array [
+            Object {
+              "address": "浦东新区",
+              "name": "浦东",
+            },
+            Object {
+              "address": "金山区",
+              "name": "金山",
+            },
+          ],
+        },
+      ],
+    },
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {},
+              "children": Array [
+                Object {
+                  "attr": Object {
+                    "type": "city",
+                  },
+                  "children": Array [
+                    Object {
+                      "attr": Object {
+                        "value": "function () {return this.$item.name}",
+                      },
+                      "type": "text",
+                    },
+                  ],
+                  "type": "list-item",
+                },
+                Object {
+                  "attr": Object {},
+                  "children": Array [
+                    Object {
+                      "attr": Object {
+                        "type": "spot",
+                      },
+                      "children": Array [
+                        Object {
+                          "attr": Object {
+                            "value": "function () {return this.$item.address}",
+                          },
+                          "type": "text",
+                        },
+                      ],
+                      "type": "list-item",
+                    },
+                  ],
+                  "repeat": "function () {return this.$item.spots}",
+                  "type": "block",
+                },
+              ],
+              "repeat": "function () {return this.cities}",
+              "type": "block",
+            },
+          ],
+          "type": "list",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 component-name 1`] = `
+Object {
+  "@app-component/header": Object {
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {},
+          "type": "header",
+        },
+        Object {
+          "attr": Object {},
+          "type": "nav",
+        },
+        Object {
+          "attr": Object {},
+          "type": "slot",
+        },
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 component-name 2`] = `
+Object {
+  "@app-component/header": Object {
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {},
+          "type": "header",
+        },
+        Object {
+          "attr": Object {},
+          "type": "nav",
+        },
+        Object {
+          "attr": Object {},
+          "type": "slot",
+        },
+      ],
+      "type": "div",
+    },
+  },
+  "@app-component/testcomponentname": Object {
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "title",
+              },
+              "type": "text",
+            },
+          ],
+          "type": "header",
+        },
+        Object {
+          "attr": Object {},
+          "type": "footer",
+        },
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 data-binding 1`] = `
+Object {
+  "@app-component/testdatabinding": Object {
+    "data": Object {
+      "message": "Hello Binding!",
+      "name": "Bill",
+      "text": "Hello world!",
+      "url": "https://www.quickapp.cn",
+    },
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "value": "function () {return this.message}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return {      one:'hello',      two:'world'}}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return this.text}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "src": "function () {return this.url}",
+            "value": "快应用官方网站",
+          },
+          "type": "a",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return \\"Hello \\"+this.name+\\"!\\"}",
+          },
+          "type": "text",
+        },
+      ],
+      "classList": "function () {return ['container', this.message?'hey   you':'ah  ha', 'gap', 'next', 'trailing']}",
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 event-binding 1`] = `
+Object {
+  "@app-component/testeventbinding": Object {
+    "clickDiv1": "function (e) {}",
+    "clickDiv2": "function (e) {}",
+    "data": Object {},
+    "event": "function (e) {}",
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {},
+          "events": Object {
+            "click": "clickDiv1",
+          },
+          "type": "div",
+        },
+        Object {
+          "attr": Object {},
+          "events": Object {
+            "click": "clickDiv2",
+          },
+          "type": "div",
+        },
+        Object {
+          "attr": Object {},
+          "events": Object {
+            "touchcancel": "event",
+            "touchend": "event",
+            "touchmove": "event",
+            "touchstart": "event",
+          },
+          "type": "div",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 expression 1`] = `
+Object {
+  "@app-component/testexpression": Object {
+    "data": Object {
+      "value1": 1,
+      "value2": 2,
+    },
+    "style": Object {},
+    "template": Object {
+      "attr": Object {
+        "attr": "function () {return '' + (this.num1) + (this.num2)}",
+      },
+      "children": Array [
+        Object {
+          "attr": Object {
+            "value": "function () {return '' + (this.num1) + (this.num2)}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "function () {return this.num1}",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "classList": "function () {return ['' + 'bg1_' + (this.color)]}",
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "classList": "function () {return ['bg1', this.color, 'red']}",
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "classList": "function () {return ['' + 'bg-' + (this.color) + '-red']}",
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "classList": "function () {return ['' + 'bg-' + (this.color) + '-red']}",
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "classList": "function () {return ['' + 'bg-' + (this.color), this.color]}",
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "classList": "function () {return ['' + (this.color) + '-red']}",
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "classList": "function () {return ['' + (this.color) + (this.color)]}",
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "classList": "function () {return ['' + (this.color) + '-' + (this.color)]}",
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "classList": "function () {return ['' + (this.color) + (this.color), this.color]}",
+          "type": "text",
+        },
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 filter 1`] = `
+Object {
+  "@app-component/testfilter": Object {
+    "data": Object {
+      "value": 1,
+      "value2": 2,
+    },
+    "filterA": "function (v) {
+    return v;
+  }",
+    "filterB": "function (v) {
+    return v;
+  }",
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "attr": "function () {return this.filterA(this.value)}",
+          },
+          "type": "div",
+        },
+        Object {
+          "attr": Object {
+            "attr": "function () {return this.filterA(this.value,this.value2,3)}",
+          },
+          "type": "div",
+        },
+        Object {
+          "attr": Object {
+            "attr": "function () {return this.filterB(this.filterA(this.value))}",
+          },
+          "type": "div",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 for 1`] = `
+Object {
+  "@app-component/testfor": Object {
+    "data": Object {
+      "list": Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+      ],
+    },
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "function () {return this.$idx}",
+              },
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "function () {return this.$item.id}",
+              },
+              "type": "text",
+            },
+          ],
+          "repeat": "function () {return this.list}",
+          "type": "div",
+        },
+        Object {
+          "attr": Object {
+            "tid": "id",
+          },
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "function () {return this.$idx}",
+              },
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "function () {return this.$item.id}",
+              },
+              "type": "text",
+            },
+          ],
+          "repeat": "function () {return this.list}",
+          "type": "div",
+        },
+        Object {
+          "attr": Object {
+            "tid": "id",
+          },
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "function () {return this.$idx}",
+              },
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "function () {return this.$item.id}",
+              },
+              "type": "text",
+            },
+          ],
+          "repeat": "function () {return this.list}",
+          "type": "div",
+        },
+        Object {
+          "attr": Object {
+            "tid": "id",
+          },
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "function () {return this.$idx}",
+              },
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "function () {return this.item.id}",
+              },
+              "type": "text",
+            },
+          ],
+          "repeat": Object {
+            "exp": "function () {return this.list}",
+            "value": "item",
+          },
+          "type": "div",
+        },
+        Object {
+          "attr": Object {
+            "tid": "id",
+          },
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "function () {return this.index}",
+              },
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "function () {return this.item.id}",
+              },
+              "type": "text",
+            },
+          ],
+          "repeat": Object {
+            "exp": "function () {return this.list}",
+            "key": "index",
+            "value": "item",
+          },
+          "type": "div",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 if 1`] = `
+Object {
+  "@app-component/testif": Object {
+    "data": Object {
+      "condition": -1,
+    },
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "if",
+              },
+              "shown": "function () {return this.condition==1}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "elif",
+              },
+              "shown": "function () {return (this.condition==2)&&!(this.condition==1)}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "else",
+              },
+              "shown": "function () {return !(this.condition==1)&&!(this.condition==2)}",
+              "type": "text",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "if",
+              },
+              "shown": "function () {return this.testCondition}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "elif1",
+              },
+              "shown": "function () {return (this.testCondition)&&!(this.testCondition)}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "elif2",
+              },
+              "shown": "function () {return (this.testCondition)&&!(this.testCondition)&&!(this.testCondition)}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "elif3",
+              },
+              "shown": "function () {return (this.testCondition)&&!(this.testCondition)&&!(this.testCondition)&&!(this.testCondition)}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "else",
+              },
+              "shown": "function () {return !(this.testCondition)&&!(this.testCondition)&&!(this.testCondition)&&!(this.testCondition)}",
+              "type": "text",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 import-feature 1`] = `
+Object {
+  "@app-component/testimportfeature": Object {
+    "data": Object {},
+    "style": Object {},
+    "template": Object {
+      "attr": Object {},
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 import-style 1`] = `
+Object {
+  "@app-component/testimportstyle": Object {
+    "data": Object {},
+    "style": Object {
+      ".A": Object {
+        "backgroundColor": "#FFFFFF",
+        "color": "#FF0000",
+        "flex": 1,
+        "flexDirection": "row",
+      },
+      ".B": Object {
+        "width": "100px",
+      },
+      ".C": Object {
+        "flex": 1,
+      },
+      ".D": Object {
+        "flex": 1,
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 import-template 1`] = `
+Object {
+  "@app-component/comp": Object {
+    "data": Object {
+      "message": "",
+    },
+    "props": Array [
+      "message",
+    ],
+    "template": Object {
+      "attr": Object {
+        "value": "function () {return this.message}",
+      },
+      "type": "text",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 import-template 2`] = `
+Object {
+  "@app-component/comp": Object {
+    "data": Object {
+      "message": "",
+    },
+    "props": Array [
+      "message",
+    ],
+    "template": Object {
+      "attr": Object {
+        "value": "function () {return this.message}",
+      },
+      "type": "text",
+    },
+  },
+  "@app-component/testimporttemplate": Object {
+    "data": Object {},
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "message": "TEXT",
+          },
+          "type": "comp",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 import-template-alias 1`] = `
+Object {
+  "@app-component/comp": Object {
+    "data": Object {
+      "message": "",
+    },
+    "props": Array [
+      "message",
+    ],
+    "template": Object {
+      "attr": Object {
+        "value": "function () {return this.message}",
+      },
+      "type": "text",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 import-template-alias 2`] = `
+Object {
+  "@app-component/comp1": Object {
+    "data": Object {
+      "message": "",
+    },
+    "props": Array [
+      "message",
+    ],
+    "template": Object {
+      "attr": Object {
+        "value": "function () {return this.message}",
+      },
+      "type": "text",
+    },
+  },
+  "@app-component/comp2": Object {
+    "data": Object {
+      "message": "",
+    },
+    "props": Array [
+      "message",
+    ],
+    "template": Object {
+      "attr": Object {
+        "value": "function () {return this.message}",
+      },
+      "type": "text",
+    },
+  },
+  "@app-component/comp3": Object {
+    "data": Object {
+      "message": "",
+    },
+    "props": Array [
+      "message",
+    ],
+    "template": Object {
+      "attr": Object {
+        "value": "function () {return this.message}",
+      },
+      "type": "text",
+    },
+  },
+  "@app-component/comp4": Object {
+    "data": Object {
+      "message": "",
+    },
+    "props": Array [
+      "message",
+    ],
+    "template": Object {
+      "attr": Object {
+        "value": "function () {return this.message}",
+      },
+      "type": "text",
+    },
+  },
+  "@app-component/comp5": Object {
+    "data": Object {
+      "message": "",
+    },
+    "props": Array [
+      "message",
+    ],
+    "template": Object {
+      "attr": Object {
+        "value": "function () {return this.message}",
+      },
+      "type": "text",
+    },
+  },
+  "@app-component/comp6": Object {
+    "data": Object {
+      "message": "",
+    },
+    "props": Array [
+      "message",
+    ],
+    "template": Object {
+      "attr": Object {
+        "value": "function () {return this.message}",
+      },
+      "type": "text",
+    },
+  },
+  "@app-component/testimporttemplatealias": Object {
+    "data": Object {},
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "message": "TEXT1",
+          },
+          "type": "comp1",
+        },
+        Object {
+          "attr": Object {
+            "message": "TEXT2",
+          },
+          "type": "comp2",
+        },
+        Object {
+          "attr": Object {
+            "message": "TEXT3",
+          },
+          "type": "comp3",
+        },
+        Object {
+          "attr": Object {
+            "message": "TEXT4",
+          },
+          "type": "comp4",
+        },
+        Object {
+          "attr": Object {
+            "message": "TEXT5",
+          },
+          "type": "comp5",
+        },
+        Object {
+          "attr": Object {
+            "message": "TEXT6",
+          },
+          "type": "comp6",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 inline-style 1`] = `
+Object {
+  "@app-component/testinlinestyle": Object {
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "value": "test padding",
+          },
+          "style": Object {
+            "paddingBottom": "30px",
+            "paddingLeft": "40px",
+            "paddingRight": "20px",
+            "paddingTop": "10px",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "test margin",
+          },
+          "style": Object {
+            "marginBottom": "30px",
+            "marginLeft": "40px",
+            "marginRight": "20px",
+            "marginTop": "10px",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "test border",
+          },
+          "style": Object {
+            "borderBottomColor": "#FF0000",
+            "borderBottomWidth": "1px",
+            "borderLeftColor": "#FF0000",
+            "borderLeftWidth": "1px",
+            "borderRightColor": "#FF0000",
+            "borderRightWidth": "1px",
+            "borderStyle": "solid",
+            "borderTopColor": "#FF0000",
+            "borderTopWidth": "1px",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "test border-width",
+          },
+          "style": Object {
+            "borderBottomWidth": "30px",
+            "borderLeftWidth": "40px",
+            "borderRightWidth": "20px",
+            "borderTopWidth": "10px",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "test border-color",
+          },
+          "style": Object {
+            "borderBottomColor": "#0000FF",
+            "borderLeftColor": "#ffffff",
+            "borderRightColor": "#000000",
+            "borderTopColor": "#FF0000",
+          },
+          "type": "text",
+        },
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 jsx 1`] = `
+Object {
+  "@app-component/testjsx": Object {
+    "data": Object {
+      "list": Array [
+        1,
+        2,
+        3,
+      ],
+    },
+    "onInit": "function () {}",
+    "renderA": "function () {
+    const __elem = this.$createElement;
+    const __extend = this.$extend;
+    const __s = this.$stringify;
+    return __elem(\\"text\\", null, [__elem(\\"span\\", {
+      value: __s(\\"A\\")
+    })]);
+  }",
+    "renderB": "function (i) {
+    const __elem = this.$createElement;
+    const __extend = this.$extend;
+    const __s = this.$stringify;
+    return __elem(\\"text\\", null, [i]);
+  }",
+    "renderC": "function () {
+    const __elem = this.$createElement;
+    const __extend = this.$extend;
+    const __s = this.$stringify;
+    const props = {
+      style: 'background-color: red;'
+    };
+    return __elem(\\"text\\", __extend({}, props), [__elem(\\"span\\", {
+      value: __s(\\"A\\")
+    })]);
+  }",
+    "renderD": "function () {
+    const __elem = this.$createElement;
+    const __extend = this.$extend;
+    const __s = this.$stringify;
+    const props = {
+      style: 'background-color: red;'
+    };
+    return __elem(\\"text\\", __extend({}, {
+      \\"class\\": \\"text\\"
+    }, props, {
+      style: 'background-color: yellow'
+    }), [__elem(\\"span\\", {
+      value: __s(\\"A\\")
+    })]);
+  }",
+    "renderE": "function () {
+    const __elem = this.$createElement;
+    const __extend = this.$extend;
+    const __s = this.$stringify;
+    return __elem(\\"div\\", null, [__elem(\\"text\\", null, [__elem(\\"span\\", {
+      value: __s(\\"A\\")
+    })])]);
+  }",
+    "renderF": "function () {
+    const __elem = this.$createElement;
+    const __extend = this.$extend;
+    const __s = this.$stringify;
+    return __elem(\\"div\\", null, [__elem(\\"text\\", null, [__elem(\\"span\\", {
+      value: __s(\\"A\\")
+    }), __elem(\\"span\\", null, [__elem(\\"text\\", {
+      value: __s(\\"B\\")
+    })]), __elem(\\"span\\", {
+      value: __s(\\"C\\")
+    })])]);
+  }",
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+      ".text": Object {
+        "backgroundColor": "#0000FF",
+        "fontSize": "50px",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "content": "renderA",
+          },
+          "type": "slot",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "content": "function () {return this.renderB(this.$item)}",
+              },
+              "type": "slot",
+            },
+          ],
+          "repeat": "function () {return this.list}",
+          "type": "block",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 list 1`] = `
+Object {
+  "@app-component/testlist": Object {
+    "data": Object {
+      "cities": Array [
+        Object {
+          "name": "beijing",
+          "spots": Array [
+            Object {
+              "address": "海淀区",
+              "name": "海淀",
+            },
+            Object {
+              "address": "朝阳区",
+              "name": "朝阳",
+            },
+          ],
+        },
+        Object {
+          "name": "shanghai",
+          "spots": Array [
+            Object {
+              "address": "浦东新区",
+              "name": "浦东",
+            },
+            Object {
+              "address": "金山区",
+              "name": "金山",
+            },
+          ],
+        },
+      ],
+    },
+    "scroll": "function (e) {}",
+    "scrollbottom": "function (e) {}",
+    "scrollend": "function (e) {}",
+    "scrolltop": "function (e) {}",
+    "scrolltouchup": "function (e) {}",
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {},
+              "children": Array [
+                Object {
+                  "attr": Object {
+                    "type": "city",
+                  },
+                  "children": Array [
+                    Object {
+                      "attr": Object {},
+                      "children": Array [
+                        Object {
+                          "attr": Object {
+                            "value": "城市名称",
+                          },
+                          "type": "text",
+                        },
+                        Object {
+                          "attr": Object {
+                            "value": "function () {return this.$item.name}",
+                          },
+                          "type": "text",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "list-item",
+                },
+                Object {
+                  "attr": Object {},
+                  "children": Array [
+                    Object {
+                      "attr": Object {
+                        "type": "spot",
+                      },
+                      "children": Array [
+                        Object {
+                          "attr": Object {},
+                          "children": Array [
+                            Object {
+                              "attr": Object {
+                                "value": "城市地址",
+                              },
+                              "type": "text",
+                            },
+                            Object {
+                              "attr": Object {
+                                "value": "function () {return this.$item.address}",
+                              },
+                              "type": "text",
+                            },
+                          ],
+                          "type": "stack",
+                        },
+                      ],
+                      "type": "list-item",
+                    },
+                  ],
+                  "repeat": "function () {return this.$item.spots}",
+                  "type": "block",
+                },
+              ],
+              "repeat": "function () {return this.cities}",
+              "type": "block",
+            },
+            Object {
+              "attr": Object {
+                "type": "loadMore",
+              },
+              "children": Array [
+                Object {
+                  "attr": Object {
+                    "type": "circular",
+                  },
+                  "type": "progress",
+                },
+                Object {
+                  "attr": Object {
+                    "value": "加载更多",
+                  },
+                  "type": "text",
+                },
+              ],
+              "type": "list-item",
+            },
+          ],
+          "events": Object {
+            "scroll": "scroll",
+            "scrollbottom": "scrollbottom",
+            "scrollend": "scrollend",
+            "scrolltop": "scrolltop",
+            "scrolltouchup": "scrolltouchup",
+          },
+          "type": "list",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 nested-if 1`] = `
+Object {
+  "@app-component/testnestedif": Object {
+    "data": Object {
+      "level1False": false,
+      "level1True": true,
+      "level2False": false,
+      "level2True": true,
+      "level3False": false,
+      "level3True": true,
+    },
+    "style": Object {
+      ".doc-page": Object {
+        "flexDirection": "column",
+      },
+      ".doc-row": Object {
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "1. visible",
+              },
+              "shown": "function () {return this.level2True}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "2. invisible",
+              },
+              "shown": "function () {return this.level2False}",
+              "type": "text",
+            },
+          ],
+          "classList": Array [
+            "doc-row",
+          ],
+          "shown": "function () {return this.level1True}",
+          "type": "div",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "3. invisible",
+              },
+              "type": "text",
+            },
+          ],
+          "classList": Array [
+            "doc-row",
+          ],
+          "shown": "function () {return this.level1False}",
+          "type": "div",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "4. invisible",
+              },
+              "shown": "function () {return this.level2False}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {},
+              "children": Array [
+                Object {
+                  "attr": Object {
+                    "value": "5. invisible",
+                  },
+                  "shown": "function () {return this.level3False}",
+                  "type": "text",
+                },
+                Object {
+                  "attr": Object {
+                    "value": "6. visible",
+                  },
+                  "shown": "function () {return (this.level3True)&&!(this.level3False)}",
+                  "type": "text",
+                },
+              ],
+              "shown": "function () {return (this.level2True)&&!(this.level2False)}",
+              "type": "div",
+            },
+          ],
+          "classList": Array [
+            "doc-row",
+          ],
+          "shown": "function () {return (this.level1True)&&!(this.level1False)}",
+          "type": "div",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "7. invisible",
+              },
+              "shown": "function () {return this.level2False}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "8. visible",
+              },
+              "shown": "function () {return !(this.level2False)}",
+              "type": "text",
+            },
+          ],
+          "classList": Array [
+            "doc-row",
+          ],
+          "shown": "function () {return this.level1True}",
+          "type": "div",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "9. invisible",
+              },
+              "shown": "function () {return this.level2True}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "10. invisible",
+              },
+              "shown": "function () {return !(this.level2True)}",
+              "type": "text",
+            },
+          ],
+          "classList": Array [
+            "doc-row",
+          ],
+          "shown": "function () {return !(this.level1True)}",
+          "type": "div",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "11. invisible",
+              },
+              "type": "text",
+            },
+          ],
+          "classList": Array [
+            "doc-row",
+          ],
+          "shown": "function () {return this.level1False}",
+          "type": "div",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "12. invisible",
+              },
+              "shown": "function () {return this.level2False}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "13. visible",
+              },
+              "shown": "function () {return (this.level2True)&&!(this.level2False)}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {
+                "value": "14. invisible",
+              },
+              "shown": "function () {return !(this.level2False)&&!(this.level2True)}",
+              "type": "text",
+            },
+          ],
+          "classList": Array [
+            "doc-row",
+          ],
+          "shown": "function () {return (this.level1True)&&!(this.level1False)}",
+          "type": "div",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "15. invisible",
+              },
+              "type": "text",
+            },
+          ],
+          "shown": "function () {return !(this.level1False)&&!(this.level1True)}",
+          "type": "div",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "16. invisible",
+              },
+              "type": "text",
+            },
+          ],
+          "classList": Array [
+            "doc-row",
+          ],
+          "shown": "function () {return this.level1False}",
+          "type": "div",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "17. visible",
+              },
+              "shown": "function () {return this.level2False==false}",
+              "type": "text",
+            },
+            Object {
+              "attr": Object {},
+              "children": Array [
+                Object {
+                  "attr": Object {
+                    "value": "18. visible",
+                  },
+                  "type": "text",
+                },
+              ],
+              "classList": Array [
+                "doc-row",
+              ],
+              "shown": "function () {return this.level2True}",
+              "type": "div",
+            },
+            Object {
+              "attr": Object {},
+              "children": Array [
+                Object {
+                  "attr": Object {
+                    "value": "19. invisible",
+                  },
+                  "type": "text",
+                },
+              ],
+              "shown": "function () {return !(this.level2True)}",
+              "type": "div",
+            },
+          ],
+          "classList": Array [
+            "doc-row",
+          ],
+          "shown": "function () {return (this.level1True===true)&&!(this.level1False)}",
+          "type": "div",
+        },
+      ],
+      "classList": Array [
+        "doc-page",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 refresh 1`] = `
+Object {
+  "@app-component/testrefresh": Object {
+    "changeSwiper": "function (e) {}",
+    "changeTabs": "function (e) {}",
+    "data": Object {
+      "swiperList": Array [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+      ],
+    },
+    "refresh": "function (e) {}",
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "offset": "200px",
+            "refreshing": "false",
+          },
+          "children": Array [
+            Object {
+              "attr": Object {},
+              "children": Array [
+                Object {
+                  "attr": Object {
+                    "value": "TEXT",
+                  },
+                  "type": "text",
+                },
+              ],
+              "type": "richtext",
+            },
+            Object {
+              "attr": Object {},
+              "children": Array [
+                Object {
+                  "attr": Object {
+                    "src": "/packages/hap-packager/test/case/ux/TestTemplate/Refresh/A",
+                  },
+                  "type": "image",
+                },
+                Object {
+                  "attr": Object {
+                    "value": "stack",
+                  },
+                  "type": "text",
+                },
+              ],
+              "type": "stack",
+            },
+            Object {
+              "attr": Object {
+                "autoplay": "true",
+                "index": "1",
+                "indicator": "true",
+                "interval": "1000ms",
+              },
+              "children": Array [
+                Object {
+                  "attr": Object {},
+                  "children": Array [
+                    Object {
+                      "attr": Object {
+                        "src": "function () {return this.$item}",
+                      },
+                      "type": "image",
+                    },
+                  ],
+                  "repeat": "function () {return this.swiperList}",
+                  "type": "block",
+                },
+              ],
+              "events": Object {
+                "change": "changeSwiper",
+              },
+              "type": "swiper",
+            },
+            Object {
+              "attr": Object {
+                "index": "1",
+              },
+              "children": Array [
+                Object {
+                  "attr": Object {},
+                  "children": Array [
+                    Object {
+                      "attr": Object {
+                        "value": "A",
+                      },
+                      "type": "text",
+                    },
+                    Object {
+                      "attr": Object {
+                        "value": "B",
+                      },
+                      "type": "text",
+                    },
+                    Object {
+                      "attr": Object {
+                        "value": "C",
+                      },
+                      "type": "text",
+                    },
+                  ],
+                  "type": "tab-bar",
+                },
+                Object {
+                  "attr": Object {},
+                  "children": Array [
+                    Object {
+                      "attr": Object {
+                        "value": "A-content",
+                      },
+                      "type": "text",
+                    },
+                    Object {
+                      "attr": Object {
+                        "value": "B-content",
+                      },
+                      "type": "text",
+                    },
+                    Object {
+                      "attr": Object {
+                        "value": "C-content",
+                      },
+                      "type": "text",
+                    },
+                  ],
+                  "type": "tab-content",
+                },
+              ],
+              "events": Object {
+                "change": "changeTabs",
+              },
+              "type": "tabs",
+            },
+          ],
+          "events": Object {
+            "refresh": "refresh",
+          },
+          "style": Object {
+            "backgroundColor": "#FF0000",
+            "progressColor": "#FFFFFF",
+          },
+          "type": "refresh",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 reg-exp 1`] = `
+Object {
+  "@app-component/testregexp": Object {
+    "data": Object {},
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {
+        "attr": "function () {return '' + '\\"width\\":' + (this.width)}",
+        "reg": "function () {return /abc/g}",
+      },
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 show 1`] = `
+Object {
+  "@app-component/testshow": Object {
+    "data": Object {
+      "visible": false,
+    },
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "show": "function () {return this.visible}",
+            "value": "TEXT",
+          },
+          "type": "text",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 simple 1`] = `
+Object {
+  "@app-component/testsimple": Object {
+    "data": Object {},
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 slot 1`] = `
+Object {
+  "@app-component/comp1": Object {
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "value": "header",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {},
+              "type": "slot",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "footer",
+          },
+          "type": "text",
+        },
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 slot 2`] = `
+Object {
+  "@app-component/comp2": Object {
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "value": "header",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "type": "slot",
+        },
+        Object {
+          "attr": Object {
+            "value": "footer",
+          },
+          "type": "text",
+        },
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 slot 3`] = `
+Object {
+  "@app-component/comp3": Object {
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "value": "header",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "default slot header",
+              },
+              "type": "text",
+            },
+            Object {
+              "attr": Object {},
+              "children": Array [
+                Object {
+                  "attr": Object {
+                    "value": "default slot main",
+                  },
+                  "type": "text",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "slot",
+        },
+        Object {
+          "attr": Object {
+            "value": "footer",
+          },
+          "type": "text",
+        },
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 slot 4`] = `
+Object {
+  "@app-component/comp1": Object {
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "value": "header",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {},
+              "type": "slot",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "footer",
+          },
+          "type": "text",
+        },
+      ],
+      "type": "div",
+    },
+  },
+  "@app-component/comp2": Object {
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "value": "header",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "type": "slot",
+        },
+        Object {
+          "attr": Object {
+            "value": "footer",
+          },
+          "type": "text",
+        },
+      ],
+      "type": "div",
+    },
+  },
+  "@app-component/comp3": Object {
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "value": "header",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "default slot header",
+              },
+              "type": "text",
+            },
+            Object {
+              "attr": Object {},
+              "children": Array [
+                Object {
+                  "attr": Object {
+                    "value": "default slot main",
+                  },
+                  "type": "text",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "slot",
+        },
+        Object {
+          "attr": Object {
+            "value": "footer",
+          },
+          "type": "text",
+        },
+      ],
+      "type": "div",
+    },
+  },
+  "@app-component/testslot": Object {
+    "data": Object {},
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "body",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "comp1",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "body",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "comp1",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "body1",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "body2",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "comp1",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "body",
+              },
+              "type": "text",
+            },
+          ],
+          "type": "comp2",
+        },
+        Object {
+          "attr": Object {},
+          "type": "comp3",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 tabs 1`] = `
+Object {
+  "@app-component/testtabs": Object {
+    "changeSwiper": "function (e) {}",
+    "changeTabs": "function (e) {}",
+    "data": Object {
+      "cities": Array [
+        Object {
+          "name": "beijing",
+          "spots": Array [
+            Object {
+              "address": "海淀区",
+              "name": "海淀",
+            },
+            Object {
+              "address": "朝阳区",
+              "name": "朝阳",
+            },
+          ],
+        },
+        Object {
+          "name": "shanghai",
+          "spots": Array [
+            Object {
+              "address": "浦东新区",
+              "name": "浦东",
+            },
+            Object {
+              "address": "金山区",
+              "name": "金山",
+            },
+          ],
+        },
+      ],
+      "swiperList": Array [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+      ],
+    },
+    "refresh": "function (e) {}",
+    "scroll": "function (e) {}",
+    "scrollbottom": "function (e) {}",
+    "scrolltop": "function (e) {}",
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {},
+              "children": Array [
+                Object {
+                  "attr": Object {
+                    "value": "list",
+                  },
+                  "type": "text",
+                },
+                Object {
+                  "attr": Object {
+                    "value": "refresh",
+                  },
+                  "type": "text",
+                },
+                Object {
+                  "attr": Object {
+                    "value": "richtext",
+                  },
+                  "type": "text",
+                },
+                Object {
+                  "attr": Object {
+                    "value": "stack",
+                  },
+                  "type": "text",
+                },
+                Object {
+                  "attr": Object {
+                    "value": "swiper",
+                  },
+                  "type": "text",
+                },
+              ],
+              "type": "tab-bar",
+            },
+            Object {
+              "attr": Object {},
+              "children": Array [
+                Object {
+                  "attr": Object {},
+                  "children": Array [
+                    Object {
+                      "attr": Object {},
+                      "children": Array [
+                        Object {
+                          "attr": Object {
+                            "type": "city",
+                          },
+                          "children": Array [
+                            Object {
+                              "attr": Object {},
+                              "children": Array [
+                                Object {
+                                  "attr": Object {
+                                    "value": "城市名称",
+                                  },
+                                  "type": "text",
+                                },
+                                Object {
+                                  "attr": Object {
+                                    "value": "function () {return this.$item.name}",
+                                  },
+                                  "type": "text",
+                                },
+                              ],
+                              "type": "div",
+                            },
+                          ],
+                          "type": "list-item",
+                        },
+                        Object {
+                          "attr": Object {},
+                          "children": Array [
+                            Object {
+                              "attr": Object {
+                                "type": "spot",
+                              },
+                              "children": Array [
+                                Object {
+                                  "attr": Object {},
+                                  "children": Array [
+                                    Object {
+                                      "attr": Object {
+                                        "value": "城市地址",
+                                      },
+                                      "type": "text",
+                                    },
+                                    Object {
+                                      "attr": Object {
+                                        "value": "function () {return this.$item.address}",
+                                      },
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "type": "div",
+                                },
+                              ],
+                              "type": "list-item",
+                            },
+                          ],
+                          "repeat": "function () {return this.$item.spots}",
+                          "type": "block",
+                        },
+                      ],
+                      "repeat": "function () {return this.cities}",
+                      "type": "block",
+                    },
+                    Object {
+                      "attr": Object {
+                        "type": "loadMore",
+                      },
+                      "children": Array [
+                        Object {
+                          "attr": Object {
+                            "type": "circular",
+                          },
+                          "type": "progress",
+                        },
+                        Object {
+                          "attr": Object {
+                            "value": "加载更多",
+                          },
+                          "type": "text",
+                        },
+                      ],
+                      "type": "list-item",
+                    },
+                  ],
+                  "events": Object {
+                    "scroll": "scroll",
+                    "scrollbottom": "scrollbottom",
+                    "scrolltop": "scrolltop",
+                  },
+                  "type": "list",
+                },
+                Object {
+                  "attr": Object {},
+                  "children": Array [
+                    Object {
+                      "attr": Object {
+                        "value": "refresh",
+                      },
+                      "type": "text",
+                    },
+                  ],
+                  "events": Object {
+                    "refresh": "refresh",
+                  },
+                  "type": "refresh",
+                },
+                Object {
+                  "attr": Object {},
+                  "children": Array [
+                    Object {
+                      "attr": Object {
+                        "value": "richtext",
+                      },
+                      "type": "text",
+                    },
+                  ],
+                  "type": "richtext",
+                },
+                Object {
+                  "attr": Object {},
+                  "children": Array [
+                    Object {
+                      "attr": Object {
+                        "src": "/packages/hap-packager/test/case/ux/TestTemplate/Tabs/A",
+                      },
+                      "type": "image",
+                    },
+                    Object {
+                      "attr": Object {
+                        "value": "stack",
+                      },
+                      "type": "text",
+                    },
+                  ],
+                  "type": "stack",
+                },
+                Object {
+                  "attr": Object {
+                    "autoplay": "true",
+                    "index": "1",
+                    "indicator": "true",
+                    "interval": "1000ms",
+                  },
+                  "children": Array [
+                    Object {
+                      "attr": Object {},
+                      "children": Array [
+                        Object {
+                          "attr": Object {
+                            "src": "function () {return this.$item}",
+                          },
+                          "type": "image",
+                        },
+                      ],
+                      "repeat": "function () {return this.swiperList}",
+                      "type": "block",
+                    },
+                  ],
+                  "events": Object {
+                    "change": "changeSwiper",
+                  },
+                  "type": "swiper",
+                },
+              ],
+              "type": "tab-content",
+            },
+          ],
+          "events": Object {
+            "change": "changeTabs",
+          },
+          "type": "tabs",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 template-literals 1`] = `
+Object {
+  "@app-component/testtemplateliterals": Object {
+    "data": Object {
+      "message": "hell world",
+    },
+    "style": Object {
+      ".container": Object {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "flexDirection": "column",
+      },
+    },
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "str": "function () {return \\"use strict\\";\\"message:\\".concat(this.message);}",
+          },
+          "type": "div",
+        },
+      ],
+      "classList": Array [
+        "container",
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 text-content 1`] = `
+Object {
+  "@app-component/testtextcontent": Object {
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {
+            "value": " text ",
+          },
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " span ",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " text",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "text ",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "href": "#",
+                "value": "a",
+              },
+              "type": "a",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "href": "#",
+                "value": "a",
+              },
+              "type": "a",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "href": "#",
+                "value": "a",
+              },
+              "type": "a",
+            },
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "href": "#",
+                "value": "a",
+              },
+              "type": "a",
+            },
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "href": "#",
+                "value": "a",
+              },
+              "type": "a",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "href": "#",
+                "value": "a",
+              },
+              "type": "a",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "href": "#",
+                "value": "a",
+              },
+              "type": "a",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "href": "#",
+                "value": "a",
+              },
+              "type": "a",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "href": "#",
+                "value": "a",
+              },
+              "type": "a",
+            },
+            Object {
+              "attr": Object {
+                "value": " text ",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "text",
+        },
+        Object {
+          "attr": Object {
+            "value": "a",
+          },
+          "type": "a",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "a",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " a",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "a",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "a ",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "a",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " a ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": " a ",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "a",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " a ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": " a ",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "a",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " a ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": " a ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "a",
+        },
+        Object {
+          "attr": Object {},
+          "children": Array [
+            Object {
+              "attr": Object {
+                "value": " a ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": " a ",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": "span",
+              },
+              "type": "span",
+            },
+            Object {
+              "attr": Object {
+                "value": " a ",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "a",
+        },
+      ],
+      "type": "div",
+    },
+  },
+}
+`;
+
+exports[`Template编译测试 xml 1`] = `
+Object {
+  "@app-component/testxml": Object {
+    "template": Object {
+      "attr": Object {},
+      "children": Array [
+        Object {
+          "attr": Object {},
+          "type": "picker",
+        },
+        Object {
+          "attr": Object {},
+          "type": "image",
+        },
+        Object {
+          "attr": Object {},
+          "type": "slider",
+        },
+        Object {
+          "attr": Object {},
+          "type": "input",
+        },
+        Object {
+          "attr": Object {},
+          "type": "progress",
+        },
+        Object {
+          "attr": Object {},
+          "type": "switch",
+        },
+        Object {
+          "attr": Object {},
+          "type": "slot",
+        },
+        Object {
+          "attr": Object {},
+          "type": "picker",
+        },
+        Object {
+          "attr": Object {},
+          "type": "image",
+        },
+        Object {
+          "attr": Object {},
+          "type": "slider",
+        },
+        Object {
+          "attr": Object {},
+          "type": "input",
+        },
+        Object {
+          "attr": Object {},
+          "type": "progress",
+        },
+        Object {
+          "attr": Object {},
+          "type": "switch",
+        },
+        Object {
+          "attr": Object {},
+          "type": "slot",
+        },
+      ],
+      "type": "div",
+    },
+  },
+}
+`;

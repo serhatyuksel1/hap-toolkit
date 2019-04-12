@@ -1,0 +1,5 @@
+!/lib
+/client.json
+
+src/**
+lib/**/*.js.map
